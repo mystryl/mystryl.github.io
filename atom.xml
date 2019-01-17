@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mystryl</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://mystryl.com/"/>
+  <updated>2019-01-17T04:43:30.900Z</updated>
+  <id>http://mystryl.com/</id>
+  
+  <author>
+    <name>Mystryl</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>北京印象</title>
+    <link href="http://mystryl.com/2019/01/bejing-impression/"/>
+    <id>http://mystryl.com/2019/01/bejing-impression/</id>
+    <published>2019-01-15T16:00:00.000Z</published>
+    <updated>2019-01-17T04:43:30.900Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/20190117100219.jpg" alt=""><br><strong>图文无关，吃烤鸭忘记拍了</strong></p><p>周末出差去了趟北京，应该算是第三次去吧。走马观花，就当旅游了。感觉北京的生活真的蛮痛苦的。</p><p>犹记得若干年前，北京地铁公交才4毛的时候来的那次，感觉首都就是不一样，物资丰富啥啥都便宜。这过了小8年，城市规模和人口不知道增加了几倍了？交通成本也水涨船高，还一点都不快！总有种东京的感觉…</p><p>但是这指示标识的缺失，和规划的粗放也太大了吧！</p><p>简直是此行最大的黑点，你永远不知道地下的这个口上去是哪里，若干次上去后发现想去的地方隔着铁栏杆还要重新下去绕行；明明修了地铁地下空间，为啥过个十字路口还得从高架桥上走过去？望着来往的车辆瑟瑟发抖；感觉应有的指示牌和标识给你做一个就是天大的恩赐，你在我这皇城根儿下还怕找不到路不成。</p><p>其次是城市太庞大，承载的功能太多，以至于效率完全高不起来。由于古迹原址保护与城市景观政治功能的原因，北京二环内大概是出了名儿的没高楼。如果这样讲二环内像别的古都一样，做成旅游保护区不是更好，偏偏很多的行政、经济职能集中在此，建筑的功效与交通的压力都成倍增加。中午找个吃饭的第二都快把腿走短了。。。</p><p>朋友说西城区是美食荒漠，好吃的好玩的更靠近西单国贸这样的商业中心，希望下次有机会再拜访吧，反正这次没感觉到特别的美味。普通，各种意义上的普通。。</p><p>我知道我能看见的仅仅是一个很小很小的侧像，不能代表整个北京，也不能代表大多数人印象中那个高薪快节奏，哪儿哪儿都有黄金的北京。但我真的觉得北京仿佛一尊慢慢前行的巨像，承载了太多的功能与太多的打工者，慢慢的人们活在北京的意义也有了变化。不久前Twitter上一位朋友好像感叹：待在北京的理由从一开始的希望能有更好的生活，变成了在北京混吃等死毫无存款，希望等到家乡发展起来的那一刻，那时候他将义无反顾的回家乡。</p><hr><h2 id="北京拥堵到底是什么原因？"><a href="#北京拥堵到底是什么原因？" class="headerlink" title="北京拥堵到底是什么原因？"></a><a href="https://www.zhihu.com/question/19961839/answer/37009359" target="_blank" rel="noopener">北京拥堵到底是什么原因？</a></h2><p>写到这儿突然刷了下知乎，说的太对了简直。我这次体验的二环内问题，金融街问题，公交问题都有非常好的解释。我只是体感，我解释不来。</p><blockquote><p><strong>全封闭高速环路建成</strong><br>三环影响的恶劣在于首先它开创了这样一个思路，这样一个模式：城市需要环路，而且环路的等级远远大于其他道路，所以这条环路需要畅通无阻。这条环路的目的在于能绕过城市并迅速的穿过它。<br>更可怕是，其时已经有了二环。<br>二环三环相继变成城里的高速公路，又宽又快，一时大家都爱去了。东四十条往阜成门怎么走呢？原本得往南打景山门前走的（彼时还没有地安门大街吧），现在有钱任性了，上二环多快啊，绕是绕没红灯呀，一脚油门上去了。所有人都这么想，于是就堵了。桥上堵，上桥的路口也堵，其它道路也跟着堵了。</p></blockquote><blockquote><p><strong>金融街</strong><br>西城区眼红朝阳CBD后争取的产物（戏谑）。如果说上面那些踩着老胡同的住宅区应该千刀万剐的话，那么金融街则罪该万死了。不但建在胡同之上（并且系数切断周围胡同脉络），更加具有极其强烈的吸引力，把本应该疏散出市中心的人更加吸引进来。</p></blockquote><blockquote><p><strong>公交发展滞后</strong><br>北京的公交：从通州往CBD的BRT进城了就没有专用道了，一样都是堵坐泥煤的BRT啊！<br>真正的BRT不在意有没有独立车站、是不是先打卡再上车、有没有实时到站显示——唯一需要的只是封闭并且专用的车道而已啊。如果不是全程封闭，尤其在市中心最拥堵的路段没有专用车道，那就根本不配叫BRT。不舍得把一条车道供出来给公交，那解决拥堵的第一步还远远没有迈出去呐。</p></blockquote><p>节选深有感触的几点，可能要不是这次住在西直门，住在二环边儿，也不会深刻的体验到这种难以忍受的生活艰难。</p><p>周六晚顶着雾霾天吸着醇厚的空气出去买个感冒药，听见后一位顾客说：这点儿药就20啊，太贵了吧。 扭头看了一眼这位兄弟，感到深深的悲哀，还好我不是北漂打工仔。</p><p>下一篇写写走马观花的故宫吧，感觉比起之前周更Blog，现在说话更加絮絮叨叨长篇累牍。</p><p>反正Blog是写给自己看的，我又没流量</p><p>Fin.</p><p><img src="https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/20190117100302.jpg" alt=""></p><p>结尾一张<strong>塔诺西</strong>！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/20190117100219.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;strong&gt;图文无关，吃烤鸭忘记拍了&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+      
+    
+    </summary>
+    
+      <category term="travel" scheme="http://mystryl.com/categories/travel/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>荒野大镖客 2 通关纪念</title>
+    <link href="http://mystryl.com/2018/12/RDR2/"/>
+    <id>http://mystryl.com/2018/12/RDR2/</id>
+    <published>2018-12-27T16:00:00.000Z</published>
+    <updated>2019-01-17T04:45:59.518Z</updated>
+    
+    <content type="html"><![CDATA[<p>估计是2018年通关的最后一款游戏了，年初开始玩的刺客信条·起源，结果经过狼狈的一年还是没有通关。随便写点吧，推荐听机核的<a href="https://www.gcores.com/radios/104289" target="_blank" rel="noopener">如何评价《荒野大镖客2》</a>节目，比我能说的想说的好得多。</p><p>荒野大镖客2是目前最真实的开放世界游戏，目前游戏图像、演出脚本、剧情、动捕等等先进技术的集大成者，用机核的词形容就是工业奇观。但不是一款传统意义上“好玩”的游戏。</p><p>R-star的GTAV其实我很不喜欢，不喜欢那种对暴力对犯罪的戏谑，但各种了解大镖客之后觉得应该这是个我喜欢的故事，还是在发售前买了预购。确实RDR2也完全达到并大幅超过了我的预期，他能给我《西部世界》一般的极度真实的体验，能给我喜欢的西部故事精炼的总结，可以说是一个完美的西部模拟器，并且有着不俗的剧本深度，以及出神入化的动捕演出。如果从技术角度看，RDR2是个完美无缺的游戏。</p><p>但是它不好玩。</p><p>我从开头2小时的教程开始就深深的感受到这一点，在度过了前10小时的兴奋期后，更甚的感受到这种与传统游戏的违和感。他太过强调的真实性使得他的游戏体验不像一个游戏，而更像是互动舞台剧一般的模拟器感。</p><p>细致入微的细节刻画，每一个动作都有相应的演出脚本配合，环境的真实，真人版的NPC互动，以及不冰冷的交谈细节，这游戏在每一个能想到的地方都力求真实的体验。可以说除了一部分简化和超神的地方之外，如果你想一一个牛仔或者outlaw的身份在西部生活，就是RDR2想呈现并且完美呈现的样子。</p><p>但我是在游戏，并不是读小说、看舞台剧、体验模拟器的生活。这种真实与为了体验而拖长的部分，让整个游玩体验不是那么的流畅，反而在各种过程中让人觉得无聊且沮丧。</p><p>R星在用更好的画面，更真实的AI贴近现实生活的时候，我却越来越讽刺得感觉到自己的生活是如此沮丧与无趣。在游戏中完美体验的游戏人生需要在游戏中也有大把的代币与闲暇时间。否则你就要努力的工作，接悬赏，一次次的抢火车，还得时刻注意小心，别搞臭了自己的名声，即使如此你饿了要吃东西，胡子长了要剃，拿个东西还得走到附近，翻个尸体依旧得上下伸手，以及，去远方得策马崩腾10分钟。</p><p>在过了最初的兴奋期之后，这种真实的体验带来的挫败感一直在提醒我，这个游戏与传统游戏体验的不同，他的核心玩法就是拟真体验。如果你平时受够了这种节奏缓慢的日常真实，你体验到的游戏乐趣也大打折扣。</p><p>人生已经这么无聊且沮丧，我并不想在游戏中再次体验到这一点呀。</p><p>特别是我只有2小时的睡前时间玩一下，结果骑马赶路就占去了1小时，被赏金猎人通缉又浪费了半小时，后期我为了省事儿，干脆站着让猎人打死，反正死亡惩罚不疼不痒。</p><p>此外除了达奇不厌其烦的i have a plan，还有身揣成千上万美刀可还是不能去大溪地这样的讽刺之外，这个游戏可以说方方面面并没有什么做的不好的地方。我并不是在给这个游戏挑刺，而是在反思一种可能性。</p><p>追求真实并不好玩。毕竟真实的人生也并不是时时都有乐趣可言。</p><p>我不得不反思，一直以来希望在游戏中追求真实性，觉得真实的画面、动作与AI就是好游戏的一切，这种想法是不是在实现的那一刻被颠覆了呢？我发现真实性虽然能带来极大的游戏体验，可就和VR一样，真实性并不好玩。游戏的乐趣也许只有老任才抓到的真谛，那种简单但确实的一步一个成就感，那种合作与对抗中迸发的源自内心的喜悦和快乐，可能那才是游戏的本质。</p><p>最后来说下剧情，由于知道一代剧情，总感觉这代就像是在给1代铺陈一个优秀的铺垫，虽然操纵的是摩根，但每次约翰出场的时候总会吸引我的注意。比起亚瑟对自己的救赎，我更在意约翰是如何从一个outlaw变成顾家男人。我在最后终章完美的连续演出中感受到救赎的传承，也在尾声中感觉到希望与1代最后那种讽刺的预感，可以说RDR2在剧情上的演出完全可以用作电影脚本，堪称完美。</p><p>如果这是个步行模拟器或者互动舞台剧，那也毫无不妥。但这款工业奇观般的游戏，不得不让我重新审视游戏的意义，以及一直以来在追求的快乐。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;估计是2018年通关的最后一款游戏了，年初开始玩的刺客信条·起源，结果经过狼狈的一年还是没有通关。随便写点吧，推荐听机核的&lt;a href=&quot;https://www.gcores.com/radios/104289&quot; target=&quot;_blank&quot; rel=&quot;noopener
+      
+    
+    </summary>
+    
+      <category term="Game" scheme="http://mystryl.com/categories/Game/"/>
+    
+    
+      <category term="PS4" scheme="http://mystryl.com/tags/PS4/"/>
+    
+      <category term="RedDead" scheme="http://mystryl.com/tags/RedDead/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>原来组个PC也这么贵</title>
+    <link href="http://mystryl.com/2018/11/2018-11-30/"/>
+    <id>http://mystryl.com/2018/11/2018-11-30/</id>
+    <published>2018-11-29T16:00:00.000Z</published>
+    <updated>2019-01-17T04:44:27.982Z</updated>
+    
+    <content type="html"><![CDATA[<p>帮同事组了个PC，结果毛算算居然要花小8000，这么想想也许mac并没有那么贵（才不对）。</p><table><thead><tr><th style="text-align:center">部件</th><th style="text-align:center">型号</th><th style="text-align:center">单价</th></tr></thead><tbody><tr><td style="text-align:center">银欣 小乌鸦</td><td style="text-align:center">RVZ03</td><td style="text-align:center">595</td></tr><tr><td style="text-align:center">电源</td><td style="text-align:center">酷冷至尊（CoolerMaster）额定550W V550游戏电源</td><td style="text-align:center">480</td></tr><tr><td style="text-align:center">主板</td><td style="text-align:center">ASRock 华擎 B360M-ITX/ac</td><td style="text-align:center">674</td></tr><tr><td style="text-align:center">CPU</td><td style="text-align:center">i5 8500 散</td><td style="text-align:center">1300</td></tr><tr><td style="text-align:center">散热</td><td style="text-align:center">ID-Cooling IS50</td><td style="text-align:center">109</td></tr><tr><td style="text-align:center">SSD</td><td style="text-align:center">HP EX900系列 500G M.2 NVMe 固态硬盘</td><td style="text-align:center">569</td></tr><tr><td style="text-align:center">内存</td><td style="text-align:center">芝奇(G.SKILL) AEGIS系列 DDR4 2400 8G</td><td style="text-align:center">369</td></tr><tr><td style="text-align:center">显卡</td><td style="text-align:center">华擎（ASRock）RX580 2048SP 8G</td><td style="text-align:center">1359</td></tr><tr><td style="text-align:center"></td><td style="text-align:center"></td><td style="text-align:center">5455</td></tr></tbody></table><p>而且这套还远远没有达到完美，比如看错了小乌鸦2和3的参数，散热买了55mm其实可以更大的；模组电源没有买模组线也就是个弟弟，走线一样非常非常的纠结。显卡位空间虽然非常充足，但想改造出一个3.5HDD的口依旧很纠结。</p><p>但好处是，这套ITX对我和同事而言都很满意了，真的很漂亮做工也不错，而且性能、配件几乎没什么特别的限制，小乌鸦3真的算一个不错的机箱。<br>也许赶着这波固态降价，想把我的rmbp2015（MF839)也同步升级个500G吧，没缓存的版本基本上1元/G，有缓存的要贵上200多，还是很肉疼的。<br>（说完氪了一单巴御前沉了，真伤心）</p><p>也许只有不开心的时候才会想起来写blog，南京又到了一秒过冬的季节。<br>上篇blog说10月<a href="/2018/09/2018-09-25/" title="去冲绳">去冲绳</a>，遇上台风根本没去成，还有2000多余款还没退回来。最近更是疲劳到晚上打游戏的精力都没有。<br>这还是没孩子的情况，为什么人生要这么累这么辛苦…<br>真是越想越抑郁，诶。</p><p>写到一半发现七牛云的域名被删了，自己的域名没备案不能用，图片挂了emmm。<br>于是想想是换个CDN还是把域名备案一下…</p><p>双十一买了很多东西，月支出超过2w奔着3w走，消费冲动吧。。</p><p>希望这波经济危机能挤掉楼市的泡沫。三十而立，想换个房子了。。</p><p>2018年非常的不顺利，家人和自己都诸多不顺，从来没这么期待过2019年的到来。</p><p>明明一篇Geek Blog变成了郁闷和吐槽，也许是这雾霾天和湿冷的南京城难以摆脱的抑郁氛围吧。<br>小时候很喜欢冬天，觉得冷冷的白白的能藏住一切烦恼。<br>实际上只是雪掩盖住了而已，雪化了依旧惨淡一片。</p><p>Fin.</p><p>P.S 推荐下《青春野郎》系列，29岁看轻小说还能感动的一塌糊涂，自己想想都不可思议。可能是勾起了青春的回忆也说不定。别想着如果曾经这样做了会怎样，不是SG上的冈伦没有那个毅力和意志。也许重来一次还是重蹈覆辙。<br>断离舍，精简自己想要的欲望，舍弃不利自己的坏习惯，让一些日积月累的小行为成为新的日常，也许这就是我的新年希望吧。。</p><p>大概一个也做不到。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;帮同事组了个PC，结果毛算算居然要花小8000，这么想想也许mac并没有那么贵（才不对）。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;部件&lt;/th&gt;
+&lt;th style=&quot;text-align:center
+      
+    
+    </summary>
+    
+      <category term="Geek" scheme="http://mystryl.com/categories/Geek/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Ahoy Mojave!</title>
+    <link href="http://mystryl.com/2018/09/2018-09-25/"/>
+    <id>http://mystryl.com/2018/09/2018-09-25/</id>
+    <published>2018-09-24T16:00:00.000Z</published>
+    <updated>2019-01-17T04:44:46.492Z</updated>
+    
+    <content type="html"><![CDATA[<center><img src="https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/630-upgrade-to-mojave.png" alt="630-upgrade-to-mojave"></center><p>快一年没更新了，不过现在还有谁还在用Blog？</p><p>更新到Mojave，没有特别明显的变化，但似乎方便了很多。</p><p>字体变细了，不爽233</p><p>国庆去冲绳8天，放松一下绷了好几个月的神经。不过好像日程安排得很紧张，就只有一天购物。</p><p>今年的苹果税估计只有Apple Watch S4，iPhone和Mac都完美避雷。<br>这代rmbp13 early 2015已经三年了，真是强健啊</p><p>i5 4590的CPU已经不如i3 8100的性能了似乎，不过intel您升级换代的速度好像比苹果还快？把老机器折腾成黑苹果双系统，目前还行，但折腾坏一块主板，顺便也换掉了陈旧的矿卡。</p><p>等有空回来，把GPU渲染给开启了。这蛋疼的，能打游戏不能GPU视频编码… GreaJob Apple。</p><p>话说苹果这三年连续的高价政策带来了最高的股价，但mac和iPhone的双天价该影响销量了吧？今年的科技股泡沫大概从这里开始？</p><p>拭目以待。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;center&gt;&lt;img src=&quot;https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/630-upgrade-to-mojave.png&quot; alt=&quot;630-upgrade-to-mojave&quot;&gt;&lt;/center
+      
+    
+    </summary>
+    
+      <category term="Geek" scheme="http://mystryl.com/categories/Geek/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>菜谱两则</title>
+    <link href="http://mystryl.com/2017/10/receipt-oct/"/>
+    <id>http://mystryl.com/2017/10/receipt-oct/</id>
+    <published>2017-10-24T16:00:00.000Z</published>
+    <updated>2019-01-17T04:44:02.276Z</updated>
+    
+    <content type="html"><![CDATA[<p>来除草，随便发两则菜谱，最近很喜欢吃的菜。</p><h2 id="Frittata-意大利蛋饼-早餐"><a href="#Frittata-意大利蛋饼-早餐" class="headerlink" title="Frittata  意大利蛋饼 - 早餐"></a>Frittata  意大利蛋饼 - 早餐</h2><h3 id="材料："><a href="#材料：" class="headerlink" title="材料："></a>材料：</h3><ul><li>培根 或者 熏肉 香肠</li><li>洋葱 可搭配蒜</li><li>3-6个蛋 看大小</li><li>帕马森奶酪 其他任意软质奶酪</li><li>菠菜 或任意绿叶蔬菜</li></ul><h3 id="调味料："><a href="#调味料：" class="headerlink" title="调味料："></a>调味料：</h3><ul><li>S P </li><li>可用罗勒，百里香</li></ul><p>平底锅，培根切块炒到出油，洋葱切碎炒软，小火至焦糖化。<br>加菠菜（蔬菜）翻炒至软，适当调味。<br>全蛋打散，加入帕马森奶酪碎，搅拌均匀。<br>开中火，蛋液倒入平底锅。适度翻动至均匀，加入马苏里拉奶酪碎。<br>待锅底焦香后用盘子辅助倒出，翻转回锅适当煎硬，再次翻转到正面，放烤箱稍微烘烤。<br>出锅。</p><h2 id="红椒酱肉丸"><a href="#红椒酱肉丸" class="headerlink" title="红椒酱肉丸"></a>红椒酱肉丸</h2><h3 id="材料：-1"><a href="#材料：-1" class="headerlink" title="材料："></a>材料：</h3><ul><li>肉红椒，烟熏风味</li><li>洋葱</li><li>樱桃番茄</li></ul><h3 id="调料："><a href="#调料：" class="headerlink" title="调料："></a>调料：</h3><ul><li>S P G</li><li>意大利香醋酯</li><li>可选帕马森奶酪，全蛋，罗勒碎</li></ul><p>出处找不到了，真的好吃</p><p>肉红椒在火上烤至表面焦化，或者用喷枪烘烤，后置碗内加盖冷却。<br>待稍冷后取出，用勺子刮去黑色胶皮，肉椒切丝。冷却空闲洋葱切丝。<br>平底锅橄榄油，稍热下洋葱与红椒煸炒，维持中火至洋葱焦糖化呈黄褐色。<br>转小火，下肉丸（可一切为二）、培根等肉类，与切开的樱桃番茄翻炒，没樱桃番茄也可用番茄切片代替，S P调味。<br>均匀后加入意大利香醋酯，或者红酒醋少许，红葡萄酒或白葡萄酒一杯，起底翻炒后小火炖煮。<br>出锅前可随意打俩全蛋，或加部分奶酪，或涂抹于切片面包上食用。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;来除草，随便发两则菜谱，最近很喜欢吃的菜。&lt;/p&gt;
+&lt;h2 id=&quot;Frittata-意大利蛋饼-早餐&quot;&gt;&lt;a href=&quot;#Frittata-意大利蛋饼-早餐&quot; class=&quot;headerlink&quot; title=&quot;Frittata  意大利蛋饼 - 早餐&quot;&gt;&lt;/a&gt;Fri
+      
+    
+    </summary>
+    
+      <category term="idea" scheme="http://mystryl.com/categories/idea/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>宜家厨房日记</title>
+    <link href="http://mystryl.com/2017/04/ikea-kitchen/"/>
+    <id>http://mystryl.com/2017/04/ikea-kitchen/</id>
+    <published>2017-04-16T16:00:00.000Z</published>
+    <updated>2019-01-17T04:43:52.092Z</updated>
+    
+    <content type="html"><![CDATA[<p>奔波了又一个周末，宜家厨房算是基本上定下来了，应该相当满意，看后期的配合和施工效果。</p><h2 id="先上一波效果图与平面图："><a href="#先上一波效果图与平面图：" class="headerlink" title="先上一波效果图与平面图："></a>先上一波效果图与平面图：</h2><p><img src="https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/%E5%9B%BE%E7%89%87%201.png" alt="图片 1"><br><img src="https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/%E5%9B%BE%E7%89%87%202.png" alt="图片 2"><br><img src="https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/%E5%9B%BE%E7%89%87%202.png" alt="图片 3"></p><h2 id="造价分析"><a href="#造价分析" class="headerlink" title="造价分析"></a>造价分析</h2><p>ikea橱柜是全部标准模块化的，一字橱柜或者L橱柜应该是老房改造空间最大利用空间的方案，其实不纠结窗下没有台面的问题，还是非常非常好看的，颜值很高，也没有任何橱柜死角。</p><p>厨房宽1800，标准600x600x800的柜体实际安装后是640mm宽台面，对面再装400mm的台面就有点拘束了，对面考虑艾格特墙面挂条或者厨房移动推车/中岛。</p><p>柜门是IKEA台面差别最大的部分，按标准门板40x80计算，最便宜的40块一个，最贵的500元一个，选择了中间档次的希塔普柜门，硬生生从简约北欧风扭成北欧乡村风…嘛 装修最重要的就是平衡预算与取舍。</p><p>这样大概5.6米下柜，3.2米上柜，总造价在23000，安装费在1500左右，决算估计在25000，刚刚好卡着预算。想升级下柜门也没啥空间了，算了算了。</p><h2 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h2><p>IKEA橱柜最大的优点是标准化、模块设计、不用讲价！</p><p>你只要考虑有多少空间可以塞多少东西就行，而不需要为讨价还价，溢价差别考虑很多。同品牌的店在南京询价结果能插50%，我也是醉的不要不要的…</p><p>南京宜家能做台下盆，赞一个，虽然最后台盆由于方案问题只能用60x60的小盆。另外石英石1000/m真的好便宜，你说同样一千为啥要选人造石…其实如果下厨不多，西餐为主，请妥妥原木色防火板，好看便宜，但父母用的化还是石英石稳定安全点。</p><p>缺点基本也很明显，全部模块坏不能改，测量安装都是外包的，要预约。设计师太难约了，只能约到一周后的周末下午晚上…但是态度很好，想法也很契合，总之相当满意。</p><p>下面就要尽快定瓷砖催工程进度，在5月15日前下单付款，就能拿到优惠啦啦啦，还有整一个月！</p><h2 id="二次测量后出方案"><a href="#二次测量后出方案" class="headerlink" title="二次测量后出方案"></a>二次测量后出方案</h2><p>调整不多，也就由于瓷砖贴太厚的问题，居然下柜右侧不到3米了，地柜只能减掉一个800改成600的，然后门相应做一下调整。<br>水槽不能做台下盆，说左侧没有石材强度不太够，那就台上盆吧。。没办法了。<br>然后厨房能储藏30天才送货，但其他物件只能储藏7天，这也太坑爹了。。。<br>没办法 本周结账，不买衣柜，衣柜等后期地板铺好了再来买。。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;奔波了又一个周末，宜家厨房算是基本上定下来了，应该相当满意，看后期的配合和施工效果。&lt;/p&gt;
+&lt;h2 id=&quot;先上一波效果图与平面图：&quot;&gt;&lt;a href=&quot;#先上一波效果图与平面图：&quot; class=&quot;headerlink&quot; title=&quot;先上一波效果图与平面图：&quot;&gt;&lt;/a&gt;
+      
+    
+    </summary>
+    
+      <category term="idea" scheme="http://mystryl.com/categories/idea/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>地平线·黎明时分印象</title>
+    <link href="http://mystryl.com/2017/04/horzion_zerodawn/"/>
+    <id>http://mystryl.com/2017/04/horzion_zerodawn/</id>
+    <published>2017-04-12T16:00:00.000Z</published>
+    <updated>2019-01-17T04:43:29.677Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="言过其实但还算有趣的游戏"><a href="#言过其实但还算有趣的游戏" class="headerlink" title="言过其实但还算有趣的游戏"></a>言过其实但还算有趣的游戏</h2><p>我们不能要求每部作品都堪比巫师3，巫师3在登顶之前也经过了1、2代的涅槃。何况《地平线》是一个新IP。能做到超越神海的PS4画面也没啥可挑剔的，至少60小时的游戏时间，也比1886这种画质巅峰剧情负分要好的多。但可能是同类游戏太出色的缘故，《地平线》给我的感觉总是一种一切很美但又缺把力气的感觉，IGN给出9.3，对我来说也许8.0-8.5更合适一点。</p><h2 id="我们只说不足"><a href="#我们只说不足" class="headerlink" title="我们只说不足"></a>我们只说不足</h2><p><del>虽然开始写文的时候我还没玩完，但肯定通关白金了我才会发出来。</del><br>于是打完了顺便白金了，白金难度很小，和1886一个水平的，轻松愉快。</p><p>开局的印象很好，但不足也很明显，虽然设定了开放世界的模式，但这个世界实在是，太小了…可探索的元素很多，有意思的没多少。我是希望满地拔草薅羊毛呢，还是一路打兔子杀猪刷白绿蓝材料呢。看似开放自由的世界，可交互探索的东西却并不是很多…总有一种空洞感。当然了，作为一个原始人也不能要求太多，活着就是最重要的，我去屯草药了……</p><p>中局的压力蛮大的，几个大猎物初见杀很紧张刺激，毕竟装备压制在那里。但中前期能初次down雷霆牙，有点装备有钱买紫色武器，学会上冰冻然后增伤，或者捆绑上粘弹然后冰冻，或者两只劣化箭让他们内讧的话，基本游戏就没难度了。更别提后期拿到织盾者基本横着走。</p><h3 id="战斗节奏的跳跃"><a href="#战斗节奏的跳跃" class="headerlink" title="战斗节奏的跳跃"></a>战斗节奏的跳跃</h3><p>仁王据说一套阴阳术减速符+2个属性轮流上，就能让黑魂仁王变成仁王无双。地平线也存在这样技巧性颠覆。能刷一次雷霆牙之后就能套路刷第二次第三次，有了紫色战弓与三个劣化紫色线圈，就能二连刷雷霆牙；装备再满一点技巧再好一点，就可拆拆拆绳索冰冻粘弹速刷雷霆牙了…<br>总觉得技能里面提了那么多的近身攻击技巧，完全没用啊，除了潜行和对人的时候可能用近战，其他情况用近战就是在浪费DPS……</p><p>而且多数boss必须针对弱点上属性，但火只有持续伤害和弱点露出，电击的麻痹效果太短了，有用的只有绳索晕+粘弹，以及冰冻的2-3倍增伤……或者说熟悉了每个怪控制与上冰的技巧后，剩下的工作就是单纯的刷刷刷无双而已……难度靠怪物数量来凑。</p><p>不得不说这样属性杀的设定有好有坏，好处是难度不会设定的很高，有套路就能刷，坏处是击杀套路也太千篇一律了，怀念巫师3的不同剑油与魔药搭配。</p><p>哦对，坑爹的是弓可以蓄力这个设定我怎么没记得教程里面提过啊！</p><p>然而最无奈的一点就是，无论你多熟悉套路雷霆牙，多了解巨怪兽或者挖掘者的弱点，多迅速能把闪光鹰和风暴鸟捆住，都对你打boss没一点点帮助。</p><p>对 一点都没…boss就是弱火，上火等过热超载，然后打弱点，没了。还有点技巧就是要找好掩护/或者尽快拿到织盾者横着走。</p><h3 id="世界观的暗线"><a href="#世界观的暗线" class="headerlink" title="世界观的暗线"></a>世界观的暗线</h3><p>相比战斗的单调，世界观的暗线确实很有意思。原始部落人械斗没啥看点就算了，但对于世界为啥如此，为啥有那么多的机械，却慢慢从收集与主角对身世的追寻着逐步显现。演出效果不错，特别是揭示一切后，主角义无反顾带着朋友奔赴命运的决战，整体的气魄一下得到提升，感觉还是非常赞的。<br>要说暗线的不足也从此出发，感觉整个设定框架有了但挖掘的并不深入，确实这是新IP的第一作，没有很深度的挖掘是很正常的事情。特别希望能在旧世机械身上多挖掘一点，把铸炼厂的谜题像塞尔达神庙一样做得更加深入，而不是流于表面的潜入然后挑战boss，有点无趣。<br>末世题材的剧本见得很多，但首次深入末世之后新生的剧本却不多见。这也是本作最大的亮点，后文明时代的人类能否继承并延续文化？还是像《莱布尼茨赞歌》中一样彻底成为神学意义上的拙劣崇拜与模仿。<br>《地平线》第一作IP建设上应该是非常合格的，也希望这个系列能继续发扬并成功下去，毕竟帅气的女主角最帅了！</p><p>……………………（好拖更结束填坑完毕，继续去肝活动了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;言过其实但还算有趣的游戏&quot;&gt;&lt;a href=&quot;#言过其实但还算有趣的游戏&quot; class=&quot;headerlink&quot; title=&quot;言过其实但还算有趣的游戏&quot;&gt;&lt;/a&gt;言过其实但还算有趣的游戏&lt;/h2&gt;&lt;p&gt;我们不能要求每部作品都堪比巫师3，巫师3在登顶之前也经过了1
+      
+    
+    </summary>
+    
+      <category term="Game" scheme="http://mystryl.com/categories/Game/"/>
+    
+    
+      <category term="PS4" scheme="http://mystryl.com/tags/PS4/"/>
+    
+      <category term="horzion" scheme="http://mystryl.com/tags/horzion/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第二次装修笔记</title>
+    <link href="http://mystryl.com/2017/04/house-decoration/"/>
+    <id>http://mystryl.com/2017/04/house-decoration/</id>
+    <published>2017-04-10T16:00:00.000Z</published>
+    <updated>2019-01-17T04:44:13.496Z</updated>
+    
+    <content type="html"><![CDATA[<p>父母家水管暗处漏水，想想从2003年左右搬过来也14-15年了，一直说要装修下一直也没有去动工。那房子虽然5楼没电梯，周围也没特别大的购物中心，但安静、环境好，房改房实际面积很大，100平还出头，估计也不会想卖掉，不如一次装得好点。</p><h2 id="监理半包"><a href="#监理半包" class="headerlink" title="监理半包"></a>监理半包</h2><p>省心装修的前提下保证品质，那就沿用之前标点金管家的监理-资金托管模式做半包。<br>装修公司依旧选了一个我看得顺眼的，估计大家都差不多，墙面乳胶漆喷涂是特色，想想本来也是全屋大白墙的北欧简约风格，就这家了。</p><p>原来装修不满意的地方在厨房橱柜，其次是卫生间，这次也是放在重点。本着不折腾的精神，能宜家尽量宜家，就是不喜欢还价。</p><h2 id="厨房空间"><a href="#厨房空间" class="headerlink" title="厨房空间"></a>厨房空间</h2><p>差点不准备做宜家橱柜的，由于做U字型基本都是非标件，宜家价格做下来比欧派略便宜，和东方邦太这类差不多，但是设计和内配件那可是好了非常多。顺便讲座提到南京宜家可以做台下盆了，这简直最大利好。</p><p>后来想想改成了两排一字型，短边那排甚至可以不做，用艾格特墙面隔板解决。整个方案就豁然开朗。剩下的纠结就是柜门的选择和水电方案了，毕竟优惠5-15就截止，到时候能不能贴好瓷砖二次测量后买单还不知道。</p><p>4-10日开工，拆除+砌墙一周，4-17，水电一周，4-24，剩下时间做瓦工，勉强来得及，就是一点时间都不太能随意浪费，什么监理约不到验收什么的就很头疼了。</p><p>宜家台面肯定石英石，那基本只有那款1000/米的高光白可以选。柜门便宜点就希塔普，40x60在220，贵的好看就埃斯塔克，500一块。或者400的胡桃木隐藏把手，看最后预算能做到什么样吧，橱柜总预算2w5希望能打下来。</p><p>考虑到水路和动线，洗碗机买60的话主水槽也只能60cm，买45的主水槽勉强可以做到80，看二次测量方案后定夺。</p><p>灶具要不要选集成灶，再研究下或者去实体店。其实正常灶具只要不选方太之流，也不比集成灶高端款贵多少，差不多差不多。</p><p>副水槽可能选1400的ikea高端陶瓷盆，想想可真贵啊，但是要是能节省60cm的台面空间，那就是省了600大洋，一个盆800，其实也还好了。关键颜值高。</p><p>主要内配可能还是大抽屉为主，80cm-100cm的地柜一组三个抽屉，收纳肯定方便多了。吊柜左右开+中间上下开，也能齐活，反正吊柜空间利用率不高的。</p><p>墙面件当天可以免费安装，好好选就行。多点。</p><p>180cm的宽度，64cm的台面，空间正好116cm感觉还是很宽裕，但如果对面做一小排40cm地柜或者艾格特墙面搁架，剩下不到80的1米窄走廊，也是可以接收的程度。</p><h2 id="卫生间"><a href="#卫生间" class="headerlink" title="卫生间"></a>卫生间</h2><p>肯定要做干湿分离，原来基本等于没有洗脸池。用古德莫系列就好，配个1000的镜柜带灯，完美。<br>就是140cm的宽度是用80cm的浴室柜还是100cm，需要再考虑下。<br>100cm和120cm的尺寸都有双洗脸池，这个需求其实不太大。<br>80cm的便宜，但空出来60cm干嘛 反正也很浪费。<br>那就100cm，上门80的镜柜+40左右的侧边隔板件，台下还能藏一个小推车，感觉配置也很不错。<br>100cm比80贵400池子+200柜体，还是有点疼的。</p><p>总之 这边看尺寸。顺便奥登维洗脸池和那俩很贵的洗脸池有啥差别…<br><img src="https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/%E5%9B%BE%E7%89%87%202.png" alt="屏幕快照 2017-04-11 14.16.46"><br>大概这货，不过问过了，1米的浴室柜不能只上墙，必须要有支撑腿，4个就够。</p><p>普遍说宜家龙头一般般，但也不太贵，正常价格吧，可能买一个，还有一个买淘宝贴牌货，不太迷信高仪汉斯格雅。</p><p>湿区放洗衣机，关门降噪音，上门堆叠干衣机就好了，可以后买，留好一个下水口即可。<br>马桶留上下水和插座上洁身器，旁边塞一个拖把池其实是猫厕所。。。所以还要一个龙头。</p><p>淋浴间简单浴帘+恒温龙头贴牌货，差不多搞定。淋浴柱没啥必要吧…反正从来没开过。</p><h2 id="拆除砌墙"><a href="#拆除砌墙" class="headerlink" title="拆除砌墙"></a>拆除砌墙</h2><p>住了这么久的房子内部全被拆了，还是蛮感伤的。虽然已经不住了。<br>想想还是不放拆除图了。丢个效果图吧，看个大概。<br><a href="http://720yun.com/t/945jOzkaOO3?from=groupmessage&amp;isappinstalled=0&amp;pano_id=2768328" target="_blank" rel="noopener">效果图戳这里</a></p><p>有效果图肯定有成本，用处不是有直观感受，而是有理有据可以跟设计师怼。<br>比如看完后就针对过门石的问题怼了半天，我是觉得干区-客厅压条就能过渡，根本不需要过门石啊，黑色的一条也太丑了。</p><h2 id="水电"><a href="#水电" class="headerlink" title="水电"></a>水电</h2><p>突然感觉到水电包死价是个坑爹的东西，毕竟父母家不像我有那么多的弱电施工要求，全墙插座，全屋网络口就行。<br>没留投影了，想想以后真的要住过来 没有也就没有吧。。无所谓的事情了。新风都放弃了不是么…<br>客厅是否放电视也是个区中心化的选择。<br>然后要注意全部的上下水位置是否合理，开关是否合理等等。主卧的开关挡住了衣柜的位置 做了调整。后期还要注意留足2450的衣柜安装空间。</p><h2 id="瓦工墙砖"><a href="#瓦工墙砖" class="headerlink" title="瓦工墙砖"></a>瓦工墙砖</h2><ul><li>瓷砖买的法恩莎，卫浴的一二线牌子，开个副牌做瓷砖的感觉，反正佛山砖，品质还行，南京最便宜买砖在板桥弘阳，就是特么太远了。折后60x60 40-46元一块，合一平米120左右。</li><li>粘合剂被包工头坑了点估计，弄的南京比亚特65一代，韦伯粘合剂也才45吧一包。就是不知道真假</li><li>墙面防水现在都是透明的防水宝剂，第一次看见还以为没有刷。。。让返工了。嘛 只会更好。</li></ul><h2 id="柜门"><a href="#柜门" class="headerlink" title="柜门"></a>柜门</h2><ul><li>进口爱格南京就东方邦太一家有授权，特么直接980一平不包安装，不想说话。</li><li>另一家国产爱格的也不错，报价不靠谱，想等等再说的，5.1的时候忽悠说搞活动，260拿下，不计较口舌了。后面看五金买百隆还是海蒂诗。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;父母家水管暗处漏水，想想从2003年左右搬过来也14-15年了，一直说要装修下一直也没有去动工。那房子虽然5楼没电梯，周围也没特别大的购物中心，但安静、环境好，房改房实际面积很大，100平还出头，估计也不会想卖掉，不如一次装得好点。&lt;/p&gt;
+&lt;h2 id=&quot;监理半包&quot;&gt;&lt;a
+      
+    
+    </summary>
+    
+      <category term="idea" scheme="http://mystryl.com/categories/idea/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>BioShock Infinite感想</title>
+    <link href="http://mystryl.com/2016/09/BioShock-Infinite/"/>
+    <id>http://mystryl.com/2016/09/BioShock-Infinite/</id>
+    <published>2016-09-18T00:00:00.000Z</published>
+    <updated>2019-01-17T04:43:06.703Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/bioshockinfinite-2013-04-14-16-10-55-00.jpg" alt="bioshockinfinite-2013-04-14-16-10-55-00"></p><p>BioShock Infinite趁着中秋+天气凉快点，显卡不至于很受伤终于通掉了。感触良多。第一个感觉是。。好晕啊…<br>不过真心是个好游戏，虽然很线性的FPS和imba的技能显得FPS不是那么传统，敌人也略有千篇一律。不过这游戏胜在演出啊！Elizabeth神一般的演出效果，堪称经典。<br>一开始遇到伊丽莎白时候的不耐烦，渐渐的表现出的好奇与活泼，不信任的逃离到渐渐彼此信赖共赴战场，触及身世后的深深迷茫，绝望后爆发勇气的深深信念。全部的细节与情感表现得十分细腻与真实。更别提史上最不碍事女主角与最强辅助，以至于后期有一小段没有伊丽莎白的陪伴的战斗，主角我立刻陷入深深的装备危机… 这是配合主角演出提现出的强烈的对伊丽莎白的眷恋与斗志，非常让人感同身受的动容。<br><img src="https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/best-bioshock-infinite-moments-songbird.jpg" alt="best-bioshock-infinite-moments-songbird"></p><p>详细的分析与时间线不提了，大概就是穿越的平行世界，不像黄金时代科幻那样歌颂技术，生化奇兵反乌托邦的主题注定了最后结局一定会回归世界线的收束甚至抹杀。<br>但最后的选择甚是令人绝望之余感到希望，也许只有这样才能获得拯救，只有这样才能避免一切痛苦。<br><img src="https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/bioshock-infinite-elizabeth-wallpaper-36.jpg" alt="bioshock-infinite-elizabeth-wallpaper-36"></p><p>回头有空开海葬DLC！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/bioshockinfinite-2013-04-14-16-10-55-00.jpg&quot; alt=&quot;bioshockinfinite-2
+      
+    
+    </summary>
+    
+      <category term="Game" scheme="http://mystryl.com/categories/Game/"/>
+    
+    
+      <category term="Steam" scheme="http://mystryl.com/tags/Steam/"/>
+    
+      <category term="BioShock" scheme="http://mystryl.com/tags/BioShock/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>有关996</title>
+    <link href="http://mystryl.com/2016/09/about996/"/>
+    <id>http://mystryl.com/2016/09/about996/</id>
+    <published>2016-09-14T00:00:00.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前有个很震三观的知识，发达国家限制最长工作时间，限制最低工资标准不是保护员工福利，而是维稳就业。逻辑在于如果高能力高薪酬的员工可以长时间加班达到1+1&gt;2的结果，由于不用支付基础工资福利，只需要支付加班费用，对于企业来说成本肯定小于招两个能力为1的人。而最低工资标准定得过高，实际效果就是盈利能力较差的企业不敢多招基层员工。两个逻辑统一的结果就是导致社会失业率提高。</p><p>那技术企业逐步普遍实行996表明什么问题呢？</p><p>假设技术企业也是劳动密集型，单位时间产出价值一定，延长工作实际就能产出更多的价值，成本就是支付了更多的加班费。<br>实际技术型企业更多是价值创造性，单体员工能力越强创造价值越高，但单位时间的产出并不一定。强制延长工作时间可能获得超额的价值，也可能支付了加班费获得完全一样甚至更低效的产出。<br>当缺乏劳动力又要上新项目的适合，特别是短期需求（比如大版本上线），企业主很明显不会考虑招新人而是让老员工加班加点。当企业主发现1+1&gt;2成本又小于2，同时低端劳动力供应又日渐充足（各种培训机构出身的码农越来越多），势必导致行业就业率明显下降，另一方面企业却又在大力推行996榨取剩余价值。</p><p>被动接受996，可能保住一时的工作，也可能因为额外加班费的收入获得更高薪酬（但更多的企业是不会增加工资，或并不按照2-3倍工资标准支付的！）。但后果就是纵容企业主这种降低企业成本压榨员工的方式，渐渐导致行业失业率上升，基础薪酬下降。等你受不了压力跳槽的时候，很可能在其他965的企业拿不到一样的薪酬了。你会发现你呕心沥血加了三年半的班，跳槽却不如原来正常工作的日子了！</p><p>996是毒药，无论员工和企业，为了良性正常发展都要警惕的，至于那些已经开始实行的企业，慎入早出，中毒已深。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;之前有个很震三观的知识，发达国家限制最长工作时间，限制最低工资标准不是保护员工福利，而是维稳就业。逻辑在于如果高能力高薪酬的员工可以长时间加班达到1+1&amp;gt;2的结果，由于不用支付基础工资福利，只需要支付加班费用，对于企业来说成本肯定小于招两个能力为1的人。而最低工资标准
+      
+    
+    </summary>
+    
+      <category term="thoughts" scheme="http://mystryl.com/categories/thoughts/"/>
+    
+    
+      <category term="work" scheme="http://mystryl.com/tags/work/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>实业误国，炒房兴邦</title>
+    <link href="http://mystryl.com/2016/08/realestates/"/>
+    <id>http://mystryl.com/2016/08/realestates/</id>
+    <published>2016-08-31T01:25:06.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>每天看看卢俊的地产观，再看看水库，总感觉精神分裂，多空对撸。<br>今天卢俊就<a href="http://mp.weixin.qq.com/s?__biz=MzA4MzA3MzExNg==&amp;mid=2652690948&amp;idx=1&amp;sn=8bfb9cba2915b34d9873eea746bf5448&amp;scene=0#rd" target="_blank" rel="noopener">《疯了》</a>。</p><blockquote><p>上海一手房成交历史性突破2000套，达到2139套，成交面积超过25万方。</p></blockquote><blockquote><p>这个数据什么概念，如果上海一整个月的成交数值都是25万方的话，那么一个月的成交就是750万房，而上海历年来平均每年的成交量也只在1000万房左右。</p></blockquote><p>这是个什么概念呢，就跟去年7月股市看不见顶一样的突突上涨，人人恐慌又不得不入市一样。</p><ul><li>房地产自带3倍杠杆，不用盯市，还得起房贷就不会爆仓。</li><li>房地产人人天然多头，没有做空渠道，赚钱效应（也就是正反馈强化）导致集体看涨的时候呈现明显卖方市场易涨难跌。</li><li>属于长线投资，基本供需难以体现反馈，太多的故事与太坑爹的地方调控政策导致一轮又一轮的逼空暴涨。</li><li>做经济的，特别是做研究实体经济的，对房地产看空都会多点，因为模型没法解释，牵扯的东西太多，先验经验都是泡沫破裂。然则不断被现实打脸。</li></ul><p>多说无益，不合理的一切都会回归。但回归之前先让多数人疯狂。</p><p>这几天一直在想我还小的时候98年的下岗潮，实体经济的泥潭很可能和那时候很像，经济的低迷周期也差不多同步。只是那时候大锅饭，没被收割的中产，也没有那么多杠杆和居民负债。<br>这次会怎样，还是乐观一点吧…合适点位盘整就行，去年的恐慌记忆犹新，实在太恐怖了。</p><blockquote><p>中国的高房价，毁灭了年轻人的爱情，也毁灭了年轻人的想象力。他们本可以吟诵诗歌、结伴旅行、开读书会。但现在，年轻人大学一毕业就成为中年人，像中年人那样为了柴米油盐精打细算。他们的生活，从一开始就是物质的、世故的，而不能体验一段浪漫的人生，一种面向心灵的生活方式。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;每天看看卢俊的地产观，再看看水库，总感觉精神分裂，多空对撸。&lt;br&gt;今天卢俊就&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzA4MzA3MzExNg==&amp;amp;mid=2652690948&amp;amp;idx=1&amp;amp;sn=8bfb
+      
+    
+    </summary>
+    
+      <category term="daydream" scheme="http://mystryl.com/categories/daydream/"/>
+    
+    
+      <category term="thoughts" scheme="http://mystryl.com/tags/thoughts/"/>
+    
+      <category term="realestates" scheme="http://mystryl.com/tags/realestates/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>随便聊聊</title>
+    <link href="http://mystryl.com/2016/08/2016-08-19/"/>
+    <id>http://mystryl.com/2016/08/2016-08-19/</id>
+    <published>2016-08-19T00:00:00.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>米兔 (@chen1987cd) 16/8/18 19:52</p><blockquote><p>本人想找一份做内账的会计工作（不包括报税），有5年以上财务经验，负责前公司的七个分公司，从建帐到审核所有单据再到月，季度，年度财务报表一套帐，还包括每月盘点分公司货物和固定资产，分公司员工工资，奖励以及分红等，有会计从业资格，工资要求3500+，最好在成都市区内，双休</p></blockquote><p>Mystryl (@Mystryl) 16/8/19 10:05</p><blockquote><p>@chen1987cd @HondaJOJO 这是总账财务吧。。这工作经验只要求3500+？不去上海来南京吧。。。我司入职新员工就5k包食宿 总账财务很缺。。</p></blockquote><p>米兔 (@chen1987cd) 16/8/19 10:09</p><blockquote><p>@Mystryl @HondaJOJO 是的，总账哈，但是我去找过总账会计，证书不够硬，最少的初级到中级以上，虽然经验是够了，硬件不够，现在对于很多公司来讲他们更看中的是已婚已育和你什么学校毕业的，还有拿在手里的资格证的级别优先，其次是经验</p></blockquote><p>Mystryl (@Mystryl) 16/8/19 10:11</p><blockquote><p>@chen1987cd @HondaJOJO 我司财务总经理高中毕业( 从业25年而已。已婚已育这是个坎是个痛…anyway需要SDIC南京的内推可以找我。</p></blockquote><p>米兔 (@chen1987cd) 16/8/19 10:13</p><blockquote><p>@Mystryl 啊，感谢，爸妈绝对不会让我出成都的😂😂😂😂，不过还是挺感谢</p></blockquote><p>川东小霸王 (@HondaJOJO) 16/8/19 10:19</p><blockquote><p>@chen1987cd @Mystryl 你们家真的是太成都了，生下来就开始养老，我爸爸都还比你屋头想的开些</p></blockquote><p>米兔 (@chen1987cd) 16/8/19 10:24</p><blockquote><p>@HondaJOJO @Mystryl 独生子女，又是女娃娃，怕一个人在外面出事，这是他们的想法，我曾经试过出省工作，我妈直接是以死相逼，说我想逼死他们233</p></blockquote><p>Mystryl (@Mystryl) 16/8/19 10:26</p><blockquote><p>@chen1987cd @HondaJOJO 保守懒散的南京人比不上成都的悠闲养老！(</p></blockquote><p>米兔 (@chen1987cd) 16/8/19 10:33</p><blockquote><p>@Mystryl 我觉得一个人的能力，办事效率等等才重要吧，以前公司招聘了一些初级的会计，说实话还当不了那些电脑都不会用后来现学的阿姨们，还是要看个人的理解能力，读书能行的，不一定实际操作脑子就灵光</p></blockquote><p>Mystryl (@Mystryl) 16/8/19 10:36</p><blockquote><p>@chen1987cd 没错，财务不是单纯的做帐出报表，配合业务降低成本控制风险才是精英财务，防控风险提高效率扩大收益级别的就是史诗级总账财务了( 有这样意识的很稀有，我前公司20多个财务都是行尸走肉一般的，现在公司完全不一样，我天天去鞭策咱们的财务小哥233</p></blockquote><p>米兔 (@chen1987cd) 16/8/19 10:40</p><blockquote><p>@Mystryl 对呀，现在都是用的财务系统了，很多报表只要你本月数据没有录入错误的话，报表都是系统自动生成的，只要核对一下报表是否跟系统有差就行了，前公司还有额外的手工表，基本上一个分公司是10张以上的报表，系统倒出来的只有三张而已，还要给他们做分析</p></blockquote><p>比格 (@B1ger) 16/8/19 10:43</p><blockquote><p>@chen1987cd @Mystryl 听你们俩一席话胜读四年商学院😂😂😂</p></blockquote><p>那我是Bender呀 (@benderplaywt) 16/8/19 10:42</p><blockquote><p>@chen1987cd @Mystryl 米兔的活我公司财务3个人都干不完…还有人资什么的…</p></blockquote><p>via Tweetbot</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;米兔 (@chen1987cd) 16/8/18 19:52&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本人想找一份做内账的会计工作（不包括报税），有5年以上财务经验，负责前公司的七个分公司，从建帐到审核所有单据再到月，季度，年度财务报表一套帐，还包括每月盘点分公司货物和固定
+      
+    
+    </summary>
+    
+      <category term="daydream" scheme="http://mystryl.com/categories/daydream/"/>
+    
+    
+      <category term="twitter" scheme="http://mystryl.com/tags/twitter/"/>
+    
+      <category term="talks" scheme="http://mystryl.com/tags/talks/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>神秘海域1-3重制</title>
+    <link href="http://mystryl.com/2016/08/uncharted1-3/"/>
+    <id>http://mystryl.com/2016/08/uncharted1-3/</id>
+    <published>2016-08-15T00:00:00.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/best-bioshock-infinite-moments-songbird.jpg" alt="6f781558-54b4-4580-962b-5a3adbe7ff21_watermark"></p><p>1-3草草通关，就3打了惨烈难度，1-2都是水过。<br>想说白金难度也不是很大，把3打个白金吧？然后就卡某个速攻关卡了。。</p><p>表情完全如上图，在想PSN游戏打白金真的有意义么？不过感觉不打白金整个游戏都没玩。</p><p>玩完神海3之后蛮空虚的，10年间三个宝藏都是找到了却空手而归，也是一样的表情吧。<br>说起来TLOU要重制4k版本了，这个倒是真的想白金。。</p><p>不说了，信誓旦旦说要白金MGSV的依旧路漫漫。。。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/best-bioshock-infinite-moments-songbird.jpg&quot; alt=&quot;6f781558-54b4-4580
+      
+    
+    </summary>
+    
+      <category term="Game" scheme="http://mystryl.com/categories/Game/"/>
+    
+    
+      <category term="PS4" scheme="http://mystryl.com/tags/PS4/"/>
+    
+      <category term="NaughtyDog" scheme="http://mystryl.com/tags/NaughtyDog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>令人绝望的24%</title>
+    <link href="http://mystryl.com/2016/08/devastating%20_24/"/>
+    <id>http://mystryl.com/2016/08/devastating _24/</id>
+    <published>2016-08-12T03:12:18.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="令人绝望的24"><a href="#令人绝望的24" class="headerlink" title="令人绝望的24%"></a><strong>令人绝望的24%</strong></h3><p><a href="http://blog.sina.com.cn/s/blog_a52428720102w8fv.html" target="_blank" rel="noopener">怎样才能改变你所处的阶层</a></p><p>这篇文章很火，当然他的推导根本不严谨，不过对于目前保持着高M2，相对高利率/融资成本，最重要的高名义GDP增长率的中国来说，宁愿信齐有，而不是质疑24%的含金量。</p><p>可以参考<a href="https://www.zhihu.com/question/29864392" target="_blank" rel="noopener">知乎的讨论</a>。</p><p>24%的增长看似绝望其实是动力。但说真的，能在A7以上保持24%增长都是大神，A8-A9的能有15-20%增长的都可以成为成功投资人了。因为从蓄水池理论，你的主动/被动收入和无法超过你财富的被动贬值速度。</p><h3 id="财富真的会贬值么？"><a href="#财富真的会贬值么？" class="headerlink" title="财富真的会贬值么？"></a><strong>财富真的会贬值么？</strong></h3><blockquote><p>跟老婆在北京工作了 3 年，上个周末看了 2 天房，第二天就买了，也不知道是不是头脑发热。 房子是 83 年的老房子， 5 层楼的 3 层，朝阳大悦城附近， 255 万。 首付税费中介费一共 105 万，我跟老婆攒了 40 万，家里农村的，我家出了 30 万，她家 10 万，再到处借 25 万。 这几天舌头溃疡，头痛，感觉压力好大。</p></blockquote><p>刷论坛又看见一帖，可能这是很多人的写照。最旺盛年代的收入全部投入了房产，还要近乎一辈子的还款压力。GDP保增长的重任，转嫁到中产与年轻人的头上，只有你们努力工作才能保住自己的房子和国家的未来。</p><p>可房产真的这么重要么？</p><h3 id="高房价已经成了抑制地区发展的重要绊脚石"><a href="#高房价已经成了抑制地区发展的重要绊脚石" class="headerlink" title="高房价已经成了抑制地区发展的重要绊脚石"></a><strong>高房价已经成了抑制地区发展的重要绊脚石</strong></h3><p>无论是好吃的小店因为房租成本上升，不得不涨价或者关店；或者是曾经满大街的手艺店服装店越来越入不敷出；或者是临街小店以三个月为一个周期的倒闭。在不断上升的房价中，个体/民营经济的房租成本不断无休止的提高，直至入不敷出倒闭，就这样你国还怪民间投资增速下降。</p><p>现在满大街最多的是啥，投资公司/财富公司与房地产中介，除去热钱效应之外，也许当下能维持生存的就是这样的泡沫互相炒作行业了。<br>意大利和欧洲那种即使是城市中心也有百年历史可爱娇小的手工业小店，店主即使一天不开张也毫不担心成本与支出。想必这点在国内看来几乎是毫无可能性吧。国内开店你不算好客流量和单位时间收益，追求返台率或者利润率，基本可以直接宣布倒闭。</p><p>高房价的不可持续源于基本面经济发展的停滞不前，房租成本的升高赶不上民间投资回报的降低，带来整体民间投资增速的下降。短期高房价源于投资标的的缺失，天然天花板还是存在的。正视房价泡沫而不是一味认为先验的房价永远涨，GDP永远8%，今年的目标可是保6%</p><h3 id="如何消化房地产泡沫，房价崩盘还是汇率崩盘"><a href="#如何消化房地产泡沫，房价崩盘还是汇率崩盘" class="headerlink" title="如何消化房地产泡沫，房价崩盘还是汇率崩盘"></a><strong>如何消化房地产泡沫，房价崩盘还是汇率崩盘</strong></h3><p>不知道为什么有那么多人一厢情愿的相信，房地产泡沫的消解最后选择的是俄罗斯模式的汇率崩盘。而不是美国 日本模式的房价下跌。<br>房产税是一定会来的，70年产权是政府自己给自己挖的坑，长久的土地收入可行的办法就是房产税。<br>房产税一定会带来房价的大幅下跌，特别是多套房的税负加重会导致连锁效应。杠杆从政府-企业转移到民间个人是非常正确与重要的，因为最后剥削的肯定是中产。<br>汇率崩盘带来的是整个国家竞争力的大幅下降和境外投资的贬值。我想没有哪一个政府希望看到并促成这个结局吧？<br>当年超发的钱是从信贷而来，也从信贷而归。希望汇率贬值带来巨额通胀消解，实在是太痴人说梦了。</p><h3 id="中国7月金融数据全面滑坡-M1-M2剪刀差创历史新高"><a href="#中国7月金融数据全面滑坡-M1-M2剪刀差创历史新高" class="headerlink" title="中国7月金融数据全面滑坡 M1-M2剪刀差创历史新高"></a><strong>中国7月金融数据全面滑坡 M1-M2剪刀差创历史新高</strong></h3><blockquote><p>7月，中国新增信贷、社融、M2全面不及预期。</p></blockquote><blockquote><p>根据央行数据，7月新增人民币贷款4636亿元，预期8500亿元；社融规模4879亿元，预期1万亿元；M2增10.2%，预期11.0%。</p></blockquote><blockquote><p>二、当月人民币贷款增加<strong>4636亿元</strong>，外币贷款减少52亿美元</p></blockquote><blockquote><p>7月末，本外币贷款余额107.14万亿元，同比增长11.6%。月末人民币贷款余额101.95万亿元，同比增长12.9%，增速分别比上月末和去年同期低1.4个和2.6个百分点。当月人民币贷款增加4636亿元，同比少增1.01万亿元。分部门看，<strong>住户部门贷款增加4575亿元</strong>，其中，短期贷款减少197亿元，<strong>中长期贷款增加4773亿元</strong>；非金融企业及机关团体贷款减少26亿元，其中，短期贷款减少2011亿元，中长期贷款增加1514亿元，票据融资增加276亿元;非银行业金融机构贷款增加55亿元。月末外币贷款余额7799亿美元，同比下降16.8%，当月外币贷款减少52亿美元。<br><img src="https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/qq-20160812161505.png!article.foil.png" alt="qq-20160812161505.png!article.foi"><br><img src="https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/qq-20160812163636.png!article.foil.png" alt="qq-20160812163636.png!article.foi"></p></blockquote><p>投资的全面下降，仅有房地产(住民中长期投资)猛增，说明房地产去库存转移杠杆成效明显，但民间实体投资实在是一滩死水，何来GDP保持增长？</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;令人绝望的24&quot;&gt;&lt;a href=&quot;#令人绝望的24&quot; class=&quot;headerlink&quot; title=&quot;令人绝望的24%&quot;&gt;&lt;/a&gt;&lt;strong&gt;令人绝望的24%&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://blog.sina.com.c
+      
+    
+    </summary>
+    
+      <category term="daydream" scheme="http://mystryl.com/categories/daydream/"/>
+    
+    
+      <category term="thoughts" scheme="http://mystryl.com/tags/thoughts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>恒力2016轮检</title>
+    <link href="http://mystryl.com/2016/08/hengli-2016-09-cutoff/"/>
+    <id>http://mystryl.com/2016/08/hengli-2016-09-cutoff/</id>
+    <published>2016-08-11T06:12:18.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="恒力2016年轮检来了"><a href="#恒力2016年轮检来了" class="headerlink" title="恒力2016年轮检来了"></a>恒力2016年轮检来了</h1><blockquote><p>PTA供应商恒力大化因生产线计划检修，10-11月合同量减20%供应。</p></blockquote><p>220万吨x3套装置，2016年轮检来了。市场测算影响每月8万吨供给，合计24万吨。<br>倒退恒力每月合约总量40万吨，年总量480万吨，小于设计产量，毕竟有外销和停车降负荷么，这个数字说合理也合理。<br>220/12=18万吨，真实的一套装置月产量是这个数字，有效轮检三个月，实际去年每套装置在20-25天检修完毕，测算实际每月短缺供给在15万吨左右。<br>影响供给和实际短缺供给差在7万吨/月，两个口径一个是10-11月，一个是9-11月。合计14-21万吨。这个量至少有一半在前期恒力注销仓单和购买TA609合约的操作上提前有了反应。或者说，这一点并没有藏着掖着，大家都知道了。</p><p>另一方面，宇宙4540-4600每个点位都是1-2万吨的供给量，当然他每月这么大的合约量也是正常的，更反应宇宙和恒力应该不会同期检修，预计宇宙检修时点在10-11月偏后。或者今年可能就不检修了？</p><p><strong>说起来，无论是今年的合约，还是7月份的海蜇事件，还是9月轮检的消息，恒力今年的表现都无比靠谱，这还是恒力么？也许和CEO变故、ST橡塑维持股价需要有业绩相关？诚信和实际的稳定盈利更重要了。</strong></p><h1 id="UPDATE"><a href="#UPDATE" class="headerlink" title="UPDATE:"></a><strong>UPDATE:</strong></h1><blockquote><p>恒力石化计划于9月上半月、10月中上旬分别检修其1#、2#线，届时合约客户合约量适度缩减，另外3#线可能推迟至明年上半年检修。</p></blockquote><p>恒力3线推迟啦。传说中的逸盛逼多恒力逼空(又)要和平收场？</p><p>宇宙现在每天2-3万吨基本把日产能全丢出来砸了，恒力减得量人家一周给你补上，这酸爽。<br>就算恒力9月接走30万仓单供合约，市场也没有出现缺货。反而套保贸易商的流动库存很多。</p><p>TA701天量增仓/持仓，我是不觉得国贸能有那么大体量套保，肯定有单边。但人家绝对不会做裸空。1:3的套保量到时候也砸死市场了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;恒力2016年轮检来了&quot;&gt;&lt;a href=&quot;#恒力2016年轮检来了&quot; class=&quot;headerlink&quot; title=&quot;恒力2016年轮检来了&quot;&gt;&lt;/a&gt;恒力2016年轮检来了&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;PTA供应商恒力大化因生产线计划检修，10
+      
+    
+    </summary>
+    
+      <category term="PTA" scheme="http://mystryl.com/categories/PTA/"/>
+    
+    
+      <category term="PTA" scheme="http://mystryl.com/tags/PTA/"/>
+    
+      <category term="analyst" scheme="http://mystryl.com/tags/analyst/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>随想</title>
+    <link href="http://mystryl.com/2016/08/thoughts_in%20summer/"/>
+    <id>http://mystryl.com/2016/08/thoughts_in summer/</id>
+    <published>2016-08-11T02:40:55.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>起源于V2ex这个帖子(<a href="https://www.v2ex.com/t/298063#reply8" target="_blank" rel="noopener">生活并不是「如果 A 就会 B」</a>)<br>随便想了想，生活根本不是线性的，也不是因果报应。</p><p>高中毕业的时候，几乎 1/3 的同学出国了，这一批人都是非常的优秀我也很羡慕…<br>但是当时选择与家境的考虑，并没有选择出国，这也成了一个心病。</p><p>大学毕业的时候， 1/5 的同学出国了，不乏很多好朋友，各种机缘，我选择了工作。<br>5 年后的今天，读博 /phd 的朋友也都工作了， Top 的高攀不上，一般的回国开始了苦逼的工作之旅。<br>最好的朋友之一又换了个男友 /国家，开始读第三个 master ，刚刚看见她去孟加拉参加朋友的婚礼。<br>另一个舍友早上来让我帮忙找行业数据写行研报告，我给忘了赶紧弄好。 </p><p>刚毕业的时候月薪 1400 无奖金。<br>现在在所在二线城市看不靠谱的朋友圈说年薪赶上 top 10%，可为啥我还这么累啊。 </p><p>希望房价快点跌跌，换个有车位的房子。</p><p>在哪里都是生活，都是安定，有后悔，选了就不要后悔。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;起源于V2ex这个帖子(&lt;a href=&quot;https://www.v2ex.com/t/298063#reply8&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;生活并不是「如果 A 就会 B」&lt;/a&gt;)&lt;br&gt;随便想了想，生活根本不是线性的，也不是因果报
+      
+    
+    </summary>
+    
+      <category term="daydream" scheme="http://mystryl.com/categories/daydream/"/>
+    
+    
+      <category term="thoughts" scheme="http://mystryl.com/tags/thoughts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>异域设定引子</title>
+    <link href="http://mystryl.com/2016/06/Planescape/"/>
+    <id>http://mystryl.com/2016/06/Planescape/</id>
+    <published>2016-06-19T23:06:56.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>一杯下午茶，一支轻快的短歌，便是一个相当愉快的午后。</p><p>当然，在印记城自然不会有这样惬意的午后光景，更不能与狂欢城一晚迷乱癫狂的夜生活后在暖意融融的午间时光渐渐醒来的那种舒适相比。但是，在印记城中弥漫的“那种”氛围中，你在何时何地都不会获得，哪怕是最基本的惬意体验。</p><p>当你闭上眼，这种所谓的印记城的氛围便在一切的感官中包围你。对，彻底的把你淹没。各色人等穿过街道的喧闹与呱噪；挣扎在死亡之书扉页上的乞讨者与流浪汉；身边突然走过一个咯吱作响的腐尸时散发出的无味的压抑与没落感（嗯，准确地说混杂了浓度23.9%的福尔马林）；在深巷的阴影中弥漫开的邪恶与阴谋味道；自然还有达布斯无时无刻地叮当作响的敲打。这一切，这种干燥到龟裂的空气，与湿冷到滑腻的积水中挣扎的惨白生活，从每一个毛孔渗入你的体内，试想在这样的打着印记城烙印，别名“绝望的三重”的氛围中，如何才会有惬意的生活？如何才会有安适的下午茶？</p><p>也许你在任何一个主物质位面中任意的商业城邦，都很容易能找到这样的气氛，这样干巴巴、苦涩得难以下咽的午后感觉。但对于一个纯粹的感觉者，没错，就是我这样一个在感觉者职业工会中登记注册的感觉者会员来说，真正的感觉上的差异，才是无比明晰的一切根源。这种彻底的印记城气氛是不可能复制的。在无极尖峰顶上漂浮的外层位面的中心，这万门之城，这绝对中立的囚笼，在这充满着女士“凡事不问”的深奥哲学信仰的街道与居所间，一切的存在基础就构筑在它最为明晰的感觉上。</p><p><img src="https://mys-1258411278.cos.ap-shanghai.myqcloud.com/images/maxresdefault.jpg" alt="maxresdefault"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;一杯下午茶，一支轻快的短歌，便是一个相当愉快的午后。&lt;/p&gt;
+&lt;p&gt;当然，在印记城自然不会有这样惬意的午后光景，更不能与狂欢城一晚迷乱癫狂的夜生活后在暖意融融的午间时光渐渐醒来的那种舒适相比。但是，在印记城中弥漫的“那种”氛围中，你在何时何地都不会获得，哪怕是最基本的惬意体
+      
+    
+    </summary>
+    
+      <category term="idea" scheme="http://mystryl.com/categories/idea/"/>
+    
+    
+      <category term="fantasy" scheme="http://mystryl.com/tags/fantasy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为什么我看好 Pay + 银联</title>
+    <link href="http://mystryl.com/2016/02/applepay/"/>
+    <id>http://mystryl.com/2016/02/applepay/</id>
+    <published>2016-02-19T23:06:56.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="-Pay-实际上就是一张安全的闪付信用卡"><a href="#-Pay-实际上就是一张安全的闪付信用卡" class="headerlink" title=" Pay 实际上就是一张安全的闪付信用卡"></a> Pay 实际上就是一张安全的闪付信用卡</h3><ul><li>银联闪付推广不成功的原因就是他自己作死。早起圈存，后期推广几乎跟没有一样。国内的闪付paypass在国外叫pay wave，使用起来和普通刷卡方便程度差不多，只要线下能pay pass理论上都能使用 Pay。</li><li>需要推广的前提是没渠道没人用，这点目前看 Pay不存在这个问题，首日3800万绑卡量，以及后续已经有苗头的银行推广和用户热情，特别是各类自媒体的曝光，这点渠道上已经完胜银联闪付，基本和支付宝扫码，微信线下支付早期推广做到平起平坐。而且，支付宝与微信是<strong>贴钱</strong>的，现在也在<strong>贴钱</strong>。</li><li> Pay添加的是你的信用卡/借记卡的虚拟卡，虽然不像美国自建支付系统那样每次卡号都不一样，但相比单刷信用卡还是安全了很多。线下过程不会暴露你的有效期和CVV，商户也不能直接看到你的卡号。即使泄露了被盗刷，删掉这张虚拟卡就可以隔开主卡和 Pay，理论上不需要重新办卡。</li><li>线下的闪付Pos是现成的，近两年新换的Pos都带闪付，老商户没有，如果推广得力也会考虑用户去更换。</li></ul><h3 id="说的很好，但为啥我不继续用支付宝扫码和微信线下支付？"><a href="#说的很好，但为啥我不继续用支付宝扫码和微信线下支付？" class="headerlink" title="说的很好，但为啥我不继续用支付宝扫码和微信线下支付？"></a>说的很好，但为啥我不继续用支付宝扫码和微信线下支付？</h3><ul><li> Pay是线下的，不需要联网。你有几次支付宝支付或者微信支付转菊花半天收不到反馈信息？</li><li> Pay是等同刷卡，有真实商户信息与积分的。这点至少能值0.5%的返利，配合信用卡积分玩得high的人很喜欢。更别提发卡银行也会更喜欢，哪家银行看见一堆支付宝快捷支付都回头大。。</li><li>支付宝微信不用3D Touch入口付款，就肯定要看个2-3秒的splash，再进入界面找到付款入口，扫码或者扫一扫付款。和你打开背包拿出钱包从10张卡中选出付款卡几乎一样麻烦。 Pay只需要你按住Home键把手机靠近pos。即使现在需要输入密码签个字，体验也好很多。</li></ul><h3 id="可是支付宝微信有优惠啊，银联那么传统怎么来？"><a href="#可是支付宝微信有优惠啊，银联那么传统怎么来？" class="headerlink" title="可是支付宝微信有优惠啊，银联那么传统怎么来？"></a>可是支付宝微信有优惠啊，银联那么传统怎么来？</h3><ul><li>烧钱推广大家都看见过，首当其冲是打车app，其次外卖app，能坚持返利1年的有几家？你以为天天可以支付宝8折，微信20-5么？现在商户力度大概都是9-95折，这个折扣目前是可以延续的。</li><li>发卡行赚大头，收单行赚资金利息，银联赚成本这是pos消费的基本。支付宝和微信建线下渠道的目的就是沉淀资金在自己的系统里，这也是9-95折能目前持续的根本，但不会长久，因为这比普遍0.78，最高1.25的银联POS手续费还要高很多。不是支付宝微信懂互联网优惠就一定会做，建完渠道就会撤的。</li><li>银联并不传统，特别是近两年。银联日各种62折，满100-62推广很多，各银行还配合银联渠道有不同优惠，财大气粗的表现就是这类优惠基本都是8折起步。虽然早期风控做的不好被撸很多。银联已经不是那个传统的要命的银行间体系，作为一家很重的老牌支付企业，他也在拥抱变化。顺便Apple不是非要和银联合作的，他和单独银行分别谈合作就是作死，等于再铺一次线下pos；自建银行资产太重、用户信任是大问题。其他的方式根本没人敢用。</li></ul><h3 id="最后，-Pay的盈利与能否改变支付方式等几个小问题"><a href="#最后，-Pay的盈利与能否改变支付方式等几个小问题" class="headerlink" title="最后， Pay的盈利与能否改变支付方式等几个小问题"></a>最后， Pay的盈利与能否改变支付方式等几个小问题</h3><ul><li> Pay是肯定盈利的，Apple要求的不会多，跟发卡行分一点手续费就行，累计体量也很大。</li><li>手续费大头不是买早中饭超市或者便利店，而是酒店、娱乐、商场这样高单笔高手续费的商户，没人会拿微信扫一扫结房费、买手表吧？</li><li>支付方式的改变才是最关键的。我觉得量个手机给商户很慢、很傻、很不安全。也许别人觉得优惠多，容易学。这点要看三方今后的合力。顺便不会出现支付宝和微信联合抵制 Pay的情况，毕竟他们也靠银联通道走快捷支付。</li><li>Android用户，其实早就有闪付，NFC支付，银联翼支付等等各种类似渠道，推广不给力体验不安全才是重点。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;-Pay-实际上就是一张安全的闪付信用卡&quot;&gt;&lt;a href=&quot;#-Pay-实际上就是一张安全的闪付信用卡&quot; class=&quot;headerlink&quot; title=&quot; Pay 实际上就是一张安全的闪付信用卡&quot;&gt;&lt;/a&gt; Pay 实际上就是一张安全的闪付信用卡&lt;/
+      
+    
+    </summary>
+    
+      <category term="Geek" scheme="http://mystryl.com/categories/Geek/"/>
+    
+    
+      <category term="apple" scheme="http://mystryl.com/tags/apple/"/>
+    
+      <category term="apple pay" scheme="http://mystryl.com/tags/apple-pay/"/>
+    
+      <category term="unipay" scheme="http://mystryl.com/tags/unipay/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2016 PTA 郑商所江苏线调研报告</title>
+    <link href="http://mystryl.com/2016/01/2016-01-PTA/"/>
+    <id>http://mystryl.com/2016/01/2016-01-PTA/</id>
+    <published>2016-01-20T23:06:56.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="恒力集团"><a href="#恒力集团" class="headerlink" title="恒力集团"></a>恒力集团</h2><ul><li>恒力在大连拥有全球规模最大的PTA生产基地，3条线共660万吨。恒力石化在大连投资2000万吨的炼化一体化项目，配套PX产能大约200～300万吨，项目环评已通过，推迟到2018年全面投产，原油国产和进口都会使用，自主进口权看国家开放政策，问题不大。</li><li>恒力化纤聚酯产能260万吨，主营差别化工业丝，强调由于品质较高保持利润不错，产品库存基本不积压，春节随市场小幅降负荷。目前不考虑使用煤制乙二醇。下游产能配套织造，没有印染。</li><li>PTA方面在建4号线220万吨，预计总产能将在1000万吨。2016年整体PTA供应偏紧，继续淘汰旧产能，由于进口量锁紧打折，部分国外装置推出，对2016年PTA供需判断还是很乐观的。</li><li>PTA合约已经全部销售，没有供应华南合约。比市场平均给出的折扣低30-40块/吨，供应高端客户需求。（这条明显存疑）</li><li>2015年市场平均加工费450-550，预计2016年维持这样的加工费，且恒力可以生存。加工费500的条件恒力可以开满全部产能，市场平均600以下加工费就会挤压旧装置的生存。PTA供应紧平衡条件下加工费理应提高。</li><li>2016年开拓新市场主攻出口韩国，充分利用无关税政策与韩国PTA装置的关停。</li><li>PX供应主要依旧是合约定价，点价不多不能影响最终价格，远期成本不能锁定所以不考虑买PX卖PTA期货套。（这条存疑）</li><li>预计2016年之后国内PX进口依存度下降到40%，有利于PTA厂商议价能力提高。</li><li>今年PTA装置检修依旧维持在8月份之后到入冬之前完成。</li></ul><p>恒力李总的总体看法偏乐观，预计PTA在2016继续维持供应紧平衡但仍能去库存。对期货套保与单边操作比较避讳没有明显谈及。自称PTA全部合约销售签满9成以上，保持高开工维持合约供应，也有一定存疑。</p><h2 id="盛虹化纤"><a href="#盛虹化纤" class="headerlink" title="盛虹化纤"></a>盛虹化纤</h2><ul><li>盛虹目前有178万吨聚酯产能，其中DTY占60%，25万吨新装置在建，产品灵活调整供应市场需求为主。上下游配套方面有虹港石化150万吨PTA装置目前满负荷运行，但账面加工费亏损。主要供自营使用。新上MTO甲醇制烯烃装置主要供应精细、生物化工，无聚合装置。</li><li>目前聚酯产品库存不高10天附近，但全年聚酯盈利情况不好，预计2015年平均每吨聚酯盈利在100-150左右。对这次聚酯联合春节减产后下游的平淡反应感到惊讶。这次减产如果落实是聚酯最大一次联合减产，但除了早期一段刚需备货FDY POY之后，目前仅仅POY下游客户明显备货较充足，DTY客户观望情绪浓厚，并不急于备货。</li><li>分析原因是由于原油持续走低，下游客户基本以销定产，对后市偏观望情绪，担忧继续走低，无备货积极性。聚酯工厂目前产品库存尚可，减产呼声雷声大雨点小都还在尽量生产。一旦减产期25天过后下游仍未启动备货，或节中原油下跌或无明显反弹，下游观望情绪加浓，下游需求起不来，聚酯社会产品库存将达到巨量历史高位，届时将不得不延长降负减产时间，加大减产力度。盛虹目前开工负荷在85-90%，计划1月20日开始检修一条25万吨，之后再检修一条25万吨，之后两条小线加起来10万吨。预计2月份开工负荷下降到70%。</li><li>PTA方面虹港石化亏损较大，平均450的加工费行业都难以为继。所谓大厂300-350加工费可以生存，都是只计算了边际成本而没有考虑设备折旧，财务成本等完全成本。完全成本空间在900-1000。2008年之前的装置会在接下来完全被淘汰。盛虹自己有参与买PX-卖05的套保，最高780的加工费利润可观，即使700也很丰厚。</li><li>对于PTA实际产能与需求的估计没法做到很精确，由于装置存着名义产能与实际产能之间可能有着80%-120%开工负荷不同的差异。2015年末逸盛的逼仓失败就是由于对产能极限预计不足，4720收现货三周以上依旧源源不断，之后迅速转向。</li><li>对2016年预期还是很乐观的。需求端去产能速度较快，下游喷水织机和老旧小圆机淘汰迅速，吴江圆机家庭作坊生产大面积淘汰，新增产能都是大圆机有一定规模。下游应收账款依旧是老大难为题，但基本以销定产没有备货，普遍压力不大。由于三季度苏州G20峰会影响，届时下游会有大面积停工，预计会将三季度订单提前到一二季度，预计下游需求高峰出现在二季度。预计4 5 6月聚酯综合开工由于旺季预期将达到83%以上。</li></ul><h2 id="三房巷集团"><a href="#三房巷集团" class="headerlink" title="三房巷集团"></a>三房巷集团</h2><ul><li>目前聚酯产能300万吨，其中瓶片150万吨，短纤80万吨，长丝40万吨，薄膜20万吨。今年还有50万吨瓶片，之后无扩产计划。瓶片竞争太激烈行业普遍利润不高，对明年瓶片市场预期非常不乐观，看好短纤、薄膜。目前开工率6-7成。2015年年产量160万吨，出口占比45%，约66万吨。出口利润较好，但遇到美国反倾销。</li><li>三房巷PTA产能240万吨，其中60万吨停车半年目前没有复工，另一条120万吨11月例行大检修。目前开工75%。加工费计算成本500附近。</li><li>自有PX，乙二醇储罐，基本不考虑使用煤制乙二醇生产。部分自用、采购PTA货源由于聚酯停工等影响会卖出到市场上。目前MEG在港口有2万吨库存，工厂库存在安全范围内。煤制MEG在短纤和长丝都有使用，但也比较谨慎，以质量考虑为先，用量较少。煤制MEG的优等品的比例还有待进一步提高，目前效益也比较一般。</li></ul><h2 id="华西村化纤"><a href="#华西村化纤" class="headerlink" title="华西村化纤"></a>华西村化纤</h2><ul><li>华西化纤厂是以生产短纤为主的聚酯工厂，加少量差别化短纤。产能约30万吨（6+25）。6万吨差别化短纤1月20日附近已经停产。25万吨在25日后全部停掉，检修到2月15日。</li><li>华西化纤基本从华西股份中剔除置换，目前更名宝昌化纤。2015年总体利润好于2014年。</li><li>目前产品库存半个月。由于差别化装置提前停车，目前PTA库存稍高15天左右。PTA合约没有签，不接受逸盛新合约，希望用汉邦新装置合约。PTA销售进入区域化模式。PTA采购量2万吨/月。</li></ul><h2 id="华宏化纤"><a href="#华宏化纤" class="headerlink" title="华宏化纤"></a>华宏化纤</h2><ul><li>华宏化纤是一家以涤纶短纤为主要产品的聚酯工厂，产能约60万吨。其产品约三分之一出口，三分之二内销。目前聚酯行业开工约67%～70%，公司开工负荷80%，库存15天左右。企业所用PTA全部是外采，一半现货一半长协货。</li><li>现金流加工成本在800附近，其它公司的差别可能也上下100以内。折旧利息都算上，1200左右。15年产量在50万吨，比14年增加3万吨，出口量约在1/4。15年华宏基本微利，比14年效益已经好转</li><li>短线装置12万吨会在春节停一个月左右，目前产品库存十几天。</li></ul><h2 id="江阴汉邦石化"><a href="#江阴汉邦石化" class="headerlink" title="江阴汉邦石化"></a>江阴汉邦石化</h2><ul><li>公司目前有PTA产能60万吨，瓶片产能25万吨。未来计划在石化产业做到1000亿规模，从上游石脑油制芳烃-PX-PTA-终端瓶片。</li><li>220万吨新装置建设完毕，目前在准备后道精制过程试车（最新消息1月22日已经试车成功）新装置预计春节前开车试运行，3月份正式投产运行。配套PX约1月底到货。目前合约销售过半，基本都是与江阴企业签订的意向性合约。</li><li>在建瓶片产能120万吨，年底一套60万吨上线，预计2017年底另一套60万吨。</li><li>老装置2011年投产，加工费在700左右保现金流，新装置加工费没有透露，才用与珠海BP一样的新技术预计加工费400左右。公司参与PTA期货投机与PX-PTA加工费套保。</li><li>澄星集团下属仓储公司有PX储罐4个，共20万立方，未来还将建设一个5万立方的储罐，以满足未来二期项目投产后原料使用。</li></ul><h3 id="观点"><a href="#观点" class="headerlink" title="观点"></a>观点</h3><ul><li>逸盛新合约模式转移PX成本的方式基本不被聚酯工厂接受，首年优惠尚可但转移了上游成本风险，且锁定三年合约模式对聚酯工厂未来竞争不利。江阴工厂普遍考虑汉邦新220万吨装置投产后签合约，有明显运费优势。槽罐运输与地理优势明显。逸盛合约销售进度非常差，恒力合约基本签满。所以逸盛大量远期货抛到了市场上与期货上。</li><li>PTA工厂普遍450附近加工费是不考虑财务成本与折旧，是不可持续的，只能靠不断扩产来维持现金流。新装置规模化效应明显，恒力新装置成本是第一套的30%。但目前700的加工费普遍都能接受且生存较好。</li><li>瓶片竞争激烈，出口利润偏好但遇到美国反倾销。聚酯长丝利润尚可，差别化优势明显。短纤目前利润较好，差别化品种产能不足产品紧俏。终端需求仍然不佳，库存较高，回款较慢，影响下游在春节前后的备货行动</li><li>翔鹭装置虽有中石化接手，但由于缺少PX项目供电，外采氢气供应也难以保障，短期开车希望渺茫。意外停车导致的装置检修成本也非常可观。当初装置设计也有一定不合理，理性考虑中石化重建新装置可能较大。</li><li>聚酯检修700万吨实际涉及产能远远不足，时间也就15-25天，生存困难导致资金不足。检修不会很长。但下游心态观望备货不积极，节后销售起不来聚酯产品库存会大幅增加。</li><li>恒力产能格局走的是聚酯-PTA-炼化一体逐步扩张，且都是相对小规模下游支撑大规模上游。规划很好但现金流压力很大，特别是由于原油原料下跌，投产后现金流比预期现金流少了10%-15%。融资成本与财务压力是比较大的，可能会成为盲目扩张的典型。但资产是优质的。</li><li>汉邦装置对整体PTA产能影响有限，市场基本已经反应了预期220万吨正常开工后的影响，但如果汉邦开工失败会有较大影响，偏多TA1605.</li><li>TA1605预期交割量会大，大概在50万吨-70万吨左右，不会大于TA1505，如果资金多头接盘则对TA1609会产生明显压力，能有效消化配合三季度PTA装置检修则可以有效消化掉。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;恒力集团&quot;&gt;&lt;a href=&quot;#恒力集团&quot; class=&quot;headerlink&quot; title=&quot;恒力集团&quot;&gt;&lt;/a&gt;恒力集团&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;恒力在大连拥有全球规模最大的PTA生产基地，3条线共660万吨。恒力石化在大连投资2000万吨的炼化一体化项目，
+      
+    
+    </summary>
+    
+      <category term="PTA" scheme="http://mystryl.com/categories/PTA/"/>
+    
+    
+      <category term="PTA" scheme="http://mystryl.com/tags/PTA/"/>
+    
+      <category term="analyst" scheme="http://mystryl.com/tags/analyst/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>不带你这么玩的把我钱还给我</title>
+    <link href="http://mystryl.com/2015/10/2015-10-27/"/>
+    <id>http://mystryl.com/2015/10/2015-10-27/</id>
+    <published>2015-10-27T00:00:00.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>双破位，1601破4600就是加速，1605弱支撑，基本确定加速。1601想逼仓很难了。</li><li>我真心不知道逸盛在想什么，4700以上不限量收货，之后不检修了。5天影响产能6万吨，收货都8万多吨了。结算价顶上去有很大的意义么？还是说这个月合约结算的很多。</li><li>总之多头人心散了，市场就是证明。永安这把要怎么出来。。。拭目以待。<br><img src="https://ooo.0o0.ooo/2015/10/26/562ee0476063c.jpg" alt="}EHFTFV)RRAT%YO05B]LPU1.jpg" title="}EHFTFV)RRAT%YO05B]LPU1.jpg"></li></ul><p><img src="https://ooo.0o0.ooo/2015/10/26/562ee047583d6.png" alt="屏幕快照 2015-10-27 10.22.17.png" title="屏幕快照 2015-10-27 10.22.17.png"></p><p><img src="https://ooo.0o0.ooo/2015/10/26/562ee047631f2.png" alt="屏幕快照 2015-10-27 10.22.33.png" title="屏幕快照 2015-10-27 10.22.33.png"><br>黄金分割的压力阻力还是很有用的，上行通道全破，1605下跌破位，1601阻力还是有点大的。可惜仓位没好机会加多点哦。。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;双破位，1601破4600就是加速，1605弱支撑，基本确定加速。1601想逼仓很难了。&lt;/li&gt;
+&lt;li&gt;我真心不知道逸盛在想什么，4700以上不限量收货，之后不检修了。5天影响产能6万吨，收货都8万多吨了。结算价顶上去有很大的意义么？还是说这个月合约结算的很
+      
+    
+    </summary>
+    
+      <category term="PTA" scheme="http://mystryl.com/categories/PTA/"/>
+    
+    
+      <category term="PTA" scheme="http://mystryl.com/tags/PTA/"/>
+    
+      <category term="analyst" scheme="http://mystryl.com/tags/analyst/"/>
+    
+  </entry>
+  
+</feed>

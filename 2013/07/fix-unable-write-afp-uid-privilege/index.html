@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+
+  <html class="light page-post">
+
+
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+  <title>解决Mac下访问AFP磁盘无法写入，与UID权限问题 | Mystryl</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+    <meta name="keywords" content="mystryl">
+  
+
+  <meta name="description" content="看似标题很Geek！很牛逼！！其实我又2B了。。 解决Mac下访问AFP磁盘无法写入我两台Mac，MBA是从Mini上数据迁移直接产生的。互相访问AFP磁盘的时候，链接权限都是全给，但依旧只能读取，无法写入。具体症状是，写入先要鉴权，然后提示无法写入，因为有重名文件在。同时目标盘生成0字节同名文件。 憋了我一年终于准备干掉这个Bug。中文搜索……果断无结果。英文搜索。 seeto https://">
+<meta property="og:type" content="article">
+<meta property="og:title" content="解决Mac下访问AFP磁盘无法写入，与UID权限问题">
+<meta property="og:url" content="http://mystryl.com/2013/07/fix-unable-write-afp-uid-privilege/index.html">
+<meta property="og:site_name" content="Mystryl">
+<meta property="og:description" content="看似标题很Geek！很牛逼！！其实我又2B了。。 解决Mac下访问AFP磁盘无法写入我两台Mac，MBA是从Mini上数据迁移直接产生的。互相访问AFP磁盘的时候，链接权限都是全给，但依旧只能读取，无法写入。具体症状是，写入先要鉴权，然后提示无法写入，因为有重名文件在。同时目标盘生成0字节同名文件。 憋了我一年终于准备干掉这个Bug。中文搜索……果断无结果。英文搜索。 seeto https://">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-01-16T10:28:20.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="解决Mac下访问AFP磁盘无法写入，与UID权限问题">
+<meta name="twitter:description" content="看似标题很Geek！很牛逼！！其实我又2B了。。 解决Mac下访问AFP磁盘无法写入我两台Mac，MBA是从Mini上数据迁移直接产生的。互相访问AFP磁盘的时候，链接权限都是全给，但依旧只能读取，无法写入。具体症状是，写入先要鉴权，然后提示无法写入，因为有重名文件在。同时目标盘生成0字节同名文件。 憋了我一年终于准备干掉这个Bug。中文搜索……果断无结果。英文搜索。 seeto https://">
+
+  
+
+  
+    <link rel="icon" href="/favicon.ico">
+  
+
+  <link href="/css/styles.css?v=eaf5ab1e" rel="stylesheet">
+
+
+  
+    <link rel="stylesheet" href="/css/personal-style.css">
+  
+
+  
+
+  
+
+</head>
+</html>
+<body>
+
+
+  
+    <span id="toolbox-mobile" class="toolbox-mobile">盒子</span>
+  
+
+  <div class="post-header CENTER">
+   
+  <div class="toolbox">
+    <a class="toolbox-entry" href="/">
+      <span class="toolbox-entry-text">盒子</span>
+      <i class="icon-angle-down"></i>
+      <i class="icon-home"></i>
+    </a>
+    <ul class="list-toolbox">
+      
+        <li class="item-toolbox">
+          <a class="CIRCLE" href="/archives/" target="_self">
+            博客
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a class="CIRCLE" href="/category/" target="_self">
+            分类
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a class="CIRCLE" href="/tag/" target="_self">
+            标签
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a class="CIRCLE" href="/link/" target="_self">
+            友链
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a class="CIRCLE" href="/about/" target="_self">
+            关于
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a class="CIRCLE" href="/atom.xml" target="_blank">
+            RSS
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a class="CIRCLE" href="/search/" target="_self">
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+</div>
+
+
+  <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#解决Mac下访问AFP磁盘无法写入"><span class="toc-text">解决Mac下访问AFP磁盘无法写入</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#修改UID"><span class="toc-text">修改UID</span></a></li></ol>
+  </div>
+
+
+
+<div class="content content-post CENTER">
+   <article id="post-fix-unable-write-afp-uid-privilege" class="article article-type-post" itemprop="blogPost">
+  <header class="article-header">
+    <h1 class="post-title">解决Mac下访问AFP磁盘无法写入，与UID权限问题</h1>
+
+    <div class="article-meta">
+      <span>
+        <i class="icon-calendar"></i>
+        <span>2013.07.28</span>
+      </span>
+
+      
+        <span class="article-author">
+          <i class="icon-user"></i>
+          <span>Mystryl</span>
+        </span>
+      
+
+      
+  <span class="article-category">
+    <i class="icon-list"></i>
+    <a class="article-category-link" href="/categories/Geek/">Geek</a>
+  </span>
+
+
+
+      
+        <span>
+          <i class="icon-comment"></i>
+          <a href="http://mystryl.com/2013/07/fix-unable-write-afp-uid-privilege/#disqus_thread"></a>
+        </span>
+      
+
+    </div>
+  </header>
+
+  <div class="article-content">
+    
+      <p>看似标题很Geek！很牛逼！！其实我又2B了。。</p>
+<h3 id="解决Mac下访问AFP磁盘无法写入"><a href="#解决Mac下访问AFP磁盘无法写入" class="headerlink" title="解决Mac下访问AFP磁盘无法写入"></a>解决Mac下访问AFP磁盘无法写入</h3><p>我两台Mac，MBA是从Mini上数据迁移直接产生的。互相访问AFP磁盘的时候，链接权限都是全给，但依旧只能读取，无法写入。具体症状是，写入先要鉴权，然后提示无法写入，因为有重名文件在。同时目标盘生成0字节同名文件。</p>
+<p>憋了我一年终于准备干掉这个Bug。中文搜索……果断无结果。英文搜索。</p>
+<p>seeto <a href="https://discussions.apple.com/thread/1398462?start=0&amp;tstart=0" target="_blank" rel="noopener">https://discussions.apple.com/thread/1398462?start=0&amp;tstart=0</a> </p>
+<p>像这个Discussion里描述的一样。原因是两个同名账户的UID不一致。</p>
+<blockquote>
+<p>Every user has a UID number. Even though the username and login is the same you might have a different UID number. The UID number has to be the same if you need to copy to another computer with the same user. Eg user xxx with UID 501 can not copy to another mac with same user xxx with UID 502.</p>
+</blockquote>
+<p>最简单的方法就是换个账户，但我懒… 就想用同账户。于是我按照那个Discussion里面的做法，进/System/Library/PreferencePanes/Accounts.prefPane 把我用户名的UID改成了501. 无效，看都没看清就重启了。</p>
+<p>然后我的数据都没权限访问了。。。系统干净的跟纸一样…………啊啊啊啊！！！</p>
+<p>特码的那个Discussion里居然还有人也照做了遇到了同样的问题。尝试了他的“解决方法”，无效。。。</p>
+<p>默默的拔出Time Machine……</p>
+<p>于是问题找到了，是UID不一致导致不能写入AFP同ID账户。那怎么修改UID？</p>
+<h3 id="修改UID"><a href="#修改UID" class="headerlink" title="修改UID"></a>修改UID</h3><p>see to <a href="http://www.inteller.net/notes/change-user-id-on-snow-leopard" target="_blank" rel="noopener">http://www.inteller.net/notes/change-user-id-on-snow-leopard</a></p>
+<p>以上的教程很详细，看那个就好了。关键点是：</p>
+<ol>
+<li>用另外一个管理员账户，而不是要修改UID的账户登陆。我用了root.</li>
+<li>sudo之，先修改UID，再修改全部文件的权限。只有一个账户要用的省事做法就是，改全盘 “/”</li>
+<li>修改后要验证全部文件是不是已经被修改权限，否则登入还是不能读取。</li>
+<li>部分文件名有关的UID修改要手动重命名。也可以用sudo find来定位/筛查有没有遗漏的文件名没修改。</li>
+<li>最后重启后记得做权限修复。</li>
+</ol>
+<p>Fin.</p>
+<p>今日警句: 中文搜不到的东西不代表问题不存在。看教程要看完。。</p>
+
+    
+  </div>
+</article>
+
+</div>
+
+
+  <a id="backTop" class="back-top">
+    <i class="icon-angle-up"></i>
+  </a>
+
+
+
+
+  <div class="modal" id="modal">
+  <span id="cover" class="cover hide"></span>
+  <div id="modal-dialog" class="modal-dialog hide-dialog">
+    <div class="modal-header">
+      <span id="close" class="btn-close">关闭</span>
+    </div>
+    <hr>
+    <div class="modal-body">
+      <ul class="list-toolbox">
+        
+          <li class="item-toolbox">
+            <a class="CIRCLE" href="/archives/" target="_self">
+              博客
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a class="CIRCLE" href="/category/" target="_self">
+              分类
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a class="CIRCLE" href="/tag/" target="_self">
+              标签
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a class="CIRCLE" href="/link/" target="_self">
+              友链
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a class="CIRCLE" href="/about/" target="_self">
+              关于
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a class="CIRCLE" href="/atom.xml" target="_blank">
+              RSS
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a class="CIRCLE" href="/search/" target="_self">
+              搜索
+            </a>
+          </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+
+  
+      <div class="fexo-comments comments-post">
+    
+  <section class="disqus-comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </section>
+
+  <script>
+    var disqus_shortname = 'http-mystryl-com';
+    
+    var disqus_url = 'http://mystryl.com/2013/07/fix-unable-write-afp-uid-privilege/';
+    
+    (function(){
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+
+  <script id="dsq-count-scr" src="//http-mystryl-com.disqus.com/count.js" async></script>
+
+
+
+    
+
+
+
+
+  </div>
+
+  
+
+  <script type="text/javascript">
+  function loadScript(url, callback) {
+    var script = document.createElement('script')
+    script.type = 'text/javascript';
+
+    if (script.readyState) { //IE
+      script.onreadystatechange = function() {
+        if (script.readyState == 'loaded' ||
+          script.readyState == 'complete') {
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+    } else { //Others
+      script.onload = function() {
+        callback();
+      };
+    }
+
+    script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script);
+  }
+
+  window.onload = function() {
+    loadScript('/js/bundle.js?235683', function() {
+      // load success
+    });
+  }
+</script>
+
+</body>
+</html>

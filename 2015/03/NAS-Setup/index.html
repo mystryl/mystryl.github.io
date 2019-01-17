@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+
+
+  <html class="light page-post">
+
+
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+  <title>四盘位低价位NAS组建记录 | Mystryl</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+    <meta name="keywords" content="NAS,">
+  
+
+  <meta name="description" content="机箱选择京东的微星B75IA-E33主板+乔思伯V6 ITX机箱的组合 ￥618  现在在做酷冷至尊的ITX机箱套装组合，也是618，同样不错。 CPU 赛扬双核G1620 ￥259 电源 鑫谷-巡洋舰 C5 ￥99 电源最不了解，就选了评价还行最便宜的= = 硬盘 东芝（TOSHIBA）2TB DT01ACA200 最后还是在淘宝买的散装，重量测试2盘位 ￥490 内存，幸好有搞到一根DDR3">
+<meta name="keywords" content="NAS">
+<meta property="og:type" content="article">
+<meta property="og:title" content="四盘位低价位NAS组建记录">
+<meta property="og:url" content="http://mystryl.com/2015/03/NAS-Setup/index.html">
+<meta property="og:site_name" content="Mystryl">
+<meta property="og:description" content="机箱选择京东的微星B75IA-E33主板+乔思伯V6 ITX机箱的组合 ￥618  现在在做酷冷至尊的ITX机箱套装组合，也是618，同样不错。 CPU 赛扬双核G1620 ￥259 电源 鑫谷-巡洋舰 C5 ￥99 电源最不了解，就选了评价还行最便宜的= = 硬盘 东芝（TOSHIBA）2TB DT01ACA200 最后还是在淘宝买的散装，重量测试2盘位 ￥490 内存，幸好有搞到一根DDR3">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-01-16T10:28:20.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="四盘位低价位NAS组建记录">
+<meta name="twitter:description" content="机箱选择京东的微星B75IA-E33主板+乔思伯V6 ITX机箱的组合 ￥618  现在在做酷冷至尊的ITX机箱套装组合，也是618，同样不错。 CPU 赛扬双核G1620 ￥259 电源 鑫谷-巡洋舰 C5 ￥99 电源最不了解，就选了评价还行最便宜的= = 硬盘 东芝（TOSHIBA）2TB DT01ACA200 最后还是在淘宝买的散装，重量测试2盘位 ￥490 内存，幸好有搞到一根DDR3">
+
+  
+
+  
+    <link rel="icon" href="/favicon.ico">
+  
+
+  <link href="/css/styles.css?v=eaf5ab1e" rel="stylesheet">
+
+
+  
+    <link rel="stylesheet" href="/css/personal-style.css">
+  
+
+  
+
+  
+
+</head>
+</html>
+<body>
+
+
+  
+    <span id="toolbox-mobile" class="toolbox-mobile">盒子</span>
+  
+
+  <div class="post-header CENTER">
+   
+  <div class="toolbox">
+    <a class="toolbox-entry" href="/">
+      <span class="toolbox-entry-text">盒子</span>
+      <i class="icon-angle-down"></i>
+      <i class="icon-home"></i>
+    </a>
+    <ul class="list-toolbox">
+      
+        <li class="item-toolbox">
+          <a class="CIRCLE" href="/archives/" target="_self">
+            博客
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a class="CIRCLE" href="/category/" target="_self">
+            分类
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a class="CIRCLE" href="/tag/" target="_self">
+            标签
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a class="CIRCLE" href="/link/" target="_self">
+            友链
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a class="CIRCLE" href="/about/" target="_self">
+            关于
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a class="CIRCLE" href="/atom.xml" target="_blank">
+            RSS
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a class="CIRCLE" href="/search/" target="_self">
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+</div>
+
+
+  <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#黑群晖安装"><span class="toc-text">黑群晖安装</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#设置睡眠唤醒-WOL"><span class="toc-text">设置睡眠唤醒 WOL</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#设置迅雷离线下载"><span class="toc-text">设置迅雷离线下载</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#转移数据，设置TimeMachine"><span class="toc-text">转移数据，设置TimeMachine</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#转移ExFAT分区的数据"><span class="toc-text">转移ExFAT分区的数据</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#迁移TimeMachine数据"><span class="toc-text">迁移TimeMachine数据</span></a></li></ol>
+  </div>
+
+
+
+<div class="content content-post CENTER">
+   <article id="post-NAS-Setup" class="article article-type-post" itemprop="blogPost">
+  <header class="article-header">
+    <h1 class="post-title">四盘位低价位NAS组建记录</h1>
+
+    <div class="article-meta">
+      <span>
+        <i class="icon-calendar"></i>
+        <span>2015.03.31</span>
+      </span>
+
+      
+        <span class="article-author">
+          <i class="icon-user"></i>
+          <span>Mystryl</span>
+        </span>
+      
+
+      
+  <span class="article-category">
+    <i class="icon-list"></i>
+    <a class="article-category-link" href="/categories/Geek/">Geek</a>
+  </span>
+
+
+
+      
+        <span>
+          <i class="icon-comment"></i>
+          <a href="http://mystryl.com/2015/03/NAS-Setup/#disqus_thread"></a>
+        </span>
+      
+
+    </div>
+  </header>
+
+  <div class="article-content">
+    
+      <ul>
+<li>机箱选择京东的<a href="http://item.jd.com/736362.html" target="_blank" rel="noopener">微星B75IA-E33主板</a>+<a href="http://item.jd.com/922041.html" target="_blank" rel="noopener">乔思伯V6 ITX机箱</a>的组合 ￥618<br>  现在在做酷冷至尊的ITX机箱套装组合，也是618，同样不错。</li>
+<li>CPU <a href="http://item.jd.com/1044223.html" target="_blank" rel="noopener">赛扬双核G1620 </a>￥259</li>
+<li>电源 <a href="http://item.jd.com/819705.html" target="_blank" rel="noopener">鑫谷-巡洋舰 C5</a> ￥99 电源最不了解，就选了评价还行最便宜的= =</li>
+<li>硬盘 <a href="http://item.jd.com/746690.html" target="_blank" rel="noopener">东芝（TOSHIBA）2TB DT01ACA200</a> 最后还是在淘宝买的散装，重量测试2盘位 ￥490</li>
+<li>内存，幸好有搞到一根DDR3 1333 2GB，否则就又是 150大洋的开销。</li>
+</ul>
+<p>装机过程实在是太艰辛了，从来从零没装过组装机更别提ITX，仅凭借拆机的印象来尝试组装。走线什么的就无所谓了，随便塞赛理理，整理了几个Tips。。</p>
+<ol>
+<li>原装CPU自带的风扇是没有散热硅脂随包装附送的。因为已经在风扇上涂好了。风扇装在主板上要先把四个立柱按一下，再转动固定旋钮，全英文就算了，没几句英文全是图的说明书太抽象了！</li>
+<li>装完主板记得上挡板。。最后才看见挡板就是痛。</li>
+<li>电源的走线一定要整理好一点，第一次装好开机CPU风扇不转的，打开才发现一根线把风扇卡住了。</li>
+<li>电源的针脚定义和主板定义对应好就行了，多查查多看看就行，至于速度就看造化了。光插电源线我就摸索了1小时</li>
+<li>硬盘别固定死，之后你会拆装好几次。。</li>
+</ol>
+<p>装机完成后设置BIOS：  </p>
+<ol>
+<li>注意把USB设备的启动优先级调整到最高</li>
+<li>打开POWER ON PCI DEVIDE,并且关闭EUP 2013。这一步为之后的WOL做准备。</li>
+<li>CPU节能选项选择温控目标为40度，最小CPU风扇转速12.5%，这样测试满静音的，不靠近听不见响声。不知道夏天会怎样，到时候再增加好了。</li>
+</ol>
+<h4 id="黑群晖安装"><a href="#黑群晖安装" class="headerlink" title="黑群晖安装"></a>黑群晖安装</h4><p>可以参考各种教程，我用的是<a href="http://xpenology.com/forum/viewtopic.php?f=14&amp;t=1700" target="_blank" rel="noopener">‪XPEnology DS3612xs DSM 4.3 build 3810++ (repack v1.0)‬</a></p>
+<ol>
+<li>用个PE监测了一下硬盘本身素质，至少不差吧。顺便查了一下网卡MAC地址。</li>
+<li>IMG MAC Editor 3 ，用来修改下载回来的黑群晖img文件，img文件是引导盘，要写入usb key，pat是安装文件，两个一组配套的。IMG MAC Editor 3可以给img文件替换上4个mac地址，修改一个就行了。据说不修改也行，不能WOL。我是没修改SN，SN算出来的话可以实现群晖官方quickconnect，但没必要啊而且会占掉潜在别人的SN.</li>
+<li>win32diskimager-v0.9-binary把修改后并保存的img烧入一个usb key，理论上256mb就行，我用的杂牌的客户送的礼品u盘都成功了。</li>
+<li>搞定的U盘插入机器开机，接个显示器吧，我直接用旁边的电视了。开机后等命令行不动了，找个同局域网的机器用官方的群晖助手看能否找到未部署的机器，如果找不到，基本是你网线没接好- -</li>
+<li>注意！安装前一定要暂时拔掉USB，否则会修改USB的内容，如果不幸忘记拔了，就再写入一遍。拔掉USB之后用官方群晖助手安装PAT文件，写入完成后要重启，这时候记得插回USB，如果不能软重启就硬关机重启一样的，重启后开始写入配置文件，5分钟之内你的黑群晖就配置好了。</li>
+<li>之后就是设置账户，建立存储目录，安装套件等等。由于功能很多大家还是自己挖掘比较有趣。我配置好的有使用No-ip.com的DDNS，自动路由器转发端口，Video Audio Photo Download station，iTunes服务，TimeMachine服务，以及最重要的迅雷离线下载功能。下面的专题重点讲几个比较复杂功能的设定。</li>
+</ol>
+<h4 id="设置睡眠唤醒-WOL"><a href="#设置睡眠唤醒-WOL" class="headerlink" title="设置睡眠唤醒 WOL"></a>设置睡眠唤醒 WOL</h4><ul>
+<li>要省电就首先硬盘休眠10Min，其次就是WOL</li>
+<li>局域网内WOL，首先是主板支持，BIOS中打开POWER ON PCI DEVIDE,并且关闭EUP 2013</li>
+<li>其次是修改过MAC地址为网卡的真实MAC地址，这样安装好黑群晖好，就应该能在群晖助手中设置WOL了。</li>
+<li>如果群晖助手的WOL是灰色的不能设置，打开群晖的SSH服务，也就是控制面板-终端机-启动SSH</li>
+<li>Terminal或者Win下的winscp（telnet和ssh也行，必须root登陆），root登陆，比如ssh <a href="mailto:root@192.168.1.X" target="_blank" rel="noopener">root@192.168.1.X</a>,密码是你设置的admin密码， </li>
+<li>命令行“ vi /etc/synoinfo.conf ”修改设置文件<br>找到wol_enabled_options=“”和eth0_wol_options=””这两项<br>参数修改为“g”，可以用”/string”来搜索</li>
+<li>:wq 命令保存并退出，重启就可以正确启用WOL了，ssh下的vi编辑功能命令很多很复杂，搜一下教程稍微看看就行了。不要随便乱尝试删了一堆行。。。</li>
+<li>重启后群晖助手设置好WOL，关机或者休眠后测试一下，能正常唤醒就进一步设置广域网的WOL</li>
+<li>广域网设置很多人不成功，其实尝试了数次+查文献之后也是很简单的，几个重点，第一个是路由器要给群晖的MAC地址绑定静态IP，保险起见，群晖内部也用手动设置IP。</li>
+<li>其次，路由器设置端口转发，把端口7 和 9 都用UDP方式转发到群晖的局域网IP对应端口上。</li>
+<li>当然得先设置好广域网DDNS，手机上用DS Finder先开机状态登陆自己的机器，然后关机后尝试唤醒，我就这样成功了。</li>
+</ul>
+<h4 id="设置迅雷离线下载"><a href="#设置迅雷离线下载" class="headerlink" title="设置迅雷离线下载"></a>设置迅雷离线下载</h4><ul>
+<li>具体参照<a href="http://blog.sina.com.cn/s/blog_72d41f850101qolm.html" target="_blank" rel="noopener">雷大的Blog</a> 稍微整理一下：</li>
+<li>首先下载x86 xunlei远程141516（群晖目录已设置好）.rar，把压缩包的文件解压后用winscp（必须root登陆）扔到群晖的web目录/volume1/web/ （用来建站的那个目录，必须提前开启web服务）</li>
+<li>最后形成的目录架构是/volume1/web/xunlei 其中/volume1是根目录，在file里面是不显示的，只有右键属性才能看到，portal文件必须在/volume1/web/xunlei/portal 这样，</li>
+<li>用winscp登陆给予xunlei文件夹，全部文件7777权限.  勾选左下角‘循环设定组，拥有者和权限’，组 和 拥有者必须为root不能为其他 然后确定</li>
+<li>telnet或者ssh用root登陆（这里不多说了），然后执行/volume1/web/xunlei/portal </li>
+<li><p>浏览器打开<a href="http://192.168.1.X:9000/getsysinfo" target="_blank" rel="noopener">http://192.168.1.X:9000/getsysinfo</a> 会看到类似如下信息：<br>  [ 0, 1, 1, 0, “7DHS94”,1, “201_2.1.3.121”, “shdixang”, 1 ]</p>
+</li>
+<li><p>使用迅雷帐号登录迅雷远程下载页面<a href="http://yuancheng.xunlei.com，点【添加】，选择【路由器】并填入激活码，点【确定】即绑定成功。安装bootstrap才能开机自启动迅雷远程" target="_blank" rel="noopener">http://yuancheng.xunlei.com，点【添加】，选择【路由器】并填入激活码，点【确定】即绑定成功。安装bootstrap才能开机自启动迅雷远程</a> </p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cd /volume1/@tmp</span><br><span class="line">wget http://ipkg.nslu2-linux.org/feeds/optware/syno-i686/cross/unstable/syno-i686-bootstrap_1.2-7_i686.xsh</span><br><span class="line">chmod +x syno-i686-bootstrap_1.2-7_i686.xsh</span><br><span class="line">sh syno-i686-bootstrap_1.2-7_i686.xsh</span><br><span class="line">vi /root/.profile</span><br></pre></td></tr></table></figure>
+<p>然后按i进行编辑，编辑好按esc，然后输入：wq 回车键 保存<br>在</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/syno/sbin:/usr/syno/bin:/usr/local/sbin</span><br><span class="line">#export PATH</span><br></pre></td></tr></table></figure>
+<p>这两行之前加上#号（之前是没有的）<br>然后esc :wq 回车 保存</p>
+<ul>
+<li>使用群晖系统自带的重新启动， 重启（不是物理按键，也不能使用命令行reboot）</li>
+<li>重启之后输入 vi /etc/rc.local  然后按i进行编辑，编辑好按esc，然后按：  接着输入wq 回车键 保存</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/sh</span><br><span class="line"></span><br><span class="line"># Optware setup</span><br><span class="line">[ -x /etc/rc.optware ] &amp;&amp; /etc/rc.optware start</span><br><span class="line">/volume1/web/xunlei/portal &amp;</span><br><span class="line"></span><br><span class="line">exit 0</span><br></pre></td></tr></table></figure>
+<ul>
+<li>群晖任务计划添加脚本 /volume1/web/xunlei/portal 每小时执行一次，碰到掉线或者ip换了迅雷远程无法连接，就手动执行一下这个脚本</li>
+<li>路由器转发端口9000到192.168.1.X（你群晖nas的ip），这一步是为了外网用ddns访问<a href="http://192.168.1.X:9000/getsysinfo这个地址，查询迅雷远程的状态，你也可以不转发" target="_blank" rel="noopener">http://192.168.1.X:9000/getsysinfo这个地址，查询迅雷远程的状态，你也可以不转发</a></li>
+<li>第一次使用TDDOWNLOAD下载目录是隐藏的，下好一个文件以后重启dsm，file就能看到TDDOWNLOAD目录了,不过我更喜欢修改下载目录为movie或者video（注意大小写敏感）</li>
+</ul>
+<h4 id="转移数据，设置TimeMachine"><a href="#转移数据，设置TimeMachine" class="headerlink" title="转移数据，设置TimeMachine"></a>转移数据，设置TimeMachine</h4><p>这一步是个大坑。注意下下表中的可读取格式</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Fat32</th>
+<th>NTFS</th>
+<th>HFS+</th>
+<th>ExFAT</th>
+<th>ext3/ext4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Win7</td>
+<td>支持</td>
+<td>支持</td>
+<td>软件支持</td>
+<td>支持</td>
+<td>不支持</td>
+</tr>
+<tr>
+<td>MacOS</td>
+<td>支持</td>
+<td>条件支持</td>
+<td>原生支持</td>
+<td>支持</td>
+<td>不支持</td>
+</tr>
+<tr>
+<td>Xbox</td>
+<td>支持</td>
+<td>不支持</td>
+<td>支持</td>
+<td>不支持</td>
+<td>不支持</td>
+</tr>
+<tr>
+<td>Android</td>
+<td>支持</td>
+<td>软件支持</td>
+<td>软件支持</td>
+<td>软件支持</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>群晖</td>
+<td>支持</td>
+<td>外置支持</td>
+<td>外置支持</td>
+<td>不支持</td>
+<td>支持</td>
+</tr>
+</tbody>
+</table>
+<p>更郁闷的是，我原来的仓库盘里，储存区用的是ExFAT，TimeMachine区用的是HFS+，这便涉及俩问题，一个是怎么读取ExFat，另一个是怎么转移TimeMachine</p>
+<h4 id="转移ExFAT分区的数据"><a href="#转移ExFAT分区的数据" class="headerlink" title="转移ExFAT分区的数据"></a>转移ExFAT分区的数据</h4><p>不要鄙视我，我用另一个硬盘装了个Win7，然后装好主板驱动和USB3驱动，就能中转ExFAT分区了。耗时一晚上想出这条路，2小时转移好500G数据进入NTFS分区。</p>
+<p>群晖默认是可以读取外置USB硬盘的NTFS的，但我只有3.5寸的裸盘。于是找到个方法，修改群晖对硬盘的定义，让系统认为插入硬盘口4的SATA盘是ESATA外置硬盘，就可以了。修改方法如下：</p>
+<ul>
+<li>ssh登陆群晖，vi /etc.defaults/synoinfo.conf 编辑系统配置文件。</li>
+<li>找到：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">esataportcfg=&quot;0xff000&quot;  </span><br><span class="line">usbportcfg=&quot;0xfff00000&quot;</span><br></pre></td></tr></table></figure>
+<p>这样的字样，修改为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">esataportcfg=&quot;0x8” 、0x8对应的2进制为1000</span><br><span class="line">usbportcfg=&quot;0xfff0&quot;、0xfff0对应的2进制为1111111111110000</span><br></pre></td></tr></table></figure>
+<p>这样就把系统里sata口定义为3个，4号为一个esata口，其他为usb口。这样插在4号口的sata硬盘就被识别为ESATA盘，相应的分区也被识别为正确的NTFS格式。于是我的数据都能曲线救国一般的搬回来了，而且还是usb3.0/sata总线的速度哦。</p>
+<h4 id="迁移TimeMachine数据"><a href="#迁移TimeMachine数据" class="headerlink" title="迁移TimeMachine数据"></a>迁移TimeMachine数据</h4><ul>
+<li>群晖系统自带的TimeMachine是基于Linux的数据格式模拟出HFS+的TimeMachine储存环境。我试过用NTFS分区中转，HFS+盘直接挂载后拷贝原来的TM备份文件.sparsebundle稀松磁盘镜像到NAS内，但都造成了文件格式的破坏，在Mac上无法挂载</li>
+<li>搜索了20分钟在万能的discussions.apple.com找到一个解决方案，先搭建好TimeMachine套件功能，配置一个专门的账号，user组，设置好磁盘配额，只允许访问TimeMachine目录。</li>
+<li>Mac上设置TimeMachine目标磁盘为NAS，用刚刚创建的账户登陆，开始创建磁盘。这时候选择TM排除目录，把整个Mac的硬盘都排除掉，大概等待10-20分钟，创建好一个较小的sparsebundle备份镜像。</li>
+<li>关掉TimeMachine.app 打开磁盘工具Disk Utility.app，先加载原来本地的MacbookAir.sparsebundle 镜像，再加载NAS中的Macintosh.sparsebundle镜像，把原来本地的镜像使用恢复功能全部恢复到Macintosh.sparsebundle中。这个过程很漫长。。。</li>
+<li>完成之后，在Mac的TimeMachine中重新选择目标磁盘为NAS，一阵读取之后就能发现原来的备份并重新增量备份了。</li>
+</ul>
+<p>我写本文的目的不是讨论黑白群晖的好与不好，即使是白群晖，上文提到的Z-Turn点也是很多人头疼的地方。不喜欢某论坛唯利是图非要顶帖回复的氛围，自己研究的成果就是希望一样想搭建NAS的朋友们能少走一点弯路。</p>
+<p>最后想问句，为毛我的网卡+E4200+六类线，只有不到一半的时间能工作在1000Mb/s模式下啊。。</p>
+
+    
+  </div>
+</article>
+
+</div>
+
+
+  <a id="backTop" class="back-top">
+    <i class="icon-angle-up"></i>
+  </a>
+
+
+
+
+  <div class="modal" id="modal">
+  <span id="cover" class="cover hide"></span>
+  <div id="modal-dialog" class="modal-dialog hide-dialog">
+    <div class="modal-header">
+      <span id="close" class="btn-close">关闭</span>
+    </div>
+    <hr>
+    <div class="modal-body">
+      <ul class="list-toolbox">
+        
+          <li class="item-toolbox">
+            <a class="CIRCLE" href="/archives/" target="_self">
+              博客
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a class="CIRCLE" href="/category/" target="_self">
+              分类
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a class="CIRCLE" href="/tag/" target="_self">
+              标签
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a class="CIRCLE" href="/link/" target="_self">
+              友链
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a class="CIRCLE" href="/about/" target="_self">
+              关于
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a class="CIRCLE" href="/atom.xml" target="_blank">
+              RSS
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a class="CIRCLE" href="/search/" target="_self">
+              搜索
+            </a>
+          </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+
+  
+      <div class="fexo-comments comments-post">
+    
+  <section class="disqus-comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </section>
+
+  <script>
+    var disqus_shortname = 'http-mystryl-com';
+    
+    var disqus_url = 'http://mystryl.com/2015/03/NAS-Setup/';
+    
+    (function(){
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+
+  <script id="dsq-count-scr" src="//http-mystryl-com.disqus.com/count.js" async></script>
+
+
+
+    
+
+
+
+
+  </div>
+
+  
+
+  <script type="text/javascript">
+  function loadScript(url, callback) {
+    var script = document.createElement('script')
+    script.type = 'text/javascript';
+
+    if (script.readyState) { //IE
+      script.onreadystatechange = function() {
+        if (script.readyState == 'loaded' ||
+          script.readyState == 'complete') {
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+    } else { //Others
+      script.onload = function() {
+        callback();
+      };
+    }
+
+    script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script);
+  }
+
+  window.onload = function() {
+    loadScript('/js/bundle.js?235683', function() {
+      // load success
+    });
+  }
+</script>
+
+</body>
+</html>
