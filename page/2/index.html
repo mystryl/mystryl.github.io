@@ -1,195 +1,1153 @@
 <!DOCTYPE html>
+<!--[if lte IE 8 ]>
+<html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<!--
+***************  *      *     *
+      8          *    *       *
+      8          *  *         *
+      8          **           *
+      8          *  *         *
+      8          *    *       *
+      8          *      *     *
+      8          *        *   ***********    -----Theme By Kieran(http://go.kieran.top)
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<!--<![endif]-->
 
-
-  <html class="light page-home">
-
-
-<head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="utf-8">
-  
+<head>
   <title>Mystryl</title>
+  <!-- Meta data -->
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Mystryl">
+    <meta name="author" content="Mystryl">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Favicon, (keep icon in root folder) -->
+    <link rel="Shortcut Icon" href="/img/favicon.ico" type="image/ico">
+
+    <link rel="alternate" href="/atom.xml" title="Mystryl" type="application/atom+xml">
+    <link rel="stylesheet" href="/css/all.css" media="screen" type="text/css">
+    
+    <link rel="stylesheet" href="/highlightjs/vs.css" type="text/css">
+    
+
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="/css/ie8.css" />
+    <![endif]-->
+
+    <!-- jQuery | Load our jQuery, with an alternative source fallback to a local version if request is unavailable -->
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
+
+    <!-- Load these in the <head> for quicker IE8+ load times -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
 
   
-    <meta name="keywords" content="mystryl">
+  
   
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Mystryl">
-<meta property="og:url" content="http://mystryl.com/page/2/index.html">
-<meta property="og:site_name" content="Mystryl">
-<meta property="og:locale" content="default">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Mystryl">
-
-  
-
-  
-    <link rel="icon" href="/favicon.ico">
-  
-
-  <link href="/css/styles.css?v=eaf5ab1e" rel="stylesheet">
-
-
-  
-    <link rel="stylesheet" href="/css/personal-style.css">
-  
-
-  
-
-  
-
+  <style>.col-md-8.col-md-offset-2.opening-statement img{display:none;}</style>
 </head>
-</html>
-<body>
 
+<!--
+<body class="home-template">
+-->
+<body id="index" class="lightnav animsition">
 
-  
+      <!-- ============================ Off-canvas navigation =========================== -->
 
-  
-  <div class="content-home text-center">
-  <a class="avatar" href="/">
-    <img src="/images/avatar.jpg" alt="">
-  </a>
-  <h1 class="name" style="font-family: calligraffittiregular">
-    Mystryl
-  </h1>
-  <div class="slogan">
-    Nothing is true, Everything is permitted.
-  </div>
-
-  <hr>
-
-  <ul class="text-center nav">
-    
-      <li class="item">
-        
-          <a href="/archives">Blog</a>
-        
-        <span>|</span>
-      </li>
-    
-      <li class="item">
-        
-          <a href="https://twitter.com/mystryl" target="_blank">Twitter</a>
-        
-        <span>|</span>
-      </li>
-    
-      <li class="item">
-        
-          <a href="https://www.instagram.com/mystryl/" target="_blank">Instagram</a>
-        
-        <span>|</span>
-      </li>
-    
-      <li class="item">
-        
-          <a href="https://github.com/mystryl" target="_blank">Github</a>
-        
-        <span>|</span>
-      </li>
-    
-  </ul>
-
-</div>
-
-
-
-
-
-  <div class="modal" id="modal">
-  <span id="cover" class="cover hide"></span>
-  <div id="modal-dialog" class="modal-dialog hide-dialog">
-    <div class="modal-header">
-      <span id="close" class="btn-close">关闭</span>
+    <div class="sb-slidebar sb-right sb-style-overlay sb-momentum-scrolling">
+        <div class="sb-close" aria-label="Close Menu" aria-hidden="true">
+            <img src="/img/close.png" alt="Close"/>
+        </div>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu">
+            <li><a href="/" class="animsition-link" title="Home">Home</a></li>
+            <li><a href="/archives" class="animsition-link" title="archive">archives</a></li>
+            <!-- Dropdown Menu -->
+			 
+            <li>
+                <a class="sb-toggle-submenu">Works<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                        <li><a href="/" target="_BLANK" class="animsition-link">AAA</a></li>
+                    
+                        <li><a href="/atom.xml" target="_BLANK" class="animsition-link">BBB</a></li>
+                    
+                </ul>
+            </li>
+            
+            
+        	<li>
+        		<a class="sb-toggle-submenu">Categories<span class="sb-caret"></span></a>
+            	<ul class="sb-submenu">
+				  	
+				    <li><a href="/categories/Game/" class="animsition-link">Game<small>(4)</small></a></li>
+				    
+				    <li><a href="/categories/Geek/" class="animsition-link">Geek<small>(9)</small></a></li>
+				    
+				    <li><a href="/categories/PTA/" class="animsition-link">PTA<small>(5)</small></a></li>
+				    
+				    <li><a href="/categories/bungaku/" class="animsition-link">bungaku<small>(1)</small></a></li>
+				    
+				    <li><a href="/categories/daydream/" class="animsition-link">daydream<small>(4)</small></a></li>
+				    
+				    <li><a href="/categories/idea/" class="animsition-link">idea<small>(4)</small></a></li>
+				    
+				    <li><a href="/categories/thoughts/" class="animsition-link">thoughts<small>(1)</small></a></li>
+				    
+				    <li><a href="/categories/travel/" class="animsition-link">travel<small>(1)</small></a></li>
+				    
+				</ul>
+        	</li>
+			
+            
+            <li>
+                <a class="sb-toggle-submenu">Links<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                    <li><a href="http://go.kieran.top/" class="animsition-link">Kieran</a></li>
+                    
+                    <li><a href="http://mystryl.com/" class="animsition-link">mystryl</a></li>
+                    
+                </ul>
+            </li>
+            
+        </ul>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu secondary">
+            
+            <li><a href="javascript:;" class="popup-trigger" title="Search"><span class="search-icon"></span>Search</a></li>
+            
+            <li><a href="/about.html" class="animsition-link" title="about">About</a></li>
+            <li><a href="/atom.xml" class="animsition-link" title="rss">RSS</a></li>
+        </ul>
     </div>
-    <hr>
-    <div class="modal-body">
-      <ul class="list-toolbox">
-        
-          <li class="item-toolbox">
-            <a class="CIRCLE" href="/archives/" target="_self">
-              博客
-            </a>
-          </li>
-        
-          <li class="item-toolbox">
-            <a class="CIRCLE" href="/category/" target="_self">
-              分类
-            </a>
-          </li>
-        
-          <li class="item-toolbox">
-            <a class="CIRCLE" href="/tag/" target="_self">
-              标签
-            </a>
-          </li>
-        
-          <li class="item-toolbox">
-            <a class="CIRCLE" href="/link/" target="_self">
-              友链
-            </a>
-          </li>
-        
-          <li class="item-toolbox">
-            <a class="CIRCLE" href="/about/" target="_self">
-              关于
-            </a>
-          </li>
-        
-          <li class="item-toolbox">
-            <a class="CIRCLE" href="/atom.xml" target="_blank">
-              RSS
-            </a>
-          </li>
-        
-          <li class="item-toolbox">
-            <a class="CIRCLE" href="/search/" target="_self">
-              搜索
-            </a>
-          </li>
-        
-      </ul>
+    
+    <!-- ============================ END Off-canvas navigation =========================== -->
 
+    <!-- ============================ #sb-site Main Page Wrapper =========================== -->
+
+    <div id="sb-site">
+        <!-- #sb-site - All page content should be contained within this id, except the off-canvas navigation itself -->
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+        <div id="navigation" class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <!-- Nav logo -->
+                    <div class="logo">
+                        <a href="/" title="Logo" class="animsition-link">
+                         <img src="/img/avatar.png" alt="Logo" width="35px;"/> 
+                        </a>
+                    </div>
+                    <!-- // Nav logo -->
+                    <!-- Info-bar -->
+                    <nav>
+                        <ul class="nav">
+                            <li><a href="/" class="animsition-link">Mystryl</a></li>
+                            <li class="nolink"><span>Always </span>Creative.</li>
+                            
+                            <li><a href="https://github.com/mystryl" title="Github" target="_blank"><i class="icon-github"></i></a></li>
+                            
+                            
+                            <li><a href="https://twitter.com/mystryl" title="Twitter" target="_blank"><i class="icon-twitter"></i></a></li>
+                            
+                            
+                            <li><a href="https://www.instagram.com/mystryl/" title="instagram" target="_blank"><i class="icon-instagram"></i></a></li>
+                            
+                            
+                            
+                            <li><a href="http://weibo.com/mystryl" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a></li>
+                            
+                            <li class="nolink"><span>Welcome!</span></li>
+                        </ul>
+                    </nav>
+                    <!--// Info-bar -->
+                </div>
+                <!-- // .container -->
+                <div class="learnmore sb-toggle-right">More</div>
+                <button type="button" class="navbar-toggle menu-icon sb-toggle-right" title="More">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar before"></span>
+                <span class="icon-bar main"></span>
+                <span class="icon-bar after"></span>
+                </button>
+            </div>
+            <!-- // .navbar-inner -->
+        </div>
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+
+      <!-- ============================ Hero Image =========================== -->
+
+<section id="hero" class="scrollme">
+    <div class="container-fluid element-img" style="background: url(/img/bg_img.jpg) no-repeat center center fixed;background-size: cover">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost text-center">
+                <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
+                    <div>
+                        
+                        <h2>Nothing is true, <br>Everything is permitted.</br></h2>
+                        <p></p>
+                        
+                        <h2></h2>
+                        <p></p>
+                        
+
+                    </div>
+                </div>
+            </div>
+            <!-- // .col-md-12 -->
+        </div>
+        <div class="herofade beige-dk"></div>
     </div>
-  </div>
-</div>
+</section>
+
+<!-- Height spacing helper -->
+<div class="heightblock"></div>
+<!-- // End height spacing helper -->
+
+<!-- ============================ END Hero Image =========================== -->
+<!-- ============================ Content =========================== -->
+
+<section id="intro">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 opening-statement">
+                <div class="col-md-4">
+                    <h3><a href="/2016/08/realestates/">实业误国，炒房兴邦</a></h3>
+                    <span>
+                        <span class="post-meta">
+      <time datetime="2016-08-31T01:25:06.000Z" itemprop="datePublished">
+          2016-08-31
+      </time>
+    
+    
+    | 
+    <a href='/tag/thoughts/'>thoughts</a>,
+    
+    <a href='/tag/realestates/'>realestates</a>
+    
+    
+</span>
+                    </span>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                      
+                        每天看看卢俊的地产观，再看看水库，总感觉精神分裂，多空对撸。今天卢俊就《疯了》。
+
+上海一手房成交历史性突破2000套，达到2139套，成交面积超过25万方。
 
 
+这个数据什么概念，如果上海一整个月的成交数值都是25万方的话，那么一个月的成交就是750万房，而上海历年来平均每年的成交量也只在1000万房左右。
 
-  
+这是个什么概念呢，就跟去年7月股市看不见顶一样的突突上涨，人人恐慌又不得不入市一样。
 
-  <script type="text/javascript">
-  function loadScript(url, callback) {
-    var script = document.createElement('script')
-    script.type = 'text/javascript';
+房地产自带3倍杠杆，不用盯市，还得起房
+                      
+                    </p>
+                    
+                    <p class="pull-right readMore">
+                        <a href="/2016/08/realestates/">Read More...</a>
+                    </p>
+                    
+                </div>
+                <div class="clearfix"></div>
+                <hr class="nogutter">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 opening-statement">
+                <div class="col-md-4">
+                    <h3><a href="/2016/08/2016-08-19/">随便聊聊</a></h3>
+                    <span>
+                        <span class="post-meta">
+      <time datetime="2016-08-19T00:00:00.000Z" itemprop="datePublished">
+          2016-08-19
+      </time>
+    
+    
+    | 
+    <a href='/tag/twitter/'>twitter</a>,
+    
+    <a href='/tag/talks/'>talks</a>
+    
+    
+</span>
+                    </span>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                      
+                        米兔 (@chen1987cd) 16/8/18 19:52
 
-    if (script.readyState) { //IE
-      script.onreadystatechange = function() {
-        if (script.readyState == 'loaded' ||
-          script.readyState == 'complete') {
-          script.onreadystatechange = null;
-          callback();
-        }
-      };
-    } else { //Others
-      script.onload = function() {
-        callback();
-      };
-    }
+本人想找一份做内账的会计工作（不包括报税），有5年以上财务经验，负责前公司的七个分公司，从建帐到审核所有单据再到月，季度，年度财务报表一套帐，还包括每月盘点分公司货物和固定资产，分公司员工工资，奖励以及分红等，有会计从业资格，工资要求3500+，最好在成都市区内，双休
 
-    script.src = url;
-    document.getElementsByTagName('head')[0].appendChild(script);
-  }
+Mystryl (@Mystryl) 16/8/19 10:05
 
-  window.onload = function() {
-    loadScript('/js/bundle.js?235683', function() {
-      // load success
+@chen1987cd @Honda
+                      
+                    </p>
+                    
+                    <p class="pull-right readMore">
+                        <a href="/2016/08/2016-08-19/">Read More...</a>
+                    </p>
+                    
+                </div>
+                <div class="clearfix"></div>
+                <hr class="nogutter">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 opening-statement">
+                <div class="col-md-4">
+                    <h3><a href="/2016/08/uncharted1-3/">神秘海域1-3重制</a></h3>
+                    <span>
+                        <span class="post-meta">
+      <time datetime="2016-08-15T00:00:00.000Z" itemprop="datePublished">
+          2016-08-15
+      </time>
+    
+    
+    | 
+    <a href='/tag/PS4/'>PS4</a>,
+    
+    <a href='/tag/NaughtyDog/'>NaughtyDog</a>
+    
+    
+</span>
+                    </span>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                      
+                        
+1-3草草通关，就3打了惨烈难度，1-2都是水过。想说白金难度也不是很大，把3打个白金吧？然后就卡某个速攻关卡了。。
+表情完全如上图，在想PSN游戏打白金真的有意义么？不过感觉不打白金整个游戏都没玩。
+玩完神海3之后蛮空虚的，10年间三个宝藏都是找到了却空手而归，也是一样的表情吧。说起来TLOU要重制4k版本了，这个倒是真的想白金。。
+不说了，信誓旦旦说要白金MGSV的依旧路漫漫。。。
+
+                      
+                    </p>
+                    
+                    <p class="pull-right readMore">
+                        <a href="/2016/08/uncharted1-3/">Read More...</a>
+                    </p>
+                    
+                </div>
+                <div class="clearfix"></div>
+                <hr class="nogutter">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 opening-statement">
+                <div class="col-md-4">
+                    <h3><a href="/2016/08/devastating _24/">令人绝望的24%</a></h3>
+                    <span>
+                        <span class="post-meta">
+      <time datetime="2016-08-12T03:12:18.000Z" itemprop="datePublished">
+          2016-08-12
+      </time>
+    
+    
+    | 
+    <a href='/tag/thoughts/'>thoughts</a>
+    
+    
+</span>
+                    </span>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                      
+                        令人绝望的24%怎样才能改变你所处的阶层
+这篇文章很火，当然他的推导根本不严谨，不过对于目前保持着高M2，相对高利率/融资成本，最重要的高名义GDP增长率的中国来说，宁愿信齐有，而不是质疑24%的含金量。
+可以参考知乎的讨论。
+24%的增长看似绝望其实是动力。但说真的，能在A7以上保持24%增长都是大神，A8-A9的能有15-20%增长的都可以成为成功投资人了。因为从蓄水池理论，你的主动/被动收入和无法超过你财富的被动贬值速度。
+财富真
+                      
+                    </p>
+                    
+                    <p class="pull-right readMore">
+                        <a href="/2016/08/devastating _24/">Read More...</a>
+                    </p>
+                    
+                </div>
+                <div class="clearfix"></div>
+                <hr class="nogutter">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 opening-statement">
+                <div class="col-md-4">
+                    <h3><a href="/2016/08/hengli-2016-09-cutoff/">恒力2016轮检</a></h3>
+                    <span>
+                        <span class="post-meta">
+      <time datetime="2016-08-11T06:12:18.000Z" itemprop="datePublished">
+          2016-08-11
+      </time>
+    
+    
+    | 
+    <a href='/tag/PTA/'>PTA</a>,
+    
+    <a href='/tag/analyst/'>analyst</a>
+    
+    
+</span>
+                    </span>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                      
+                        恒力2016年轮检来了
+PTA供应商恒力大化因生产线计划检修，10-11月合同量减20%供应。
+
+220万吨x3套装置，2016年轮检来了。市场测算影响每月8万吨供给，合计24万吨。倒退恒力每月合约总量40万吨，年总量480万吨，小于设计产量，毕竟有外销和停车降负荷么，这个数字说合理也合理。220/12=18万吨，真实的一套装置月产量是这个数字，有效轮检三个月，实际去年每套装置在20-25天检修完毕，测算实际每月短缺供给在15万吨左右。
+                      
+                    </p>
+                    
+                    <p class="pull-right readMore">
+                        <a href="/2016/08/hengli-2016-09-cutoff/">Read More...</a>
+                    </p>
+                    
+                </div>
+                <div class="clearfix"></div>
+                <hr class="nogutter">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 opening-statement">
+                <div class="col-md-4">
+                    <h3><a href="/2016/08/thoughts_in summer/">随想</a></h3>
+                    <span>
+                        <span class="post-meta">
+      <time datetime="2016-08-11T02:40:55.000Z" itemprop="datePublished">
+          2016-08-11
+      </time>
+    
+    
+    | 
+    <a href='/tag/thoughts/'>thoughts</a>
+    
+    
+</span>
+                    </span>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                      
+                        起源于V2ex这个帖子(生活并不是「如果 A 就会 B」)随便想了想，生活根本不是线性的，也不是因果报应。
+高中毕业的时候，几乎 1/3 的同学出国了，这一批人都是非常的优秀我也很羡慕…但是当时选择与家境的考虑，并没有选择出国，这也成了一个心病。
+大学毕业的时候， 1/5 的同学出国了，不乏很多好朋友，各种机缘，我选择了工作。5 年后的今天，读博 /phd 的朋友也都工作了， Top 的高攀不上，一般的回国开始了苦逼的工作之旅。最好的朋
+                      
+                    </p>
+                    
+                    <p class="pull-right readMore">
+                        <a href="/2016/08/thoughts_in summer/">Read More...</a>
+                    </p>
+                    
+                </div>
+                <div class="clearfix"></div>
+                <hr class="nogutter">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 opening-statement">
+                <div class="col-md-4">
+                    <h3><a href="/2016/06/Planescape/">异域设定引子</a></h3>
+                    <span>
+                        <span class="post-meta">
+      <time datetime="2016-06-19T23:06:56.000Z" itemprop="datePublished">
+          2016-06-20
+      </time>
+    
+    
+    | 
+    <a href='/tag/fantasy/'>fantasy</a>
+    
+    
+</span>
+                    </span>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                      
+                        一杯下午茶，一支轻快的短歌，便是一个相当愉快的午后。
+当然，在印记城自然不会有这样惬意的午后光景，更不能与狂欢城一晚迷乱癫狂的夜生活后在暖意融融的午间时光渐渐醒来的那种舒适相比。但是，在印记城中弥漫的“那种”氛围中，你在何时何地都不会获得，哪怕是最基本的惬意体验。
+当你闭上眼，这种所谓的印记城的氛围便在一切的感官中包围你。对，彻底的把你淹没。各色人等穿过街道的喧闹与呱噪；挣扎在死亡之书扉页上的乞讨者与流浪汉；身边突然走过一个咯吱作响的腐
+                      
+                    </p>
+                    
+                    <p class="pull-right readMore">
+                        <a href="/2016/06/Planescape/">Read More...</a>
+                    </p>
+                    
+                </div>
+                <div class="clearfix"></div>
+                <hr class="nogutter">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 opening-statement">
+                <div class="col-md-4">
+                    <h3><a href="/2016/02/applepay/">为什么我看好 Pay + 银联</a></h3>
+                    <span>
+                        <span class="post-meta">
+      <time datetime="2016-02-19T23:06:56.000Z" itemprop="datePublished">
+          2016-02-20
+      </time>
+    
+    
+    | 
+    <a href='/tag/apple/'>apple</a>,
+    
+    <a href='/tag/apple-pay/'>apple pay</a>,
+    
+    <a href='/tag/unipay/'>unipay</a>
+    
+    
+</span>
+                    </span>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                      
+                         Pay 实际上就是一张安全的闪付信用卡
+银联闪付推广不成功的原因就是他自己作死。早起圈存，后期推广几乎跟没有一样。国内的闪付paypass在国外叫pay wave，使用起来和普通刷卡方便程度差不多，只要线下能pay pass理论上都能使用 Pay。
+需要推广的前提是没渠道没人用，这点目前看 Pay不存在这个问题，首日3800万绑卡量，以及后续已经有苗头的银行推广和用户热情，特别是各类自媒体的曝光，这点渠道上已经完胜银联闪付，基本
+                      
+                    </p>
+                    
+                    <p class="pull-right readMore">
+                        <a href="/2016/02/applepay/">Read More...</a>
+                    </p>
+                    
+                </div>
+                <div class="clearfix"></div>
+                <hr class="nogutter">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 opening-statement">
+                <div class="col-md-4">
+                    <h3><a href="/2016/01/2016-01-PTA/">2016 PTA 郑商所江苏线调研报告</a></h3>
+                    <span>
+                        <span class="post-meta">
+      <time datetime="2016-01-20T23:06:56.000Z" itemprop="datePublished">
+          2016-01-21
+      </time>
+    
+    
+    | 
+    <a href='/tag/PTA/'>PTA</a>,
+    
+    <a href='/tag/analyst/'>analyst</a>
+    
+    
+</span>
+                    </span>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                      
+                        恒力集团
+恒力在大连拥有全球规模最大的PTA生产基地，3条线共660万吨。恒力石化在大连投资2000万吨的炼化一体化项目，配套PX产能大约200～300万吨，项目环评已通过，推迟到2018年全面投产，原油国产和进口都会使用，自主进口权看国家开放政策，问题不大。
+恒力化纤聚酯产能260万吨，主营差别化工业丝，强调由于品质较高保持利润不错，产品库存基本不积压，春节随市场小幅降负荷。目前不考虑使用煤制乙二醇。下游产能配套织造，没有印染。
+PT
+                      
+                    </p>
+                    
+                    <p class="pull-right readMore">
+                        <a href="/2016/01/2016-01-PTA/">Read More...</a>
+                    </p>
+                    
+                </div>
+                <div class="clearfix"></div>
+                <hr class="nogutter">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 opening-statement">
+                <div class="col-md-4">
+                    <h3><a href="/2015/10/2015-10-27/">不带你这么玩的把我钱还给我</a></h3>
+                    <span>
+                        <span class="post-meta">
+      <time datetime="2015-10-27T00:00:00.000Z" itemprop="datePublished">
+          2015-10-27
+      </time>
+    
+    
+    | 
+    <a href='/tag/PTA/'>PTA</a>,
+    
+    <a href='/tag/analyst/'>analyst</a>
+    
+    
+</span>
+                    </span>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                      
+                        
+双破位，1601破4600就是加速，1605弱支撑，基本确定加速。1601想逼仓很难了。
+我真心不知道逸盛在想什么，4700以上不限量收货，之后不检修了。5天影响产能6万吨，收货都8万多吨了。结算价顶上去有很大的意义么？还是说这个月合约结算的很多。
+总之多头人心散了，市场就是证明。永安这把要怎么出来。。。拭目以待。
+
+
+黄金分割的压力阻力还是很有用的，上行通道全破，1605下跌破位，1601阻力还是有点大的。可惜仓位没好机会加多点哦。
+                      
+                    </p>
+                    
+                    <p class="pull-right readMore">
+                        <a href="/2015/10/2015-10-27/">Read More...</a>
+                    </p>
+                    
+                </div>
+                <div class="clearfix"></div>
+                <hr class="nogutter">
+            </div>
+        </div>
+        
+        <nav class="pagination" role="pagination">
+          <a class="pull-left" href="/">← Newer Posts</a>
+          <a class="pull-right" href="/page/3/">Older Posts →</a>
+        </nav>
+    </div>
+</section>
+<section id="statement">
+    <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">
+        <div class="row">
+            <p>万事皆虚，万事皆允。</p>
+        </div>
+    </div>
+</section>
+<!-- ============================ END Content =========================== -->
+
+      
+<!-- ============================ Footer =========================== -->
+
+<footer>
+    <div class="container">
+            <div class="copy">
+                <p>
+                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By Mystryl. All Rights Reserved.
+                </p>
+                <p>Theme By <a href="//go.kieran.top" style="color: #767D84">Kieran</a></p>
+            </div>
+            <div class="social">
+                <ul>
+                    
+                    <li><a href="https://github.com/mystryl" title="Github" target="_blank"><i class="icon-github"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://twitter.com/mystryl" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://www.instagram.com/mystryl/" title="instagram" target="_blank"><i class="icon-instagram"></i></a>&nbsp;</li>
+                    
+                    
+                    
+                    <li><a href="http://weibo.com/mystryl" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a>&nbsp;</li>
+                    
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+</footer>
+
+<!-- ============================ END Footer =========================== -->
+      <!-- Load our scripts -->
+<!-- Resizable 'on-demand' full-height hero -->
+<script type="text/javascript">
+    var resizeHero = function () {
+        var hero = $(".cover,.heightblock"),
+            window1 = $(window);
+        hero.css({
+            "height": window1.height()
+        });
+    };
+
+    resizeHero();
+
+    $(window).resize(function () {
+        resizeHero();
     });
+</script>
+<script src="/js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
+<script src="/js/scripts.js"></script><!-- Theme scripts -->
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$('#intro').find('img').each(function(){
+  var alt = this.alt;
+
+  if (alt){
+    $(this).after('<span class="caption" style="display:none">' + alt + '</span>');
   }
+
+  $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery" />');
+});
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
 </script>
 
+
+
+      
+            <style>
+.local-search-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background: rgba(255, 255, 255, .9);
+  color: #333;
+  z-index: 9999;
+  border-radius: 5px;
+  overflow: scroll;
+}
+#local-search-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #151515;
+  background-color: initial;
+}
+.search-result-list {
+  list-style: none;
+  padding-left: 0;
+}
+.search-result-list > li {
+  margin-top: 15px;
+  border-bottom: 1px solid #ddd;
+  transition: all ease .3s;
+}
+.search-result-list > li:hover {
+  border-bottom: 1px solid gray;
+}
+.search-result-title {
+  font-size: 16px;
+}
+.search-result {
+  line-height: 20px;
+}
+.search-keyword {
+  font-weight: normal;
+  color: #c00;
+}
+
+@media (min-width: 890px) {
+  .popup-btn-close {
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    border: 1px solid #151515;
+    padding: 0px 10px;
+    border-top-left-radius: 8px;
+    cursor: pointer;
+    transition: all ease .3s;
+  }
+  .popup-btn-close:hover {
+    background: #151515;
+    opacity: .9;
+    color: #fff;
+  }
+}
+@media (max-width: 890px) {
+  .popup-btn-close {
+    font-size: 0;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #888;
+    cursor: pointer;
+  }
+  .popup-btn-close::after {
+    content: '←';
+    color: #151515;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+</style>
+
+<div class="popup search-popup local-search-popup">
+  <span class="popup-btn-close">
+    ESC
+  </span>
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="local-search-header clearfix">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="local-search-input-wrapper">
+          <input autocomplete="off" placeholder="Search..." type="text" id="local-search-input">
+        </div>
+      </div>
+      <div id="local-search-result"></div>
+    </div>
+  </div>
+</div>
+
+<script src="/js/ziploader.js"></script>
+
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.json";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').fadeOut(300);
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $('.popup').fadeIn(300);
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // get search zip version
+    $.get('/searchVersion.txt?t=' + (+new Date()), function(res) {
+      if (localStorage.getItem('searchVersion') !== res) {
+        localStorage.setItem('searchVersion', res);
+        initSearchJson();
+      }
+    });
+
+    function initSearchJson () {
+      initLoad(['/search.zip'], {
+        loadOptions: {
+          success: function(obj) {
+            localStorage.setItem('searchJson', obj['search.json'])
+          },
+          error: function(e) {
+            return console.log(e)
+          }
+        },
+        returnOptions: {
+          'json': TYPE_TEXT
+        },
+        mimeOptions:{
+          'json':'application/json'
+        }
+      })
+    }
+
+
+    // search function;
+    var searchFunc = function(search_id, content_id) {
+      'use strict';
+
+      isfetched = true;
+      var datas = JSON.parse(localStorage.getItem('searchJson'));
+      console.log(search_id)
+      var input = document.getElementById(search_id);
+      var resultContent = document.getElementById(content_id);
+      var inputEventFunction = function() {
+        var searchText = input.value.trim().toLowerCase();
+        var keywords = searchText.split(/[\s\-]+/);
+        if (keywords.length > 1) {
+          keywords.push(searchText);
+        }
+        var resultItems = [];
+        if (searchText.length > 0) {
+          // perform local searching
+          datas.forEach(function(data) {
+            var isMatch = false;
+            var hitCount = 0;
+            var searchTextCount = 0;
+            var title = data.title ? data.title.trim() : '';
+            var titleInLowerCase = title.toLowerCase();
+            var content = data.content ? data.content.trim().replace(/<[^>]+>/g,"") : '';
+            var contentInLowerCase = content.toLowerCase();
+            var articleUrl = decodeURIComponent(data.url);
+            var indexOfTitle = [];
+            var indexOfContent = [];
+            // only match articles with not empty titles
+            keywords.forEach(function(keyword) {
+              function getIndexByWord(word, text, caseSensitive) {
+                var wordLen = word.length;
+                if (wordLen === 0) {
+                  return [];
+                }
+                var startPosition = 0, position = [], index = [];
+                if (!caseSensitive) {
+                  text = text.toLowerCase();
+                  word = word.toLowerCase();
+                }
+                while ((position = text.indexOf(word, startPosition)) > -1) {
+                  index.push({position: position, word: word});
+                  startPosition = position + wordLen;
+                }
+                return index;
+              }
+
+              indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+              indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+            });
+            if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+              isMatch = true;
+              hitCount = indexOfTitle.length + indexOfContent.length;
+            }
+
+            // show search results
+
+            if (isMatch) {
+              // sort index by position of keyword
+
+              [indexOfTitle, indexOfContent].forEach(function (index) {
+                index.sort(function (itemLeft, itemRight) {
+                  if (itemRight.position !== itemLeft.position) {
+                    return itemRight.position - itemLeft.position;
+                  } else {
+                    return itemLeft.word.length - itemRight.word.length;
+                  }
+                });
+              });
+
+              // merge hits into slices
+
+              function mergeIntoSlice(text, start, end, index) {
+                var item = index[index.length - 1];
+                var position = item.position;
+                var word = item.word;
+                var hits = [];
+                var searchTextCountInSlice = 0;
+                while (position + word.length <= end && index.length != 0) {
+                  if (word === searchText) {
+                    searchTextCountInSlice++;
+                  }
+                  hits.push({position: position, length: word.length});
+                  var wordEnd = position + word.length;
+
+                  // move to next position of hit
+
+                  index.pop();
+                  while (index.length != 0) {
+                    item = index[index.length - 1];
+                    position = item.position;
+                    word = item.word;
+                    if (wordEnd > position) {
+                      index.pop();
+                    } else {
+                      break;
+                    }
+                  }
+                }
+                searchTextCount += searchTextCountInSlice;
+                return {
+                  hits: hits,
+                  start: start,
+                  end: end,
+                  searchTextCount: searchTextCountInSlice
+                };
+              }
+
+              var slicesOfTitle = [];
+              if (indexOfTitle.length != 0) {
+                slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+              }
+
+              var slicesOfContent = [];
+              while (indexOfContent.length != 0) {
+                var item = indexOfContent[indexOfContent.length - 1];
+                var position = item.position;
+                var word = item.word;
+                // cut out 100 characters
+                var start = position - 20;
+                var end = position + 80;
+                if(start < 0){
+                  start = 0;
+                }
+                if (end < position + word.length) {
+                  end = position + word.length;
+                }
+                if(end > content.length){
+                  end = content.length;
+                }
+                slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+              }
+
+              // sort slices in content by search text's count and hits' count
+
+              slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                  return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                  return sliceRight.hits.length - sliceLeft.hits.length;
+                } else {
+                  return sliceLeft.start - sliceRight.start;
+                }
+              });
+
+              // select top N slices in content
+
+              var upperBound = parseInt('2');
+              if (upperBound >= 0) {
+                slicesOfContent = slicesOfContent.slice(0, upperBound);
+              }
+
+              // highlight title and content
+
+              function highlightKeyword(text, slice) {
+                var result = '';
+                var prevEnd = slice.start;
+                slice.hits.forEach(function (hit) {
+                  result += text.substring(prevEnd, hit.position);
+                  var end = hit.position + hit.length;
+                  result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                  prevEnd = end;
+                });
+                result += text.substring(prevEnd, slice.end);
+                return result;
+              }
+
+              var resultItem = '';
+
+              if (slicesOfTitle.length != 0) {
+                resultItem += "<li><a target='_blank' href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+              } else {
+                resultItem += "<li><a target='_blank' href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+              }
+
+              slicesOfContent.forEach(function (slice) {
+                resultItem += "<a target='_blank' href='" + articleUrl + "'>" +
+                  "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                  "...</p>" + "</a>";
+              });
+
+              resultItem += "</li>";
+              resultItems.push({
+                item: resultItem,
+                searchTextCount: searchTextCount,
+                hitCount: hitCount,
+                id: resultItems.length
+              });
+            }
+          })
+        };
+        if (keywords.length === 1 && keywords[0] === "") {
+          resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+        } else if (resultItems.length === 0) {
+          resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+        } else {
+          resultItems.sort(function (resultLeft, resultRight) {
+            if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+              return resultRight.searchTextCount - resultLeft.searchTextCount;
+            } else if (resultLeft.hitCount !== resultRight.hitCount) {
+              return resultRight.hitCount - resultLeft.hitCount;
+            } else {
+              return resultRight.id - resultLeft.id;
+            }
+          });
+          var searchResultList = '<ul class=\"search-result-list\">';
+          resultItems.forEach(function (result) {
+            searchResultList += result.item;
+          })
+          searchResultList += "</ul>";
+          resultContent.innerHTML = searchResultList;
+        }
+      }
+
+      if ('auto' === 'auto') {
+        input.addEventListener('input', inputEventFunction);
+      } else {
+        $('.search-icon').click(inputEventFunction);
+        input.addEventListener('keypress', function (event) {
+          if (event.keyCode === 13) {
+            inputEventFunction();
+          }
+        });
+      }
+
+      // remove loading animation
+      $('body').css('overflow', '');
+
+      proceedsearch();
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        $('.sb-close').click();
+        searchFunc('local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+      
 </body>
 </html>
