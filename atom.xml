@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mystryl</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://mystryl.com/"/>
+  <updated>2019-01-18T06:16:50.370Z</updated>
+  <id>http://mystryl.com/</id>
+  
+  <author>
+    <name>Mystryl</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>更新了blog主题</title>
+    <link href="http://mystryl.com/2019/01/renew-theme/"/>
+    <id>http://mystryl.com/2019/01/renew-theme/</id>
+    <published>2019-01-18T05:45:27.000Z</published>
+    <updated>2019-01-18T06:16:50.370Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="Geek" scheme="http://mystryl.com/categories/Geek/"/>
+    
+    
+      <category term="blog" scheme="http://mystryl.com/tag/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>北京印象</title>
+    <link href="http://mystryl.com/2019/01/bejing-impression/"/>
+    <id>http://mystryl.com/2019/01/bejing-impression/</id>
+    <published>2019-01-15T16:00:00.000Z</published>
+    <updated>2019-01-17T04:43:30.900Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="travel" scheme="http://mystryl.com/categories/travel/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>荒野大镖客 2 通关纪念</title>
+    <link href="http://mystryl.com/2018/12/RDR2/"/>
+    <id>http://mystryl.com/2018/12/RDR2/</id>
+    <published>2018-12-27T16:00:00.000Z</published>
+    <updated>2019-01-17T04:45:59.518Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="Game" scheme="http://mystryl.com/categories/Game/"/>
+    
+    
+      <category term="PS4" scheme="http://mystryl.com/tag/PS4/"/>
+    
+      <category term="RedDead" scheme="http://mystryl.com/tag/RedDead/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>原来组个PC也这么贵</title>
+    <link href="http://mystryl.com/2018/11/2018-11-30/"/>
+    <id>http://mystryl.com/2018/11/2018-11-30/</id>
+    <published>2018-11-29T16:00:00.000Z</published>
+    <updated>2019-01-17T04:44:27.982Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="Geek" scheme="http://mystryl.com/categories/Geek/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Ahoy Mojave!</title>
+    <link href="http://mystryl.com/2018/09/2018-09-25/"/>
+    <id>http://mystryl.com/2018/09/2018-09-25/</id>
+    <published>2018-09-24T16:00:00.000Z</published>
+    <updated>2019-01-17T04:44:46.492Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="Geek" scheme="http://mystryl.com/categories/Geek/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>菜谱两则</title>
+    <link href="http://mystryl.com/2017/10/receipt-oct/"/>
+    <id>http://mystryl.com/2017/10/receipt-oct/</id>
+    <published>2017-10-24T16:00:00.000Z</published>
+    <updated>2019-01-17T04:44:02.276Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="idea" scheme="http://mystryl.com/categories/idea/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>宜家厨房日记</title>
+    <link href="http://mystryl.com/2017/04/ikea-kitchen/"/>
+    <id>http://mystryl.com/2017/04/ikea-kitchen/</id>
+    <published>2017-04-16T16:00:00.000Z</published>
+    <updated>2019-01-17T04:43:52.092Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="idea" scheme="http://mystryl.com/categories/idea/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>地平线·黎明时分印象</title>
+    <link href="http://mystryl.com/2017/04/horzion_zerodawn/"/>
+    <id>http://mystryl.com/2017/04/horzion_zerodawn/</id>
+    <published>2017-04-12T16:00:00.000Z</published>
+    <updated>2019-01-17T04:43:29.677Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="Game" scheme="http://mystryl.com/categories/Game/"/>
+    
+    
+      <category term="PS4" scheme="http://mystryl.com/tag/PS4/"/>
+    
+      <category term="horzion" scheme="http://mystryl.com/tag/horzion/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第二次装修笔记</title>
+    <link href="http://mystryl.com/2017/04/house-decoration/"/>
+    <id>http://mystryl.com/2017/04/house-decoration/</id>
+    <published>2017-04-10T16:00:00.000Z</published>
+    <updated>2019-01-17T04:44:13.496Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="idea" scheme="http://mystryl.com/categories/idea/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>BioShock Infinite感想</title>
+    <link href="http://mystryl.com/2016/09/BioShock-Infinite/"/>
+    <id>http://mystryl.com/2016/09/BioShock-Infinite/</id>
+    <published>2016-09-18T00:00:00.000Z</published>
+    <updated>2019-01-17T04:43:06.703Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="Game" scheme="http://mystryl.com/categories/Game/"/>
+    
+    
+      <category term="Steam" scheme="http://mystryl.com/tag/Steam/"/>
+    
+      <category term="BioShock" scheme="http://mystryl.com/tag/BioShock/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>有关996</title>
+    <link href="http://mystryl.com/2016/09/about996/"/>
+    <id>http://mystryl.com/2016/09/about996/</id>
+    <published>2016-09-14T00:00:00.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="thoughts" scheme="http://mystryl.com/categories/thoughts/"/>
+    
+    
+      <category term="work" scheme="http://mystryl.com/tag/work/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>实业误国，炒房兴邦</title>
+    <link href="http://mystryl.com/2016/08/realestates/"/>
+    <id>http://mystryl.com/2016/08/realestates/</id>
+    <published>2016-08-31T01:25:06.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="daydream" scheme="http://mystryl.com/categories/daydream/"/>
+    
+    
+      <category term="thoughts" scheme="http://mystryl.com/tag/thoughts/"/>
+    
+      <category term="realestates" scheme="http://mystryl.com/tag/realestates/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>随便聊聊</title>
+    <link href="http://mystryl.com/2016/08/2016-08-19/"/>
+    <id>http://mystryl.com/2016/08/2016-08-19/</id>
+    <published>2016-08-19T00:00:00.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="daydream" scheme="http://mystryl.com/categories/daydream/"/>
+    
+    
+      <category term="twitter" scheme="http://mystryl.com/tag/twitter/"/>
+    
+      <category term="talks" scheme="http://mystryl.com/tag/talks/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>神秘海域1-3重制</title>
+    <link href="http://mystryl.com/2016/08/uncharted1-3/"/>
+    <id>http://mystryl.com/2016/08/uncharted1-3/</id>
+    <published>2016-08-15T00:00:00.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="Game" scheme="http://mystryl.com/categories/Game/"/>
+    
+    
+      <category term="PS4" scheme="http://mystryl.com/tag/PS4/"/>
+    
+      <category term="NaughtyDog" scheme="http://mystryl.com/tag/NaughtyDog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>令人绝望的24%</title>
+    <link href="http://mystryl.com/2016/08/devastating%20_24/"/>
+    <id>http://mystryl.com/2016/08/devastating _24/</id>
+    <published>2016-08-12T03:12:18.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="daydream" scheme="http://mystryl.com/categories/daydream/"/>
+    
+    
+      <category term="thoughts" scheme="http://mystryl.com/tag/thoughts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>恒力2016轮检</title>
+    <link href="http://mystryl.com/2016/08/hengli-2016-09-cutoff/"/>
+    <id>http://mystryl.com/2016/08/hengli-2016-09-cutoff/</id>
+    <published>2016-08-11T06:12:18.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="PTA" scheme="http://mystryl.com/categories/PTA/"/>
+    
+    
+      <category term="PTA" scheme="http://mystryl.com/tag/PTA/"/>
+    
+      <category term="analyst" scheme="http://mystryl.com/tag/analyst/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>随想</title>
+    <link href="http://mystryl.com/2016/08/thoughts_in%20summer/"/>
+    <id>http://mystryl.com/2016/08/thoughts_in summer/</id>
+    <published>2016-08-11T02:40:55.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="daydream" scheme="http://mystryl.com/categories/daydream/"/>
+    
+    
+      <category term="thoughts" scheme="http://mystryl.com/tag/thoughts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>异域设定引子</title>
+    <link href="http://mystryl.com/2016/06/Planescape/"/>
+    <id>http://mystryl.com/2016/06/Planescape/</id>
+    <published>2016-06-19T23:06:56.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="idea" scheme="http://mystryl.com/categories/idea/"/>
+    
+    
+      <category term="fantasy" scheme="http://mystryl.com/tag/fantasy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为什么我看好 Pay + 银联</title>
+    <link href="http://mystryl.com/2016/02/applepay/"/>
+    <id>http://mystryl.com/2016/02/applepay/</id>
+    <published>2016-02-19T23:06:56.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="Geek" scheme="http://mystryl.com/categories/Geek/"/>
+    
+    
+      <category term="apple" scheme="http://mystryl.com/tag/apple/"/>
+    
+      <category term="apple pay" scheme="http://mystryl.com/tag/apple-pay/"/>
+    
+      <category term="unipay" scheme="http://mystryl.com/tag/unipay/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2016 PTA 郑商所江苏线调研报告</title>
+    <link href="http://mystryl.com/2016/01/2016-01-PTA/"/>
+    <id>http://mystryl.com/2016/01/2016-01-PTA/</id>
+    <published>2016-01-20T23:06:56.000Z</published>
+    <updated>2019-01-16T10:28:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="PTA" scheme="http://mystryl.com/categories/PTA/"/>
+    
+    
+      <category term="PTA" scheme="http://mystryl.com/tag/PTA/"/>
+    
+      <category term="analyst" scheme="http://mystryl.com/tag/analyst/"/>
+    
+  </entry>
+  
+</feed>
