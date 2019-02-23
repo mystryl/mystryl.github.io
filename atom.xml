@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mystryl.com/"/>
-  <updated>2019-02-07T04:48:04.421Z</updated>
+  <updated>2019-02-23T13:49:56.456Z</updated>
   <id>http://mystryl.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>只言片语的评论</title>
+    <link href="http://mystryl.com/2019/02/few-comments/"/>
+    <id>http://mystryl.com/2019/02/few-comments/</id>
+    <published>2019-02-23T13:38:21.000Z</published>
+    <updated>2019-02-23T13:49:56.456Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="thoughts" scheme="http://mystryl.com/categories/thoughts/"/>
+    
+    
+      <category term="ACG, Game, work" scheme="http://mystryl.com/tag/ACG-Game-work/"/>
+    
+  </entry>
   
   <entry>
     <title>《家有女友》的感情线成长分析</title>
@@ -509,32 +535,6 @@
     
     
       <category term="thoughts" scheme="http://mystryl.com/tag/thoughts/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>异域设定引子</title>
-    <link href="http://mystryl.com/2016/06/Planescape/"/>
-    <id>http://mystryl.com/2016/06/Planescape/</id>
-    <published>2016-06-19T23:06:56.000Z</published>
-    <updated>2019-01-16T10:28:20.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          
-        
-      
-    
-    </summary>
-    
-      <category term="idea" scheme="http://mystryl.com/categories/idea/"/>
-    
-    
-      <category term="fantasy" scheme="http://mystryl.com/tag/fantasy/"/>
     
   </entry>
   
