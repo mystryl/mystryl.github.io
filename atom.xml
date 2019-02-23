@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mystryl.com/"/>
-  <updated>2019-02-23T13:52:34.499Z</updated>
+  <updated>2019-02-23T14:04:37.849Z</updated>
   <id>http://mystryl.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://mystryl.com/2019/02/few-comments/"/>
     <id>http://mystryl.com/2019/02/few-comments/</id>
     <published>2019-02-23T13:38:21.000Z</published>
-    <updated>2019-02-23T13:52:34.499Z</updated>
+    <updated>2019-02-23T14:04:37.849Z</updated>
     
     <summary type="html">
     
@@ -38,7 +38,11 @@
       <category term="thoughts" scheme="http://mystryl.com/categories/thoughts/"/>
     
     
-      <category term="ACG, Game, work" scheme="http://mystryl.com/tag/ACG-Game-work/"/>
+      <category term="work" scheme="http://mystryl.com/tag/work/"/>
+    
+      <category term="ACG" scheme="http://mystryl.com/tag/ACG/"/>
+    
+      <category term="Game" scheme="http://mystryl.com/tag/Game/"/>
     
   </entry>
   
