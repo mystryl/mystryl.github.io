@@ -251,7 +251,7 @@
 <li>正常进入mac系统完成配置后，安装MultiBeast调试驱动，并用Clover Configurator仔细查看配置，或者把现成的配置文件从U盘EFI分区整个替换掉硬盘EFI分区。bios设置成仅从硬盘UEFI启动即可完成整个安装，哦记得把屏蔽的集显打开，然后fastboot也是可以开启的。</li>
 </ol>
 <h2 id="安装后踩的坑"><a href="#安装后踩的坑" class="headerlink" title="安装后踩的坑"></a>安装后踩的坑</h2><ul>
-<li>需要注入FakeSMC后才能使用HWmonitor，但注入后发生了关机变重启的现象，恢复原先EFI文件后修复。所以监控系统状态还没特别完美的解决方案，光看CPU频率看有么有正常变频睿频的话，可用 <a href="https://www.itpwd.com/279.html" target="_blank" rel="noopener">CPU-s v4.1</a> （非官方链接 我没找到）</li>
+<li>需要注入VirtualSMC的几个配套kext后才能使用HWmonitor，但目前仅仅支持CPU主板硬盘温度等等，没看见GPU温度。光看CPU频率看有么有正常变频睿频的话，可用 <a href="https://www.itpwd.com/279.html" target="_blank" rel="noopener">CPU-s v4.1</a> （非官方链接 我没找到）</li>
 <li>安装win系统强烈建议安装在另一块硬盘上，用GPT分区格式与windows安装器安装。分区时注意先只分配系统盘的分区为NTFS，剩余空间保持未分配状态。两个以上NTFS分区会将系统盘识别为引导分区，第二分区识别为系统分区而无法格式化更改，我回到PE删除分区才解决。</li>
 <li>安装后重启应该会直接进入win，配置正常后回到Bios下将启动设备重置为仅mac硬盘的UEFI模式，即可恢复Clover启动。以后再遇到任何进不去clover启动的情况都要检查这里是否被修改了。</li>
 <li>再用PE U盘或者Clover Configurator，将win硬盘的EFI分区内，/EFI/windows/ 文件夹拷贝至Mac硬盘的 /EFI/ 下，与clover文件夹同级，同时清空win 硬盘的EFI文件夹，既可通过Clover引导完成双系统启动。此时在win下或者PE下或者mac下都可以将未分配空间格式化成exFAT做共同空间。</li>
