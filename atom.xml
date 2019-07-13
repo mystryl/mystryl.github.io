@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mystryl.com/"/>
-  <updated>2019-03-11T02:30:35.273Z</updated>
+  <updated>2019-07-13T22:21:15.227Z</updated>
   <id>http://mystryl.com/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>我是怎么被电工坑了五年</title>
+    <link href="http://mystryl.com/2019/06/wifi-speed/"/>
+    <id>http://mystryl.com/2019/06/wifi-speed/</id>
+    <published>2019-06-25T01:44:12.000Z</published>
+    <updated>2019-07-13T22:21:15.227Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="Geek" scheme="http://mystryl.com/categories/Geek/"/>
+    
+    
+      <category term="apple" scheme="http://mystryl.com/tag/apple/"/>
+    
+      <category term="hackintosh" scheme="http://mystryl.com/tag/hackintosh/"/>
+    
+  </entry>
+  
+  <entry>
     <title>甜品级黑苹果组装与思路</title>
     <link href="http://mystryl.com/2019/03/hackintosh/"/>
     <id>http://mystryl.com/2019/03/hackintosh/</id>
     <published>2019-03-08T01:31:40.000Z</published>
-    <updated>2019-03-11T02:30:35.273Z</updated>
+    <updated>2019-03-14T01:14:35.520Z</updated>
     
     <summary type="html">
     
@@ -49,7 +77,7 @@
     <link href="http://mystryl.com/2019/02/few-comments/"/>
     <id>http://mystryl.com/2019/02/few-comments/</id>
     <published>2019-02-23T13:38:21.000Z</published>
-    <updated>2019-02-23T14:04:37.849Z</updated>
+    <updated>2019-07-13T22:28:57.234Z</updated>
     
     <summary type="html">
     
@@ -513,34 +541,6 @@
     
     
       <category term="thoughts" scheme="http://mystryl.com/tag/thoughts/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>恒力2016轮检</title>
-    <link href="http://mystryl.com/2016/08/hengli-2016-09-cutoff/"/>
-    <id>http://mystryl.com/2016/08/hengli-2016-09-cutoff/</id>
-    <published>2016-08-11T06:12:18.000Z</published>
-    <updated>2019-01-16T10:28:20.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          
-        
-      
-    
-    </summary>
-    
-      <category term="PTA" scheme="http://mystryl.com/categories/PTA/"/>
-    
-    
-      <category term="PTA" scheme="http://mystryl.com/tag/PTA/"/>
-    
-      <category term="analyst" scheme="http://mystryl.com/tag/analyst/"/>
     
   </entry>
   

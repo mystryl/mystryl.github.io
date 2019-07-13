@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>Category: travel | Mystryl</title>
+  <title>我是怎么被电工坑了五年 | Mystryl</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -61,7 +61,7 @@
 </head>
 
 <!--
-<body class="home-template">
+<body class="post-template">
 -->
 <body id="index" class="lightnav animsition">
 
@@ -192,71 +192,69 @@
         <!-- ============================ Header & Logo bar =========================== -->
 
 
-      <!-- ============================ Hero Image =========================== -->
-
-<section id="hero" class="scrollme">
-    <div class="container-fluid element-img" style="background: url(/img/bg_img.jpg) no-repeat center center fixed;background-size: cover">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost text-center">
-                <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
-                    <div>
-                        
-                        <h2>Nothing is true, <br>Everything is permitted.</h2>
-                        <br>
-                        <p></p>
-                        
-                        <h2></h2>
-                        <br>
-                        <p></p>
-                        
-
-                    </div>
-                </div>
-            </div>
-            <!-- // .col-md-12 -->
-        </div>
-        <div class="herofade beige-dk"></div>
-    </div>
-</section>
-
-<!-- Height spacing helper -->
-<div class="heightblock"></div>
-<!-- // End height spacing helper -->
-
-<!-- ============================ END Hero Image =========================== -->
-
-
-
-
-<section id="services">
+      
+<section id="intro">
     <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row boxes">
-                    
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2019/01/bejing-impression/">北京印象</a></h4>
-                            
-                            <p><time datetime="2019-01-15T16:00:00.000Z"><a href="/2019/01/bejing-impression/">2019-01-16</a></time></p>
-                        </div>
-                    
-                </div>
-            </div>    
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
+      <time datetime="2019-06-25T01:44:12.000Z" itemprop="datePublished">
+          2019-06-25
+      </time>
+    
+    
+    | 
+    <a href='/tag/apple/'>apple</a>,
+    
+    <a href='/tag/hackintosh/'>hackintosh</a>
+    
+    
+</span>
+                <h1>我是怎么被电工坑了五年</h1>
+            </div>
         </div>
-    </div>
-</section> 
+        <div class="col-md-8 col-md-offset-2">
+      		<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>五年前装修，自己买的全屋山泽超五类线，结构大概是入户-路由-交换机（墙内）-全屋网口<br>全部网口都做了两根超五类冗余</p>
+<h2 id="症状"><a href="#症状" class="headerlink" title="症状"></a>症状</h2><p>前后换了各种路由 从66u升级68u升级86u，一直都没解决wifi内网只能跑到10MB/s的问题，还以为是ASUS的芯片问题，CPU温度太高还给装了风扇。NAS走LAN跑都正常千兆。</p>
+<h2 id="发现"><a href="#发现" class="headerlink" title="发现"></a>发现</h2><p>上个月把nas挪了个地儿，结果发现墙上网口两个只有一个有千兆，另一个只有百兆。寻思不对啊下单了寻线测线仪，结果发现其中一个网口在交换机那端，居然只打了4根线，打成8根就俩网口都是千兆了。</p>
+<p>这么过了一个月，今天升级路由固件的时候顺便看了下interface界面，好家伙赫然一个LAN1=100M的标识，当即顾不得上班了，搬开沙发找到交换机，果然路由到交换机那根线也是一头8根一头4根线。重新打了水晶头，我的wifi终于突破10MB/s，顺顺利利上了50 60 70，泪流满面。</p>
+<p>顺带测了另外两个房间的网口，一处也是一个千兆一个百兆。另一处更奇葩，两个网口到交换机的线居然是同一根，但似乎也不像把单根网线分了俩口，因为确实测速下来是一个千兆一个百兆。要上班了就没继续测。</p>
+<h2 id="疑惑"><a href="#疑惑" class="headerlink" title="疑惑"></a>疑惑</h2><p>这电工是蠢是坏？一半网线正常打8根，一半网线一头做满8一头做1236线序？？<br>我钱也没少给这位兄弟啊，存心坑我呢还是不懂……</p>
 
-<section id="statement">
-    <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">
-        <div class="row">
-            <p>万事皆虚，万事皆允。</p>
+            <div class="clearfix"></div>
+            <hr class="nogutter">
         </div>
+        <nav class="m-pagination col-md-8 col-md-offset-2 col-sm-24" role="pagination">
+    
+    
+    <a class="pull-right" href="/2019/03/hackintosh/">
+        甜品级黑苹果组装与思路 →
+    </a>
+    
+</nav>
+
+        <div class="col-md-8 col-md-offset-2 col-sm-24">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'http-mystryl-com';
+  window.addEventListener('load', function(){
+    (function(){
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+  });
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+</div>
     </div>
 </section>
+
+
       
 <!-- ============================ Footer =========================== -->
 
