@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mystryl.com/"/>
-  <updated>2019-07-13T22:21:15.227Z</updated>
+  <updated>2019-08-15T08:35:09.724Z</updated>
   <id>http://mystryl.com/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>18年谢谢你，亲爱的咪</title>
+    <link href="http://mystryl.com/2019/08/farewell-my-cat/"/>
+    <id>http://mystryl.com/2019/08/farewell-my-cat/</id>
+    <published>2019-08-09T12:29:58.000Z</published>
+    <updated>2019-08-15T08:35:09.724Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="daydream" scheme="http://mystryl.com/categories/daydream/"/>
+    
+    
+      <category term="blog" scheme="http://mystryl.com/tag/blog/"/>
+    
+      <category term="cat" scheme="http://mystryl.com/tag/cat/"/>
+    
+  </entry>
+  
+  <entry>
     <title>我是怎么被电工坑了五年</title>
     <link href="http://mystryl.com/2019/06/wifi-speed/"/>
     <id>http://mystryl.com/2019/06/wifi-speed/</id>
     <published>2019-06-25T01:44:12.000Z</published>
-    <updated>2019-07-13T22:21:15.227Z</updated>
+    <updated>2019-07-13T22:21:15.000Z</updated>
     
     <summary type="html">
     
@@ -49,7 +77,7 @@
     <link href="http://mystryl.com/2019/03/hackintosh/"/>
     <id>http://mystryl.com/2019/03/hackintosh/</id>
     <published>2019-03-08T01:31:40.000Z</published>
-    <updated>2019-03-14T01:14:35.520Z</updated>
+    <updated>2019-03-14T01:14:35.000Z</updated>
     
     <summary type="html">
     
@@ -77,7 +105,7 @@
     <link href="http://mystryl.com/2019/02/few-comments/"/>
     <id>http://mystryl.com/2019/02/few-comments/</id>
     <published>2019-02-23T13:38:21.000Z</published>
-    <updated>2019-07-13T22:28:57.234Z</updated>
+    <updated>2019-07-13T22:32:45.000Z</updated>
     
     <summary type="html">
     
@@ -107,7 +135,7 @@
     <link href="http://mystryl.com/2019/02/Domikano-analsis/"/>
     <id>http://mystryl.com/2019/02/Domikano-analsis/</id>
     <published>2019-02-05T21:45:58.000Z</published>
-    <updated>2019-02-07T04:48:04.421Z</updated>
+    <updated>2019-02-07T04:48:04.000Z</updated>
     
     <summary type="html">
     
@@ -159,7 +187,7 @@
     <link href="http://mystryl.com/2019/01/renew-theme/"/>
     <id>http://mystryl.com/2019/01/renew-theme/</id>
     <published>2019-01-18T05:45:27.000Z</published>
-    <updated>2019-01-18T06:16:50.370Z</updated>
+    <updated>2019-01-18T06:16:50.000Z</updated>
     
     <summary type="html">
     
@@ -185,7 +213,7 @@
     <link href="http://mystryl.com/2019/01/bejing-impression/"/>
     <id>http://mystryl.com/2019/01/bejing-impression/</id>
     <published>2019-01-15T16:00:00.000Z</published>
-    <updated>2019-01-17T04:43:30.900Z</updated>
+    <updated>2019-01-17T04:43:30.000Z</updated>
     
     <summary type="html">
     
@@ -209,7 +237,7 @@
     <link href="http://mystryl.com/2018/12/RDR2/"/>
     <id>http://mystryl.com/2018/12/RDR2/</id>
     <published>2018-12-27T16:00:00.000Z</published>
-    <updated>2019-01-17T04:45:59.518Z</updated>
+    <updated>2019-01-17T04:45:59.000Z</updated>
     
     <summary type="html">
     
@@ -237,7 +265,7 @@
     <link href="http://mystryl.com/2018/11/2018-11-30/"/>
     <id>http://mystryl.com/2018/11/2018-11-30/</id>
     <published>2018-11-29T16:00:00.000Z</published>
-    <updated>2019-01-17T04:44:27.982Z</updated>
+    <updated>2019-01-17T04:44:27.000Z</updated>
     
     <summary type="html">
     
@@ -261,7 +289,7 @@
     <link href="http://mystryl.com/2018/09/2018-09-25/"/>
     <id>http://mystryl.com/2018/09/2018-09-25/</id>
     <published>2018-09-24T16:00:00.000Z</published>
-    <updated>2019-01-17T04:44:46.492Z</updated>
+    <updated>2019-01-17T04:44:46.000Z</updated>
     
     <summary type="html">
     
@@ -285,7 +313,7 @@
     <link href="http://mystryl.com/2017/10/receipt-oct/"/>
     <id>http://mystryl.com/2017/10/receipt-oct/</id>
     <published>2017-10-24T16:00:00.000Z</published>
-    <updated>2019-01-17T04:44:02.276Z</updated>
+    <updated>2019-01-17T04:44:02.000Z</updated>
     
     <summary type="html">
     
@@ -309,7 +337,7 @@
     <link href="http://mystryl.com/2017/04/ikea-kitchen/"/>
     <id>http://mystryl.com/2017/04/ikea-kitchen/</id>
     <published>2017-04-16T16:00:00.000Z</published>
-    <updated>2019-01-17T04:43:52.092Z</updated>
+    <updated>2019-01-17T04:43:52.000Z</updated>
     
     <summary type="html">
     
@@ -333,7 +361,7 @@
     <link href="http://mystryl.com/2017/04/horzion_zerodawn/"/>
     <id>http://mystryl.com/2017/04/horzion_zerodawn/</id>
     <published>2017-04-12T16:00:00.000Z</published>
-    <updated>2019-01-17T04:43:29.677Z</updated>
+    <updated>2019-01-17T04:43:29.000Z</updated>
     
     <summary type="html">
     
@@ -361,7 +389,7 @@
     <link href="http://mystryl.com/2017/04/house-decoration/"/>
     <id>http://mystryl.com/2017/04/house-decoration/</id>
     <published>2017-04-10T16:00:00.000Z</published>
-    <updated>2019-01-17T04:44:13.496Z</updated>
+    <updated>2019-01-17T04:44:13.000Z</updated>
     
     <summary type="html">
     
@@ -385,7 +413,7 @@
     <link href="http://mystryl.com/2016/09/BioShock-Infinite/"/>
     <id>http://mystryl.com/2016/09/BioShock-Infinite/</id>
     <published>2016-09-18T00:00:00.000Z</published>
-    <updated>2019-01-17T04:43:06.703Z</updated>
+    <updated>2019-01-17T04:43:06.000Z</updated>
     
     <summary type="html">
     
@@ -515,32 +543,6 @@
       <category term="PS4" scheme="http://mystryl.com/tag/PS4/"/>
     
       <category term="NaughtyDog" scheme="http://mystryl.com/tag/NaughtyDog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>令人绝望的24%</title>
-    <link href="http://mystryl.com/2016/08/devastating%20_24/"/>
-    <id>http://mystryl.com/2016/08/devastating _24/</id>
-    <published>2016-08-12T03:12:18.000Z</published>
-    <updated>2019-01-16T10:28:20.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          
-        
-      
-    
-    </summary>
-    
-      <category term="daydream" scheme="http://mystryl.com/categories/daydream/"/>
-    
-    
-      <category term="thoughts" scheme="http://mystryl.com/tag/thoughts/"/>
     
   </entry>
   
