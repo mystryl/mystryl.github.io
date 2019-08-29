@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mystryl.com/"/>
-  <updated>2019-08-16T01:12:43.000Z</updated>
+  <updated>2019-08-29T06:11:08.985Z</updated>
   <id>http://mystryl.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>美国工厂 中国制造</title>
+    <link href="http://mystryl.com/2019/08/american-factory/"/>
+    <id>http://mystryl.com/2019/08/american-factory/</id>
+    <published>2019-08-27T06:35:54.957Z</published>
+    <updated>2019-08-29T06:11:08.985Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="thoughts" scheme="http://mystryl.com/categories/thoughts/"/>
+    
+    
+      <category term="thoughts" scheme="http://mystryl.com/tag/thoughts/"/>
+    
+      <category term="blog" scheme="http://mystryl.com/tag/blog/"/>
+    
+  </entry>
   
   <entry>
     <title>18年谢谢你，亲爱的咪</title>
@@ -515,34 +543,6 @@
       <category term="twitter" scheme="http://mystryl.com/tag/twitter/"/>
     
       <category term="talks" scheme="http://mystryl.com/tag/talks/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>神秘海域1-3重制</title>
-    <link href="http://mystryl.com/2016/08/uncharted1-3/"/>
-    <id>http://mystryl.com/2016/08/uncharted1-3/</id>
-    <published>2016-08-15T00:00:00.000Z</published>
-    <updated>2019-01-16T10:28:20.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          
-        
-      
-    
-    </summary>
-    
-      <category term="Game" scheme="http://mystryl.com/categories/Game/"/>
-    
-    
-      <category term="PS4" scheme="http://mystryl.com/tag/PS4/"/>
-    
-      <category term="NaughtyDog" scheme="http://mystryl.com/tag/NaughtyDog/"/>
     
   </entry>
   
