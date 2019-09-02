@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>search | Mystryl</title>
+  <title>群晖 DSM 6.2 降级 | Mystryl</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -192,113 +192,86 @@
         <!-- ============================ Header & Logo bar =========================== -->
 
 
-      <!-- ============================ Hero Image =========================== -->
-
-<section id="hero" class="scrollme">
-    <div class="container-fluid element-img" style="background: url(/img/bg_img.jpg) no-repeat center center fixed;background-size: cover">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost text-center">
-                <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
-                    <div>
-                        
-                        <h2>Nothing is true, <br>Everything is permitted.</h2>
-                        <br>
-                        <p></p>
-                        
-                        <h2></h2>
-                        <br>
-                        <p></p>
-                        
-
-                    </div>
-                </div>
-            </div>
-            <!-- // .col-md-12 -->
-        </div>
-        <div class="herofade beige-dk"></div>
-    </div>
-</section>
-
-<!-- Height spacing helper -->
-<div class="heightblock"></div>
-<!-- // End height spacing helper -->
-
-<!-- ============================ END Hero Image =========================== -->
+      
 <section id="intro">
     <div class="container">
         <div class="row col-md-offset-2">
             <div class="col-md-8">
-                <h1>search</h1>
+    			<span class="post-meta">
+      <time datetime="2019-09-02T06:12:22.000Z" itemprop="datePublished">
+          2019-09-02
+      </time>
+    
+    
+    | 
+    <a href='/tag/NAS/'>NAS</a>
+    
+    
+</span>
+                <h1>群晖 DSM 6.2 降级</h1>
             </div>
         </div>
         <div class="col-md-8 col-md-offset-2">
-            
+      		<p>俗话说常在河边走，哪有不湿鞋。放公司的两台群晖周末说有一台重启后连不上，被迫加班来搞，没想到最后是降级DSM救数据这样的结局。</p>
+<p>其实怎么降级DSM 很简单，有很多文章，我用的方法大概就是，PE进去，格式化掉每个硬盘前两个小分区，每个大概4G，然后重新安装低版本系统。这样操作全部的设定是没了，但数据都在。在着急的环境下最直接最迅速的解决方案。</p>
+<p>那为什么走到了降级呢…… 诶这说来话长：</p>
+<ol>
+<li>故障原因，重启后卡在BIOS，没有引导进入loader，自然搜不到连不上。排除这个故障重启后以为解决了，可惜还是搜不到。。</li>
+<li>想着是不是引导分区有问题，把硬盘拆到只剩一块，加载loader，还是搜不到。</li>
+<li>当初安装的DSM 6.2 beta不爽很久了，干脆降级到6.1.7的稳定版本算了。拿出各种工具，一阵改PID VID，烧录启动盘猛如虎。然后进reinstall后。。。。还是搜不到。</li>
+<li>想起来改grub.cfg文件的时候，MAC和序列号保持了默认没改，虽然当时也没改，但一直搜来搜去有点问题。会不会是冲突的问题？毕竟局域网里两台群晖的序列号和mac都是一样的，但安装的时候分别安装再启动的，IP直连肯定不影响，但find.synology.com和群晖助手可就不一定了。</li>
+<li>搜索了下，果然提到序列号一样没啥，但<a href="http://www.nasyun.com/thread-59750-1-1.html" target="_blank" rel="noopener">mac不能一样会冲突</a>。好吧当年自己作下的死。</li>
+<li>再次重做loader u盘，插了一块最不重要的硬盘进去reinstall，成功搜索到并安装上DSM 6.1.7</li>
+<li>按别人重做的经验，其他几块盘只要塞进去重启就行了。照做了，尼玛 又启动不了了！</li>
+<li>这个时候由于反复重启搜索等待，已经Debug到2小时了。干脆五块硬盘一起格式化掉前两个分区，一起塞进去reinstall，不成功便成仁！！</li>
+<li>然而这次还是一样根本没法搜索到并reinstall。痛定思痛，排查问题。</li>
+<li>搜索到一篇文章说，如果高版本的群晖系统用低版本的loader去启动，不但会造成没法引导，还会导致loader本身被修改，需要重新烧录。确认是此问题。因为临时盘盘位在8，1-4插入的都是之前没格式化掉分区的老数据盘。在7那一步其实优先加载了1号盘位的DSM 6.2的引导扇区，导致无法启动并污染了loader。</li>
+<li>再次PE确认分区干净后，重做loader，再次引导，这次塞入了1-4号重要数据盘。还好一次引导成功，并正常安装了DSM 6.1.7系统（finally</li>
+<li>进入系统后，所有共享文件夹都在，权限依旧，但各类配置 计划任务 Docker 套件都丢了。</li>
+</ol>
+<p>TLDR时间：</p>
+<ul>
+<li>群晖loader启动时候有可能识别不到\卡在选择界面\根本没进入loader，所以一块方便的便携debug屏幕还是必要的。</li>
+<li>内网有两台以上群晖记得修改PID VID同时，MAC和序列号也要改成不一致。</li>
+<li>loader安装流程是u盘启动后直接准备响应find.synology.com，但loader启动流程是会调用第一块正常群晖硬盘的引导扇区，故如果降级过程中，至少要保持一号盘是空扇区或者降级后的对应系统。</li>
+<li>高版本的DSM引导扇区不但无法启动，还会修改loader本身，导致再起不能，必须重新刷写。</li>
+</ul>
+<p>感觉我这次直接把群晖安装能踩的坑踩了个全，那么就这样。</p>
+<p>Fin.</p>
+
             <div class="clearfix"></div>
+            <hr class="nogutter">
         </div>
-        
+        <nav class="m-pagination col-md-8 col-md-offset-2 col-sm-24" role="pagination">
+    
+    
+    <a class="pull-right" href="/2019/08/american-factory/">
+        美国工厂 中国制造 →
+    </a>
+    
+</nav>
+
+        <div class="col-md-8 col-md-offset-2 col-sm-24">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'http-mystryl-com';
+  window.addEventListener('load', function(){
+    (function(){
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+  });
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+</div>
     </div>
 </section>
-<section id="process">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-                <div class="timeline-centered">
-                    <div class="line"></div>
-                    <div class="present">Past</div>
-                    <div class="dot_tp"></div>
-                    <div class="born">Now</div>
-                    <div class="dot_bt"></div>
-                    
-                        <div class="timeline-entry">
-                            <div class="timeline-entry-inner">
-                                <div class="timeline-icon wow fadeInUp" data-wow-delay="0.2s">
-                                    <span class="number">1</span>
-                                </div>
-                                <div class="timeline-label wow fadeInUp" data-wow-delay="0.2s">
-                                    <p>2014/06/12-Start</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="timeline-entry">
-                            <div class="timeline-entry-inner">
-                                <div class="timeline-icon wow fadeInUp" data-wow-delay="0.2s">
-                                    <span class="number">2</span>
-                                </div>
-                                <div class="timeline-label wow fadeInUp" data-wow-delay="0.2s">
-                                    <p>2014/11/29-XXX</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="timeline-entry">
-                            <div class="timeline-entry-inner">
-                                <div class="timeline-icon wow fadeInUp" data-wow-delay="0.2s">
-                                    <span class="number">3</span>
-                                </div>
-                                <div class="timeline-label wow fadeInUp" data-wow-delay="0.2s">
-                                    <p>2015/02/18-DDD</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="timeline-entry">
-                            <div class="timeline-entry-inner">
-                                <div class="timeline-icon wow fadeInUp" data-wow-delay="0.2s">
-                                    <span class="number">4</span>
-                                </div>
-                                <div class="timeline-label wow fadeInUp" data-wow-delay="0.2s">
-                                    <p>More</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-                <!-- timeline-centered -->
-            </div>
-        </div>
-    </div>
-</section>
+
 
       
 <!-- ============================ Footer =========================== -->

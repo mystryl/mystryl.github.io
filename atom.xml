@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mystryl.com/"/>
-  <updated>2019-08-29T06:11:08.985Z</updated>
+  <updated>2019-09-02T06:40:40.310Z</updated>
   <id>http://mystryl.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>群晖 DSM 6.2 降级</title>
+    <link href="http://mystryl.com/2019/09/synology-downgrade/"/>
+    <id>http://mystryl.com/2019/09/synology-downgrade/</id>
+    <published>2019-09-02T06:12:22.000Z</published>
+    <updated>2019-09-02T06:40:40.310Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="Geek" scheme="http://mystryl.com/categories/Geek/"/>
+    
+    
+      <category term="NAS" scheme="http://mystryl.com/tag/NAS/"/>
+    
+  </entry>
   
   <entry>
     <title>美国工厂 中国制造</title>
@@ -515,34 +541,6 @@
       <category term="thoughts" scheme="http://mystryl.com/tag/thoughts/"/>
     
       <category term="realestates" scheme="http://mystryl.com/tag/realestates/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>随便聊聊</title>
-    <link href="http://mystryl.com/2016/08/2016-08-19/"/>
-    <id>http://mystryl.com/2016/08/2016-08-19/</id>
-    <published>2016-08-19T00:00:00.000Z</published>
-    <updated>2019-01-16T10:28:20.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          
-        
-      
-    
-    </summary>
-    
-      <category term="daydream" scheme="http://mystryl.com/categories/daydream/"/>
-    
-    
-      <category term="twitter" scheme="http://mystryl.com/tag/twitter/"/>
-    
-      <category term="talks" scheme="http://mystryl.com/tag/talks/"/>
     
   </entry>
   
