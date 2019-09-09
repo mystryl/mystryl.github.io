@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mystryl.com/"/>
-  <updated>2019-09-02T06:40:40.310Z</updated>
+  <updated>2019-09-09T02:19:18.933Z</updated>
   <id>http://mystryl.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>由《彩虹牙刷》引发的 上木らいち的发散</title>
+    <link href="http://mystryl.com/2019/09/rainbow-toothbrush/"/>
+    <id>http://mystryl.com/2019/09/rainbow-toothbrush/</id>
+    <published>2019-09-08T17:15:58.000Z</published>
+    <updated>2019-09-09T02:19:18.933Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="ACG" scheme="http://mystryl.com/categories/ACG/"/>
+    
+    
+      <category term="novel" scheme="http://mystryl.com/tag/novel/"/>
+    
+  </entry>
   
   <entry>
     <title>群晖 DSM 6.2 降级</title>
@@ -47,7 +73,7 @@
     <link href="http://mystryl.com/2019/08/american-factory/"/>
     <id>http://mystryl.com/2019/08/american-factory/</id>
     <published>2019-08-27T06:35:54.957Z</published>
-    <updated>2019-08-29T06:11:08.985Z</updated>
+    <updated>2019-08-29T06:11:08.000Z</updated>
     
     <summary type="html">
     
@@ -513,34 +539,6 @@
     
     
       <category term="work" scheme="http://mystryl.com/tag/work/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>实业误国，炒房兴邦</title>
-    <link href="http://mystryl.com/2016/08/realestates/"/>
-    <id>http://mystryl.com/2016/08/realestates/</id>
-    <published>2016-08-31T01:25:06.000Z</published>
-    <updated>2019-01-16T10:28:20.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          
-        
-      
-    
-    </summary>
-    
-      <category term="daydream" scheme="http://mystryl.com/categories/daydream/"/>
-    
-    
-      <category term="thoughts" scheme="http://mystryl.com/tag/thoughts/"/>
-    
-      <category term="realestates" scheme="http://mystryl.com/tag/realestates/"/>
     
   </entry>
   
