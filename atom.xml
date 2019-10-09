@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mystryl.com/"/>
-  <updated>2019-09-09T02:19:18.933Z</updated>
+  <updated>2019-10-09T08:14:28.829Z</updated>
   <id>http://mystryl.com/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>关西游记 路线-名古屋篇</title>
+    <link href="http://mystryl.com/2019/10/travel-in-kansai-01/"/>
+    <id>http://mystryl.com/2019/10/travel-in-kansai-01/</id>
+    <published>2019-10-08T03:19:08.000Z</published>
+    <updated>2019-10-09T08:14:28.829Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+    
+      <category term="travel" scheme="http://mystryl.com/tag/travel/"/>
+    
+  </entry>
+  
+  <entry>
     <title>由《彩虹牙刷》引发的 上木らいち的发散</title>
     <link href="http://mystryl.com/2019/09/rainbow-toothbrush/"/>
     <id>http://mystryl.com/2019/09/rainbow-toothbrush/</id>
     <published>2019-09-08T17:15:58.000Z</published>
-    <updated>2019-09-09T02:19:18.933Z</updated>
+    <updated>2019-09-09T02:19:18.000Z</updated>
     
     <summary type="html">
     
@@ -47,7 +71,7 @@
     <link href="http://mystryl.com/2019/09/synology-downgrade/"/>
     <id>http://mystryl.com/2019/09/synology-downgrade/</id>
     <published>2019-09-02T06:12:22.000Z</published>
-    <updated>2019-09-02T06:40:40.310Z</updated>
+    <updated>2019-09-02T06:40:40.000Z</updated>
     
     <summary type="html">
     
@@ -157,7 +181,7 @@
     <link href="http://mystryl.com/2019/03/hackintosh/"/>
     <id>http://mystryl.com/2019/03/hackintosh/</id>
     <published>2019-03-08T01:31:40.000Z</published>
-    <updated>2019-03-14T01:14:35.000Z</updated>
+    <updated>2019-03-11T02:30:35.000Z</updated>
     
     <summary type="html">
     
@@ -513,32 +537,6 @@
       <category term="Steam" scheme="http://mystryl.com/tag/Steam/"/>
     
       <category term="BioShock" scheme="http://mystryl.com/tag/BioShock/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>有关996</title>
-    <link href="http://mystryl.com/2016/09/about996/"/>
-    <id>http://mystryl.com/2016/09/about996/</id>
-    <published>2016-09-14T00:00:00.000Z</published>
-    <updated>2019-01-16T10:28:20.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          
-        
-      
-    
-    </summary>
-    
-      <category term="thoughts" scheme="http://mystryl.com/categories/thoughts/"/>
-    
-    
-      <category term="work" scheme="http://mystryl.com/tag/work/"/>
     
   </entry>
   
