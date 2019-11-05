@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mystryl.com/"/>
-  <updated>2019-10-17T07:53:35.788Z</updated>
+  <updated>2019-11-05T04:20:20.380Z</updated>
   <id>http://mystryl.com/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>天气之子 新海诚的回归与突破</title>
+    <link href="http://mystryl.com/2019/11/tenkinoko/"/>
+    <id>http://mystryl.com/2019/11/tenkinoko/</id>
+    <published>2019-11-04T05:41:30.000Z</published>
+    <updated>2019-11-05T04:20:20.380Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="ACG" scheme="http://mystryl.com/categories/ACG/"/>
+    
+    
+      <category term="thoughts" scheme="http://mystryl.com/tag/thoughts/"/>
+    
+      <category term="ACG" scheme="http://mystryl.com/tag/ACG/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>南京咖啡节</title>
+    <link href="http://mystryl.com/2019/10/coffee-fes/"/>
+    <id>http://mystryl.com/2019/10/coffee-fes/</id>
+    <published>2019-10-28T02:00:00.000Z</published>
+    <updated>2019-11-04T05:55:54.106Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="travel" scheme="http://mystryl.com/categories/travel/"/>
+    
+    
+      <category term="blog" scheme="http://mystryl.com/tag/blog/"/>
+    
+      <category term="coffee" scheme="http://mystryl.com/tag/coffee/"/>
+    
+  </entry>
   
   <entry>
     <title>通过Github Actions自动部署Hexo</title>
@@ -470,58 +526,6 @@
     <id>http://mystryl.com/2017/04/ikea-kitchen/</id>
     <published>2017-04-16T16:00:00.000Z</published>
     <updated>2019-01-17T04:43:52.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          
-        
-      
-    
-    </summary>
-    
-      <category term="idea" scheme="http://mystryl.com/categories/idea/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>地平线·黎明时分印象</title>
-    <link href="http://mystryl.com/2017/04/horzion_zerodawn/"/>
-    <id>http://mystryl.com/2017/04/horzion_zerodawn/</id>
-    <published>2017-04-12T16:00:00.000Z</published>
-    <updated>2019-01-17T04:43:29.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          
-        
-      
-    
-    </summary>
-    
-      <category term="Game" scheme="http://mystryl.com/categories/Game/"/>
-    
-    
-      <category term="PS4" scheme="http://mystryl.com/tag/PS4/"/>
-    
-      <category term="horzion" scheme="http://mystryl.com/tag/horzion/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第二次装修笔记</title>
-    <link href="http://mystryl.com/2017/04/house-decoration/"/>
-    <id>http://mystryl.com/2017/04/house-decoration/</id>
-    <published>2017-04-10T16:00:00.000Z</published>
-    <updated>2019-01-17T04:44:13.000Z</updated>
     
     <summary type="html">
     
