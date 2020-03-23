@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mystryl.com/"/>
-  <updated>2019-11-05T05:43:09.027Z</updated>
+  <updated>2020-03-23T03:17:09.715Z</updated>
   <id>http://mystryl.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的宝宝 100天</title>
+    <link href="http://mystryl.com/2020/03/BB100/"/>
+    <id>http://mystryl.com/2020/03/BB100/</id>
+    <published>2020-03-23T02:16:53.588Z</published>
+    <updated>2020-03-23T03:17:09.715Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="daydream" scheme="http://mystryl.com/categories/daydream/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>天气之子 新海诚的回归与突破</title>
@@ -104,8 +128,8 @@
     <title>关西游记 京都-奈良-大阪篇</title>
     <link href="http://mystryl.com/2019/10/travel-in-kansai-02/"/>
     <id>http://mystryl.com/2019/10/travel-in-kansai-02/</id>
-    <published>2019-10-08T11:19:08.000Z</published>
-    <updated>2019-11-20T06:18:21.443Z</updated>
+    <published>2019-10-08T03:19:08.000Z</published>
+    <updated>2019-10-18T06:53:59.347Z</updated>
     
     <summary type="html">
     
@@ -516,30 +540,6 @@
     </summary>
     
       <category term="Geek" scheme="http://mystryl.com/categories/Geek/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>菜谱两则</title>
-    <link href="http://mystryl.com/2017/10/receipt-oct/"/>
-    <id>http://mystryl.com/2017/10/receipt-oct/</id>
-    <published>2017-10-24T16:00:00.000Z</published>
-    <updated>2019-01-17T04:44:02.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          
-        
-      
-    
-    </summary>
-    
-      <category term="idea" scheme="http://mystryl.com/categories/idea/"/>
     
     
   </entry>
